@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { BadRequestException, Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import * as nodemailer from 'nodemailer';
 
@@ -31,10 +31,10 @@ export class EmailService {
 
     try {
       await this.transporter.sendMail(mailOptions);
-      console.log('Confirmation email sent successfully');
+      return 'Confirmation email sent successfully';
     } catch (error) {
       console.error('Error sending email:', error);
-      throw new Error('Failed to send confirmation email');
+      throw new BadRequestException('Failed to send confirmation email');
     }
   }
 }

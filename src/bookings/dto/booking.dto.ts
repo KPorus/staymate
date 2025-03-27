@@ -6,7 +6,7 @@ import {
   IsNumber,
   Min,
 } from 'class-validator';
-import { BookingStatus, PaymentType } from '../../schema/booking';
+import { Booking, BookingStatus, PaymentType } from '../../schema/booking';
 
 export class CreateBookingDto {
   @IsMongoId()
@@ -37,4 +37,9 @@ export class CreateBookingDto {
 
   @IsBoolean()
   confirmation: boolean;
+}
+
+export interface BookingResponse {
+  data: Booking;
+  message: string;
 }

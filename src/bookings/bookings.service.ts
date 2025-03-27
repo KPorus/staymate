@@ -6,7 +6,7 @@ import {
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { Booking } from 'src/schema/booking';
-import { CreateBookingDto } from './dto';
+import { BookingResponse, CreateBookingDto } from './dto';
 import { EmailService } from 'src/services/email.service';
 import { Users } from 'src/schema/users';
 import { Hotels } from 'src/schema/hotels';
@@ -20,7 +20,7 @@ export class BookingsService {
     @InjectModel(Hotels.name) private hotelsModel: Model<Hotels>,
     private readonly emailService: EmailService,
   ) {}
-  async create(dto: CreateBookingDto): Promise<Booking> {
+  async create(dto: CreateBookingDto): Promise<BookingResponse> {
     const confirmationToken = crypto.randomBytes(32).toString('hex');
     // console.log('confirmationToken: ', confirmationToken);
     const newBooking = new this.bookingsModel({
@@ -46,12 +46,12 @@ export class BookingsService {
       const confirmationLink = `http://localhost:3000/bookings/confirm/${confirmationToken}`;
 
       // Send Email
-      await this.emailService.sendConfirmationEmail(
+      const ConfirmationEmail = await this.emailService.sendConfirmationEmail(
         user.email,
         confirmationLink,
       );
 
-      return savedBooking;
+      return { data: savedBooking, message: ConfirmationEmail };
     } catch (error: unknown) {
       if (error instanceof Error) {
         handleMongoErrors(error);
