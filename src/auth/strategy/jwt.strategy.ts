@@ -1,10 +1,10 @@
-import { Injectable, ForbiddenException } from '@nestjs/common';
+import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { PassportStrategy } from '@nestjs/passport';
 import { ExtractJwt, Strategy } from 'passport-jwt';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
-import { UserRole, Users } from 'src/schema/users';
+import { Users } from 'src/schema/users';
 
 interface JwtPayload {
   sub: string;
@@ -37,9 +37,9 @@ export class JwtStrategy extends PassportStrategy(Strategy, 'jwt') {
     }
 
     // Role-based authorization check inside validate
-    if (user.role !== UserRole.SUPERADMIN) {
-      throw new ForbiddenException('Insufficient permissions');
-    }
+    // if (user.role !== UserRole.ADMIN) {
+    //   throw new ForbiddenException('Insufficient permissions');
+    // }
 
     return user;
   }

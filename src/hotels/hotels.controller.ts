@@ -3,6 +3,7 @@ import {
   FileTypeValidator,
   Get,
   HttpCode,
+  Param,
   ParseFilePipe,
   Post,
   UploadedFile,
@@ -10,21 +11,23 @@ import {
   UseInterceptors,
 } from '@nestjs/common';
 import { JwtGuard } from 'src/auth/guard';
-import { ProjectsService } from './projects.service';
-import { Projects } from 'src/schema/project';
+import { HotelsService } from './hotels.service';
+import { Hotels } from 'src/schema/hotels';
 import { FileInterceptor } from '@nestjs/platform-express';
+import { AdminGuard } from 'src/auth/guard/admin.guard';
 
-@Controller('projects')
+@Controller('hotels')
 @UseGuards(JwtGuard)
-export class ProjectsController {
-  constructor(private readonly ProjectsService: ProjectsService) {}
+export class HotelsController {
+  constructor(private readonly HotelsService: HotelsService) {}
 
   @Get()
   getAllProjects() {
-    return this.ProjectsService.allproject();
+    return this.HotelsService.allhotels();
   }
   @HttpCode(200)
   @UseInterceptors(FileInterceptor('file'))
+  @UseGuards(AdminGuard)
   @Post('create')
   createProject(
     @UploadedFile(
@@ -33,8 +36,15 @@ export class ProjectsController {
       }),
     )
     file: Express.Multer.File,
-    project: Projects,
+    project: Hotels,
   ) {
-    return this.ProjectsService.addProject(file, project);
+    return this.HotelsService.addHotels(file, project);
+  }
+
+  @HttpCode(200)
+  @Get(':id')
+  hotelDetails(@Param('id') id: string) {
+    // console.log(id);
+    return this.HotelsService.getHotelById(id);
   }
 }

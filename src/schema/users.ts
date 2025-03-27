@@ -1,4 +1,5 @@
 import { Prop, Schema as NestSchema, SchemaFactory } from '@nestjs/mongoose';
+import { Types } from 'mongoose';
 
 export enum UserRole {
   SUPERADMIN = 'SUPERADMIN',
@@ -20,6 +21,9 @@ export class Users {
 
   @Prop({ required: true, enum: UserRole, default: UserRole.USER })
   role: UserRole;
+
+  @Prop({ type: Types.ObjectId, ref: 'Bookings' })
+  bookingId: Types.ObjectId;
 
   @Prop({ required: true, default: Date.now() })
   created_at: Date;

@@ -11,7 +11,12 @@ export const handleMongoErrors = (error: any, customMessage?: string) => {
       throw new ConflictException(customMessage || 'User Already exists');
     }
   }
-
+  // Handle Mongoose CastError (Invalid ObjectId)
+  if (error.name === 'CastError' && error.kind === 'ObjectId') {
+    throw new BadRequestException(
+      customMessage || `Invalid ID format for field "${error.path}"`,
+    );
+  }
   // Check for Validation Errors
   if (error.name === 'ValidationError') {
     throw new BadRequestException(
