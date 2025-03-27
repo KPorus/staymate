@@ -44,17 +44,3 @@ export class Hotels {
 }
 
 export const HotelsSchema = SchemaFactory.createForClass(Hotels);
-
-export class CreateHotelDto {
-  name: string;
-  location: {
-    lat: number;
-    lng: number;
-  };
-  price_per_night: number;
-  rating: number;
-  amenities: string[];
-  available_rooms: number;
-  hotel_type: string;
-  userId: string;
-}

@@ -7,6 +7,7 @@ import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { Hotels } from 'src/schema/hotels';
 import { handleMongoErrors } from 'src/utils/error.handle';
+import { UpdateHotelDto } from './dto';
 
 @Injectable()
 export class HotelsService {
@@ -42,6 +43,39 @@ export class HotelsService {
         throw new NotFoundException('Hotel not found');
       }
       return hotel;
+    } catch (error: unknown) {
+      if (error instanceof Error) {
+        handleMongoErrors(error);
+      }
+      throw new BadRequestException();
+    }
+  }
+  async updateHotelById(id: string, dto: UpdateHotelDto): Promise<Hotels> {
+    try {
+      const hotel = await this.hotelsModel.findByIdAndUpdate(id, dto, {
+        new: true,
+        runValidators: true,
+      });
+
+      if (!hotel) {
+        throw new NotFoundException('Hotel not found');
+      }
+      return hotel;
+    } catch (error: unknown) {
+      if (error instanceof Error) {
+        handleMongoErrors(error);
+      }
+      throw new BadRequestException();
+    }
+  }
+  async deleteHotelById(id: string) {
+    try {
+      const hotel = await this.hotelsModel.deleteOne({ _id: id });
+
+      if (hotel.deletedCount === 0) {
+        throw new NotFoundException('Hotel not found');
+      }
+      return { message: 'Hotel deleted successfully' };
     } catch (error: unknown) {
       if (error instanceof Error) {
         handleMongoErrors(error);
