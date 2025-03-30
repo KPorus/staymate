@@ -4,9 +4,11 @@ import { ConfigModule } from '@nestjs/config';
 import { DatabaseModule } from './database/database.module';
 import { HotelsModule } from './hotels/hotels.module';
 import { BookingsModule } from './bookings/bookings.module';
+import { ScheduleModule } from '@nestjs/schedule';
 
 @Module({
   imports: [
+    ScheduleModule.forRoot(),
     DatabaseModule,
     HotelsModule,
     AuthModule,

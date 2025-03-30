@@ -4,9 +4,15 @@ import {
   IsEnum,
   IsMongoId,
   IsNumber,
+  IsOptional,
   Min,
 } from 'class-validator';
-import { Booking, BookingStatus, PaymentType } from '../../schema/booking';
+import {
+  Booking,
+  BookingStatus,
+  PaymentStatus,
+  PaymentType,
+} from '../../schema/booking';
 
 export class CreateBookingDto {
   @IsMongoId()
@@ -29,8 +35,13 @@ export class CreateBookingDto {
   @Min(1)
   booked_rooms: number;
 
+  @IsOptional()
   @IsEnum(BookingStatus)
   status: BookingStatus;
+
+  @IsOptional()
+  @IsEnum(PaymentStatus)
+  paymentStatus: BookingStatus;
 
   @IsEnum(PaymentType)
   paymentType: PaymentType;

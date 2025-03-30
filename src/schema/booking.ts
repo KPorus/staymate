@@ -5,6 +5,12 @@ import { HydratedDocument, Types } from 'mongoose';
 export type BookingDoc = HydratedDocument<Booking>;
 
 export enum BookingStatus {
+  PENDING = 'PENDING',
+  CANCELLED = 'CANCELLED',
+  CONFIRM = 'CONFIRM',
+}
+
+export enum PaymentStatus {
   PAID = 'PAID',
   UNPAID = 'UNPAID',
 }
@@ -20,10 +26,10 @@ export enum Confirmation {
 
 @Schema({ timestamps: true })
 export class Booking {
-  @Prop({ type: Types.ObjectId, ref: 'Users', required: true, index: true })
+  @Prop({ type: Types.ObjectId, ref: 'Users', required: true })
   userId: Types.ObjectId;
 
-  @Prop({ type: Types.ObjectId, ref: 'Hotels', required: true, index: true })
+  @Prop({ type: Types.ObjectId, ref: 'Hotels', required: true })
   hotelId: Types.ObjectId;
 
   @Prop({ required: true })
@@ -38,17 +44,17 @@ export class Booking {
   @Prop({ required: true, min: 1 })
   booked_rooms: number;
 
-  @Prop({ required: true, enum: BookingStatus, default: BookingStatus.UNPAID })
+  @Prop({ required: true, enum: BookingStatus, default: BookingStatus.PENDING })
   status: BookingStatus;
+
+  @Prop({ required: true, enum: PaymentStatus, default: PaymentStatus.UNPAID })
+  paymentStatus: PaymentStatus;
 
   @Prop({ required: true, enum: PaymentType })
   paymentType: PaymentType;
 
   @Prop({ required: false })
   confirmationToken?: string;
-
-  @Prop({ required: true, type: Boolean, default: false })
-  confirmation: boolean;
 
   // @Prop({ type: Types.ObjectId, ref: 'PaymentMethods', required: true })
   // paymentMethodId: Types.ObjectId;

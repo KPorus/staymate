@@ -1,19 +1,22 @@
 import {
   BadRequestException,
   Injectable,
+  Logger,
   NotFoundException,
 } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
-import { Booking } from 'src/schema/booking';
+import { Booking, BookingStatus } from 'src/schema/booking';
 import { BookingResponse, CreateBookingDto } from './dto';
 import { EmailService } from 'src/services/email.service';
 import { Users } from 'src/schema/users';
 import { Hotels } from 'src/schema/hotels';
 import * as crypto from 'crypto';
 import { handleMongoErrors } from 'src/utils/error.handle';
+import { Cron, CronExpression } from '@nestjs/schedule';
 @Injectable()
 export class BookingsService {
+  private readonly logger = new Logger(BookingsService.name);
   constructor(
     @InjectModel(Booking.name) private bookingsModel: Model<Booking>,
     @InjectModel(Users.name) private usersModel: Model<Users>,
@@ -46,12 +49,18 @@ export class BookingsService {
       const confirmationLink = `http://localhost:3000/bookings/confirm/${confirmationToken}`;
 
       // Send Email
-      const ConfirmationEmail = await this.emailService.sendConfirmationEmail(
-        user.email,
-        confirmationLink,
-      );
+      await this.emailService
+        .sendConfirmationEmail(user.email, confirmationLink)
+        .catch((error) => {
+          throw new BadRequestException(
+            'Error sending confirmation email: ' + error,
+          );
+        });
 
-      return { data: savedBooking, message: ConfirmationEmail };
+      return {
+        data: savedBooking,
+        message: 'Confirmation email sent successfully',
+      };
     } catch (error: unknown) {
       if (error instanceof Error) {
         handleMongoErrors(error);
@@ -70,12 +79,33 @@ export class BookingsService {
       throw new NotFoundException('Invalid or expired confirmation token.');
     }
 
-    booking.confirmation = true;
+    booking.status = BookingStatus.CONFIRM;
     // // Update booking status
     // booking.status = 'PAID';
     // booking.confirmationToken = null; // Remove token after confirmation
     await booking.save();
 
     return { message: 'Booking confirmed successfully!' };
+  }
+
+  @Cron(CronExpression.EVERY_HOUR)
+  @Cron('*/1 * * * *')
+  async cancelUnconfirmedBookings() {
+    this.logger.log('Running Cron Job: Checking for expired bookings...');
+    const now = new Date();
+    const oneDayAgo = new Date(now.getTime() - 1 * 60 * 60 * 1000); // 1 hours ago
+
+    const result = await this.bookingsModel.updateMany(
+      { status: BookingStatus.PENDING, createdAt: { $lte: oneDayAgo } },
+      { $set: { status: BookingStatus.CANCELLED } },
+    );
+
+    if (result.modifiedCount > 0) {
+      this.logger.log(
+        `${result.modifiedCount} bookings were automatically canceled.`,
+      );
+    } else {
+      this.logger.log('No bookings needed cancellation.');
+    }
   }
 }
