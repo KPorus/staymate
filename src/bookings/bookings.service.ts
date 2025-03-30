@@ -108,4 +108,33 @@ export class BookingsService {
       this.logger.log('No bookings needed cancellation.');
     }
   }
+
+  async getUserBookings(userId: string) {
+    try {
+      const bookings = await this.bookingsModel
+        .find({ userId })
+        .populate('hotelId', 'name')
+        .exec();
+
+      if (!bookings) {
+        throw new NotFoundException('No bookings found for this user.');
+      }
+      return bookings.map((booking) => {
+        return {
+          id: booking._id,
+          hotelName: booking.hotelId,
+          checkInDate: booking.check_in_date,
+          checkOutDate: booking.check_out_date,
+          status: booking.status,
+          bookedRoom: booking.booked_rooms,
+          totalPrice: booking.total_price,
+        };
+      });
+    } catch (error) {
+      if (error instanceof Error) {
+        handleMongoErrors(error);
+      }
+      throw new BadRequestException();
+    }
+  }
 }
