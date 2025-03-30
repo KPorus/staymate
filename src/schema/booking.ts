@@ -61,6 +61,9 @@ export class Booking {
 }
 
 export const BookingSchema = SchemaFactory.createForClass(Booking);
+BookingSchema.index({ userId: 1, status: 1 }, { background: true });
+BookingSchema.index({ hotelId: 1 }, { background: true });
+BookingSchema.index({ userId: 1 }, { background: true });
 
 // Ensure check_out_date is after check_in_date
 BookingSchema.pre('save', function (next) {

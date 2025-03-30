@@ -44,3 +44,6 @@ export class Hotels {
 }
 
 export const HotelsSchema = SchemaFactory.createForClass(Hotels);
+
+HotelsSchema.index({ location: '2dsphere' }, { background: true });
+HotelsSchema.index({ _id: 1 }, { background: true });

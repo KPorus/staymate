@@ -5,7 +5,7 @@ import {
   NotFoundException,
 } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
-import { Model } from 'mongoose';
+import { ClientSession, Model } from 'mongoose';
 import { Booking, BookingStatus } from 'src/schema/booking';
 import { BookingResponse, CreateBookingDto } from './dto';
 import { EmailService } from 'src/services/email.service';
@@ -25,30 +25,40 @@ export class BookingsService {
   ) {}
   async create(dto: CreateBookingDto): Promise<BookingResponse> {
     const confirmationToken = crypto.randomBytes(32).toString('hex');
-    // console.log('confirmationToken: ', confirmationToken);
-    const newBooking = new this.bookingsModel({
-      ...dto,
-      confirmationToken,
-    });
+    const session: ClientSession = await this.bookingsModel.startSession();
+    session.startTransaction();
 
     try {
-      const user = await this.usersModel
-        .findOne({ _id: dto.userId })
-        .select('+email');
+      // Execute both user lookup and hotel room update in parallel
+      const [user, hotel] = await Promise.all([
+        this.usersModel
+          .findOne({ _id: dto.userId })
+          .select('+email')
+          .session(session),
+        this.hotelsModel.findOneAndUpdate(
+          { _id: dto.hotelId, available_rooms: { $gte: dto.booked_rooms } },
+          { $inc: { available_rooms: -dto.booked_rooms } },
+          { new: true, returnDocument: 'after', session },
+        ),
+      ]);
 
-      const hotel = await this.hotelsModel.findOne({ _id: dto.hotelId });
       if (!user) {
         throw new NotFoundException('User not found.');
       }
       if (!hotel) {
-        throw new NotFoundException('Hotel not found.');
+        throw new NotFoundException(
+          'Hotel not found or insufficient rooms available.',
+        );
       }
-      const savedBooking = await newBooking.save();
 
-      // Create Confirmation Link
+      const newBooking = new this.bookingsModel({
+        ...dto,
+        confirmationToken,
+      });
+
+      const savedBooking = await newBooking.save({ session });
       const confirmationLink = `http://localhost:3000/bookings/confirm/${confirmationToken}`;
 
-      // Send Email
       await this.emailService
         .sendConfirmationEmail(user.email, confirmationLink)
         .catch((error) => {
@@ -57,11 +67,16 @@ export class BookingsService {
           );
         });
 
+      await session.commitTransaction();
+      await session.endSession();
+
       return {
         data: savedBooking,
         message: 'Confirmation email sent successfully',
       };
     } catch (error: unknown) {
+      await session.abortTransaction();
+      await session.endSession();
       if (error instanceof Error) {
         handleMongoErrors(error);
       }
@@ -80,8 +95,6 @@ export class BookingsService {
     }
 
     booking.status = BookingStatus.CONFIRM;
-    // // Update booking status
-    // booking.status = 'PAID';
     // booking.confirmationToken = null; // Remove token after confirmation
     await booking.save();
 
@@ -109,27 +122,52 @@ export class BookingsService {
     }
   }
 
-  async getUserBookings(userId: string) {
+  async getUserBookings(userId: string, page: number = 1, limit: number = 10) {
     try {
-      const bookings = await this.bookingsModel
-        .find({ userId })
-        .populate('hotelId', 'name')
-        .exec();
+      const skip = (page - 1) * limit;
 
-      if (!bookings) {
+      const bookings = await this.bookingsModel.aggregate([
+        { $match: { userId } },
+        { $skip: skip },
+        { $limit: limit },
+        {
+          $lookup: {
+            from: 'hotels',
+            localField: 'hotelId',
+            foreignField: '_id',
+            as: 'hotel',
+          },
+        },
+        { $unwind: '$hotel' },
+        {
+          $project: {
+            id: '$_id',
+            hotelName: '$hotel.name',
+            checkInDate: '$check_in_date',
+            checkOutDate: '$check_out_date',
+            status: '$status',
+            bookedRoom: '$booked_rooms',
+            totalPrice: '$total_price',
+          },
+        },
+      ]);
+
+      const totalBookings = await this.bookingsModel.countDocuments({ userId });
+      const totalPages = Math.ceil(totalBookings / limit);
+
+      if (!bookings.length) {
         throw new NotFoundException('No bookings found for this user.');
       }
-      return bookings.map((booking) => {
-        return {
-          id: booking._id,
-          hotelName: booking.hotelId,
-          checkInDate: booking.check_in_date,
-          checkOutDate: booking.check_out_date,
-          status: booking.status,
-          bookedRoom: booking.booked_rooms,
-          totalPrice: booking.total_price,
-        };
-      });
+
+      return {
+        data: bookings,
+        pagination: {
+          page,
+          limit,
+          totalBookings,
+          totalPages,
+        },
+      };
     } catch (error) {
       if (error instanceof Error) {
         handleMongoErrors(error);

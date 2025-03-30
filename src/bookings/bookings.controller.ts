@@ -16,8 +16,8 @@ export class BookingsController {
   }
 
   @Get('/user/:id')
-  getUserBookings(@Param('id') id: string) {
-    return this.BookingsService.getUserBookings(id);
+  getUserBookings(@Param() Param: { id: string; page: number }) {
+    return this.BookingsService.getUserBookings(Param.id, Param.page);
   }
   @Get('run-cron')
   @UseGuards(AdminGuard)
