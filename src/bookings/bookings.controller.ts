@@ -3,6 +3,7 @@ import { JwtGuard } from 'src/auth/guard';
 import { BookingsService } from './bookings.service';
 import { BookingResponse, CreateBookingDto } from './dto';
 import { AdminGuard } from 'src/auth/guard/admin.guard';
+import { GetUser } from 'src/auth/decorator';
 
 @Controller('bookings')
 @UseGuards(JwtGuard)
@@ -16,8 +17,8 @@ export class BookingsController {
   }
 
   @Get('/user/:id')
-  getUserBookings(@Param() Param: { id: string; page: number }) {
-    return this.BookingsService.getUserBookings(Param.id, Param.page);
+  getUserBookings(@GetUser() user, @Param() Param: { page: number }) {
+    return this.BookingsService.getUserBookings(user._id, Param.page);
   }
   @Get('run-cron')
   @UseGuards(AdminGuard)

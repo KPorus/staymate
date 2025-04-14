@@ -7,6 +7,7 @@ import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { dycrypt, encryptPassword } from './encrypt';
 import { handleMongoErrors } from 'src/utils/error.handle';
+import { Response } from 'express';
 
 @Injectable()
 export class AuthService {
@@ -17,15 +18,16 @@ export class AuthService {
   ) {}
 
   // Login Function
-  async login(dto: ILoginBody) {
+  async login(dto: ILoginBody, res: Response) {
     const user = await this.userModel
       .findOne({ email: dto.email })
       .select('+password');
     if (!user) {
       throw new Error('Invalid credentials');
     }
+    const { password, ...userData } = user.toObject();
     try {
-      const dycrpttext = dycrypt(user.password);
+      const dycrpttext = dycrypt(password);
       if (dycrpttext !== dto.pass) {
         throw new UnauthorizedException('Invalid credentials');
       }
@@ -35,8 +37,16 @@ export class AuthService {
       }
       throw new UnauthorizedException('Unknown error occurred while log in');
     }
+    const accessToken = await this.signToken(
+      user._id.toString(),
+      user.email,
+      user.role,
+    );
 
-    return this.signToken(user._id.toString(), user.email, user.role);
+    return res.json({
+      data: userData,
+      token: accessToken,
+    });
   }
 
   // Register Function
