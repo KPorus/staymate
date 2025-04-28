@@ -1,0 +1,6748 @@
+[
+  {
+    "user_id": "user_0",
+    "hotel_id": "Hotel_3581",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 294,
+      "min_rating": 4.3,
+      "preferred_amenities": [
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_1",
+    "hotel_id": "Hotel_6223",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 263,
+      "min_rating": 3.3,
+      "preferred_amenities": [
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_2",
+    "hotel_id": "Hotel_537",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 248,
+      "min_rating": 3.9,
+      "preferred_amenities": [
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_3",
+    "hotel_id": "Hotel_4110",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 115,
+      "min_rating": 5.0,
+      "preferred_amenities": [
+        "pool",
+        "wifi",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_4",
+    "hotel_id": "Hotel_3254",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 168,
+      "min_rating": 3.3,
+      "preferred_amenities": [
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_5",
+    "hotel_id": "Hotel_9170",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 331,
+      "min_rating": 4.9,
+      "preferred_amenities": [
+        "bar",
+        "restaurant",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_6",
+    "hotel_id": "Hotel_3149",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 248,
+      "min_rating": 4.6,
+      "preferred_amenities": [
+        "restaurant",
+        "bar",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_7",
+    "hotel_id": "Hotel_1481",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 330,
+      "min_rating": 4.9,
+      "preferred_amenities": [
+        "pool",
+        "spa",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_8",
+    "hotel_id": "Hotel_1541",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 135,
+      "min_rating": 3.8,
+      "preferred_amenities": [
+        "wifi",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_9",
+    "hotel_id": "Hotel_5656",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 86,
+      "min_rating": 2.5,
+      "preferred_amenities": [
+        "bar",
+        "spa",
+        "restaurant",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_10",
+    "hotel_id": "Hotel_9272",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 147,
+      "min_rating": 2.5,
+      "preferred_amenities": [
+        "wifi",
+        "bar",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_11",
+    "hotel_id": "Hotel_1286",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 159,
+      "min_rating": 4.1,
+      "preferred_amenities": [
+        "restaurant",
+        "wifi",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_12",
+    "hotel_id": "Hotel_1644",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 170,
+      "min_rating": 2.9,
+      "preferred_amenities": [
+        "spa",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_13",
+    "hotel_id": "Hotel_8951",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 238,
+      "min_rating": 4.0,
+      "preferred_amenities": [
+        "bar",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_14",
+    "hotel_id": "Hotel_8622",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 139,
+      "min_rating": 3.0,
+      "preferred_amenities": [
+        "spa",
+        "pool",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_15",
+    "hotel_id": "Hotel_189",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 116,
+      "min_rating": 3.6,
+      "preferred_amenities": [
+        "restaurant",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_16",
+    "hotel_id": "Hotel_5067",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 275,
+      "min_rating": 4.4,
+      "preferred_amenities": [
+        "restaurant",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_17",
+    "hotel_id": "Hotel_8534",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 175,
+      "min_rating": 4.8,
+      "preferred_amenities": [
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_18",
+    "hotel_id": "Hotel_8534",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 105,
+      "min_rating": 4.1,
+      "preferred_amenities": [
+        "gym",
+        "pool",
+        "restaurant",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_19",
+    "hotel_id": "Hotel_3703",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 381,
+      "min_rating": 3.7,
+      "preferred_amenities": [
+        "gym",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_20",
+    "hotel_id": "Hotel_1799",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 116,
+      "min_rating": 3.7,
+      "preferred_amenities": [
+        "pool",
+        "gym",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_21",
+    "hotel_id": "Hotel_9117",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 305,
+      "min_rating": 2.5,
+      "preferred_amenities": [
+        "bar",
+        "restaurant",
+        "gym",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_22",
+    "hotel_id": "Hotel_4533",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 170,
+      "min_rating": 4.9,
+      "preferred_amenities": [
+        "wifi",
+        "pool",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_23",
+    "hotel_id": "Hotel_9238",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 113,
+      "min_rating": 4.8,
+      "preferred_amenities": [
+        "spa",
+        "gym",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_24",
+    "hotel_id": "Hotel_5957",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 392,
+      "min_rating": 3.5,
+      "preferred_amenities": [
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_25",
+    "hotel_id": "Hotel_1887",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 216,
+      "min_rating": 3.1,
+      "preferred_amenities": [
+        "wifi",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_26",
+    "hotel_id": "Hotel_7483",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 174,
+      "min_rating": 3.1,
+      "preferred_amenities": [
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_27",
+    "hotel_id": "Hotel_3066",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 388,
+      "min_rating": 4.8,
+      "preferred_amenities": [
+        "bar",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_28",
+    "hotel_id": "Hotel_842",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 268,
+      "min_rating": 4.9,
+      "preferred_amenities": [
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_29",
+    "hotel_id": "Hotel_836",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 226,
+      "min_rating": 2.9,
+      "preferred_amenities": [
+        "bar",
+        "restaurant",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_30",
+    "hotel_id": "Hotel_2335",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 311,
+      "min_rating": 4.3,
+      "preferred_amenities": [
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_31",
+    "hotel_id": "Hotel_6223",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 253,
+      "min_rating": 2.8,
+      "preferred_amenities": [
+        "bar",
+        "wifi",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_32",
+    "hotel_id": "Hotel_6196",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 280,
+      "min_rating": 2.9,
+      "preferred_amenities": [
+        "restaurant",
+        "spa",
+        "bar",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_33",
+    "hotel_id": "Hotel_9956",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 267,
+      "min_rating": 3.9,
+      "preferred_amenities": [
+        "wifi",
+        "spa",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_34",
+    "hotel_id": "Hotel_9238",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 253,
+      "min_rating": 4.3,
+      "preferred_amenities": [
+        "restaurant",
+        "gym",
+        "bar",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_35",
+    "hotel_id": "Hotel_3066",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 269,
+      "min_rating": 2.6,
+      "preferred_amenities": [
+        "pool",
+        "spa",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_36",
+    "hotel_id": "Hotel_7845",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 244,
+      "min_rating": 4.9,
+      "preferred_amenities": [
+        "restaurant",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_37",
+    "hotel_id": "Hotel_7487",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 213,
+      "min_rating": 4.4,
+      "preferred_amenities": [
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_38",
+    "hotel_id": "Hotel_8823",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 391,
+      "min_rating": 4.0,
+      "preferred_amenities": [
+        "wifi",
+        "bar",
+        "spa",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_39",
+    "hotel_id": "Hotel_9049",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 270,
+      "min_rating": 3.8,
+      "preferred_amenities": [
+        "pool",
+        "bar",
+        "restaurant",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_40",
+    "hotel_id": "Hotel_836",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 379,
+      "min_rating": 3.7,
+      "preferred_amenities": [
+        "gym",
+        "pool",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_41",
+    "hotel_id": "Hotel_2697",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 276,
+      "min_rating": 3.9,
+      "preferred_amenities": [
+        "spa",
+        "pool",
+        "bar",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_42",
+    "hotel_id": "Hotel_7836",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 275,
+      "min_rating": 3.9,
+      "preferred_amenities": [
+        "bar",
+        "restaurant",
+        "pool",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_43",
+    "hotel_id": "Hotel_832",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 140,
+      "min_rating": 2.6,
+      "preferred_amenities": [
+        "bar",
+        "pool",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_44",
+    "hotel_id": "Hotel_7356",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 218,
+      "min_rating": 4.1,
+      "preferred_amenities": [
+        "restaurant",
+        "pool",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_45",
+    "hotel_id": "Hotel_3670",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 333,
+      "min_rating": 4.8,
+      "preferred_amenities": [
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_46",
+    "hotel_id": "Hotel_8622",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 296,
+      "min_rating": 4.8,
+      "preferred_amenities": [
+        "pool",
+        "bar",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_47",
+    "hotel_id": "Hotel_8365",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 283,
+      "min_rating": 2.7,
+      "preferred_amenities": [
+        "restaurant",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_48",
+    "hotel_id": "Hotel_9459",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 291,
+      "min_rating": 4.5,
+      "preferred_amenities": [
+        "wifi",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_49",
+    "hotel_id": "Hotel_4318",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 337,
+      "min_rating": 4.6,
+      "preferred_amenities": [
+        "pool",
+        "spa",
+        "restaurant",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_50",
+    "hotel_id": "Hotel_6552",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 319,
+      "min_rating": 3.8,
+      "preferred_amenities": [
+        "gym",
+        "restaurant",
+        "spa",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_51",
+    "hotel_id": "Hotel_3521",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 191,
+      "min_rating": 4.1,
+      "preferred_amenities": [
+        "gym",
+        "wifi",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_52",
+    "hotel_id": "Hotel_2748",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 148,
+      "min_rating": 4.0,
+      "preferred_amenities": [
+        "pool",
+        "spa",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_53",
+    "hotel_id": "Hotel_9241",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 169,
+      "min_rating": 2.9,
+      "preferred_amenities": [
+        "restaurant",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_54",
+    "hotel_id": "Hotel_5537",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 356,
+      "min_rating": 2.7,
+      "preferred_amenities": [
+        "bar",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_55",
+    "hotel_id": "Hotel_2498",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 336,
+      "min_rating": 3.4,
+      "preferred_amenities": [
+        "restaurant",
+        "pool",
+        "wifi",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_56",
+    "hotel_id": "Hotel_7861",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 359,
+      "min_rating": 3.2,
+      "preferred_amenities": [
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_57",
+    "hotel_id": "Hotel_4690",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 203,
+      "min_rating": 4.5,
+      "preferred_amenities": [
+        "spa",
+        "restaurant",
+        "gym",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_58",
+    "hotel_id": "Hotel_9371",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 134,
+      "min_rating": 3.5,
+      "preferred_amenities": [
+        "bar",
+        "pool",
+        "wifi",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_59",
+    "hotel_id": "Hotel_9080",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 249,
+      "min_rating": 2.9,
+      "preferred_amenities": [
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_60",
+    "hotel_id": "Hotel_9459",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 157,
+      "min_rating": 4.7,
+      "preferred_amenities": [
+        "wifi",
+        "pool",
+        "bar",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_61",
+    "hotel_id": "Hotel_3254",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 311,
+      "min_rating": 3.9,
+      "preferred_amenities": [
+        "restaurant",
+        "pool",
+        "gym",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_62",
+    "hotel_id": "Hotel_3521",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 288,
+      "min_rating": 4.2,
+      "preferred_amenities": [
+        "pool",
+        "wifi",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_63",
+    "hotel_id": "Hotel_3067",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 399,
+      "min_rating": 4.3,
+      "preferred_amenities": [
+        "gym",
+        "spa",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_64",
+    "hotel_id": "Hotel_4579",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 101,
+      "min_rating": 2.5,
+      "preferred_amenities": [
+        "gym",
+        "spa",
+        "bar",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_65",
+    "hotel_id": "Hotel_192",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 380,
+      "min_rating": 3.3,
+      "preferred_amenities": [
+        "spa",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_66",
+    "hotel_id": "Hotel_1240",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 115,
+      "min_rating": 4.4,
+      "preferred_amenities": [
+        "restaurant",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_67",
+    "hotel_id": "Hotel_3703",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 290,
+      "min_rating": 3.5,
+      "preferred_amenities": [
+        "bar",
+        "pool",
+        "restaurant",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_68",
+    "hotel_id": "Hotel_1777",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 366,
+      "min_rating": 3.0,
+      "preferred_amenities": [
+        "spa",
+        "pool",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_69",
+    "hotel_id": "Hotel_431",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 177,
+      "min_rating": 3.2,
+      "preferred_amenities": [
+        "wifi",
+        "pool",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_70",
+    "hotel_id": "Hotel_163",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 131,
+      "min_rating": 3.6,
+      "preferred_amenities": [
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_71",
+    "hotel_id": "Hotel_6457",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 208,
+      "min_rating": 4.1,
+      "preferred_amenities": [
+        "wifi",
+        "bar",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_72",
+    "hotel_id": "Hotel_1851",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 159,
+      "min_rating": 4.5,
+      "preferred_amenities": [
+        "pool",
+        "bar",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_73",
+    "hotel_id": "Hotel_1264",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 357,
+      "min_rating": 5.0,
+      "preferred_amenities": [
+        "spa",
+        "gym",
+        "pool",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_74",
+    "hotel_id": "Hotel_325",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 199,
+      "min_rating": 4.3,
+      "preferred_amenities": [
+        "pool",
+        "restaurant",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_75",
+    "hotel_id": "Hotel_3715",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 228,
+      "min_rating": 5.0,
+      "preferred_amenities": [
+        "spa",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_76",
+    "hotel_id": "Hotel_4991",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 356,
+      "min_rating": 3.2,
+      "preferred_amenities": [
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_77",
+    "hotel_id": "Hotel_4110",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 171,
+      "min_rating": 4.3,
+      "preferred_amenities": [
+        "restaurant",
+        "bar",
+        "pool",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_78",
+    "hotel_id": "Hotel_1733",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 227,
+      "min_rating": 3.1,
+      "preferred_amenities": [
+        "bar",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_79",
+    "hotel_id": "Hotel_4286",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 228,
+      "min_rating": 4.1,
+      "preferred_amenities": [
+        "bar",
+        "wifi",
+        "gym",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_80",
+    "hotel_id": "Hotel_8681",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 98,
+      "min_rating": 3.8,
+      "preferred_amenities": [
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_81",
+    "hotel_id": "Hotel_1240",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 135,
+      "min_rating": 3.7,
+      "preferred_amenities": [
+        "restaurant",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_82",
+    "hotel_id": "Hotel_8551",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 227,
+      "min_rating": 3.1,
+      "preferred_amenities": [
+        "spa",
+        "wifi",
+        "restaurant",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_83",
+    "hotel_id": "Hotel_8931",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 292,
+      "min_rating": 4.7,
+      "preferred_amenities": [
+        "restaurant",
+        "spa",
+        "gym",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_84",
+    "hotel_id": "Hotel_2901",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 122,
+      "min_rating": 4.7,
+      "preferred_amenities": [
+        "spa",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_85",
+    "hotel_id": "Hotel_7347",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 248,
+      "min_rating": 2.8,
+      "preferred_amenities": [
+        "gym",
+        "bar",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_86",
+    "hotel_id": "Hotel_5537",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 267,
+      "min_rating": 3.6,
+      "preferred_amenities": [
+        "gym",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_87",
+    "hotel_id": "Hotel_2055",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 338,
+      "min_rating": 4.1,
+      "preferred_amenities": [
+        "gym",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_88",
+    "hotel_id": "Hotel_159",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 213,
+      "min_rating": 4.3,
+      "preferred_amenities": [
+        "pool",
+        "gym",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_89",
+    "hotel_id": "Hotel_7587",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 316,
+      "min_rating": 4.4,
+      "preferred_amenities": [
+        "bar",
+        "spa",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_90",
+    "hotel_id": "Hotel_86",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 156,
+      "min_rating": 2.9,
+      "preferred_amenities": [
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_91",
+    "hotel_id": "Hotel_3294",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 275,
+      "min_rating": 4.0,
+      "preferred_amenities": [
+        "wifi",
+        "gym",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_92",
+    "hotel_id": "Hotel_537",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 327,
+      "min_rating": 3.7,
+      "preferred_amenities": [
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_93",
+    "hotel_id": "Hotel_6048",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 389,
+      "min_rating": 3.8,
+      "preferred_amenities": [
+        "bar",
+        "restaurant",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_94",
+    "hotel_id": "Hotel_8392",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 197,
+      "min_rating": 4.7,
+      "preferred_amenities": [
+        "restaurant",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_95",
+    "hotel_id": "Hotel_8905",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 294,
+      "min_rating": 2.8,
+      "preferred_amenities": [
+        "pool",
+        "bar",
+        "spa",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_96",
+    "hotel_id": "Hotel_1975",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 80,
+      "min_rating": 4.1,
+      "preferred_amenities": [
+        "spa",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_97",
+    "hotel_id": "Hotel_2498",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 261,
+      "min_rating": 4.7,
+      "preferred_amenities": [
+        "wifi",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_98",
+    "hotel_id": "Hotel_6223",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 201,
+      "min_rating": 2.8,
+      "preferred_amenities": [
+        "pool",
+        "restaurant",
+        "gym",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_99",
+    "hotel_id": "Hotel_4579",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 184,
+      "min_rating": 4.9,
+      "preferred_amenities": [
+        "wifi",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_100",
+    "hotel_id": "Hotel_163",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 312,
+      "min_rating": 3.1,
+      "preferred_amenities": [
+        "restaurant",
+        "pool",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_101",
+    "hotel_id": "Hotel_9956",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 133,
+      "min_rating": 3.4,
+      "preferred_amenities": [
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_102",
+    "hotel_id": "Hotel_1286",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 349,
+      "min_rating": 3.3,
+      "preferred_amenities": [
+        "restaurant",
+        "gym",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_103",
+    "hotel_id": "Hotel_2111",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 207,
+      "min_rating": 3.9,
+      "preferred_amenities": [
+        "bar",
+        "spa",
+        "gym",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_104",
+    "hotel_id": "Hotel_3421",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 108,
+      "min_rating": 4.0,
+      "preferred_amenities": [
+        "wifi",
+        "bar",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_105",
+    "hotel_id": "Hotel_6003",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 378,
+      "min_rating": 3.9,
+      "preferred_amenities": [
+        "pool",
+        "bar",
+        "spa",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_106",
+    "hotel_id": "Hotel_3294",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 286,
+      "min_rating": 3.3,
+      "preferred_amenities": [
+        "pool",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_107",
+    "hotel_id": "Hotel_1657",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 332,
+      "min_rating": 4.7,
+      "preferred_amenities": [
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_108",
+    "hotel_id": "Hotel_9936",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 128,
+      "min_rating": 2.8,
+      "preferred_amenities": [
+        "gym",
+        "wifi",
+        "pool",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_109",
+    "hotel_id": "Hotel_2498",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 145,
+      "min_rating": 3.7,
+      "preferred_amenities": [
+        "bar",
+        "restaurant",
+        "gym",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_110",
+    "hotel_id": "Hotel_5228",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 333,
+      "min_rating": 3.6,
+      "preferred_amenities": [
+        "spa",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_111",
+    "hotel_id": "Hotel_2055",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 364,
+      "min_rating": 4.9,
+      "preferred_amenities": [
+        "spa",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_112",
+    "hotel_id": "Hotel_917",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 179,
+      "min_rating": 3.7,
+      "preferred_amenities": [
+        "bar",
+        "wifi",
+        "restaurant",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_113",
+    "hotel_id": "Hotel_601",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 92,
+      "min_rating": 4.3,
+      "preferred_amenities": [
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_114",
+    "hotel_id": "Hotel_5529",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 306,
+      "min_rating": 3.9,
+      "preferred_amenities": [
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_115",
+    "hotel_id": "Hotel_1887",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 306,
+      "min_rating": 3.4,
+      "preferred_amenities": [
+        "pool",
+        "spa",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_116",
+    "hotel_id": "Hotel_521",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 250,
+      "min_rating": 3.8,
+      "preferred_amenities": [
+        "spa",
+        "restaurant",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_117",
+    "hotel_id": "Hotel_4485",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 330,
+      "min_rating": 4.6,
+      "preferred_amenities": [
+        "bar",
+        "spa",
+        "gym",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_118",
+    "hotel_id": "Hotel_3374",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 364,
+      "min_rating": 3.8,
+      "preferred_amenities": [
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_119",
+    "hotel_id": "Hotel_4880",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 251,
+      "min_rating": 2.7,
+      "preferred_amenities": [
+        "bar",
+        "gym",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_120",
+    "hotel_id": "Hotel_9739",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 240,
+      "min_rating": 4.8,
+      "preferred_amenities": [
+        "restaurant",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_121",
+    "hotel_id": "Hotel_8211",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 391,
+      "min_rating": 2.9,
+      "preferred_amenities": [
+        "pool",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_122",
+    "hotel_id": "Hotel_8724",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 326,
+      "min_rating": 3.8,
+      "preferred_amenities": [
+        "gym",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_123",
+    "hotel_id": "Hotel_8283",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 101,
+      "min_rating": 3.8,
+      "preferred_amenities": [
+        "restaurant",
+        "gym",
+        "spa",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_124",
+    "hotel_id": "Hotel_5580",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 286,
+      "min_rating": 3.0,
+      "preferred_amenities": [
+        "gym",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_125",
+    "hotel_id": "Hotel_4485",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 206,
+      "min_rating": 3.7,
+      "preferred_amenities": [
+        "wifi",
+        "pool",
+        "bar",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_126",
+    "hotel_id": "Hotel_6089",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 351,
+      "min_rating": 4.3,
+      "preferred_amenities": [
+        "wifi",
+        "spa",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_127",
+    "hotel_id": "Hotel_9055",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 400,
+      "min_rating": 2.9,
+      "preferred_amenities": [
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_128",
+    "hotel_id": "Hotel_9241",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 145,
+      "min_rating": 4.0,
+      "preferred_amenities": [
+        "spa",
+        "restaurant",
+        "wifi",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_129",
+    "hotel_id": "Hotel_5883",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 273,
+      "min_rating": 5.0,
+      "preferred_amenities": [
+        "bar",
+        "pool",
+        "spa",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_130",
+    "hotel_id": "Hotel_7587",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 320,
+      "min_rating": 4.1,
+      "preferred_amenities": [
+        "wifi",
+        "bar",
+        "pool",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_131",
+    "hotel_id": "Hotel_1847",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 130,
+      "min_rating": 3.2,
+      "preferred_amenities": [
+        "spa",
+        "restaurant",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_132",
+    "hotel_id": "Hotel_601",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 318,
+      "min_rating": 2.7,
+      "preferred_amenities": [
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_133",
+    "hotel_id": "Hotel_7301",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 91,
+      "min_rating": 4.4,
+      "preferred_amenities": [
+        "bar",
+        "wifi",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_134",
+    "hotel_id": "Hotel_7836",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 144,
+      "min_rating": 3.9,
+      "preferred_amenities": [
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_135",
+    "hotel_id": "Hotel_1887",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 99,
+      "min_rating": 4.2,
+      "preferred_amenities": [
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_136",
+    "hotel_id": "Hotel_6048",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 202,
+      "min_rating": 4.3,
+      "preferred_amenities": [
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_137",
+    "hotel_id": "Hotel_1657",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 211,
+      "min_rating": 3.4,
+      "preferred_amenities": [
+        "spa",
+        "restaurant",
+        "bar",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_138",
+    "hotel_id": "Hotel_1851",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 319,
+      "min_rating": 3.1,
+      "preferred_amenities": [
+        "spa",
+        "gym",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_139",
+    "hotel_id": "Hotel_6487",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 221,
+      "min_rating": 2.6,
+      "preferred_amenities": [
+        "pool",
+        "gym",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_140",
+    "hotel_id": "Hotel_4485",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 119,
+      "min_rating": 3.8,
+      "preferred_amenities": [
+        "restaurant",
+        "gym",
+        "wifi",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_141",
+    "hotel_id": "Hotel_8622",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 386,
+      "min_rating": 4.0,
+      "preferred_amenities": [
+        "spa",
+        "restaurant",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_142",
+    "hotel_id": "Hotel_1240",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 308,
+      "min_rating": 3.0,
+      "preferred_amenities": [
+        "wifi",
+        "pool",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_143",
+    "hotel_id": "Hotel_920",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 131,
+      "min_rating": 4.0,
+      "preferred_amenities": [
+        "restaurant",
+        "bar",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_144",
+    "hotel_id": "Hotel_3254",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 304,
+      "min_rating": 4.9,
+      "preferred_amenities": [
+        "gym",
+        "wifi",
+        "bar",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_145",
+    "hotel_id": "Hotel_5883",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 303,
+      "min_rating": 4.7,
+      "preferred_amenities": [
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_146",
+    "hotel_id": "Hotel_5067",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 157,
+      "min_rating": 3.6,
+      "preferred_amenities": [
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_147",
+    "hotel_id": "Hotel_3703",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 283,
+      "min_rating": 3.0,
+      "preferred_amenities": [
+        "spa",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_148",
+    "hotel_id": "Hotel_8701",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 141,
+      "min_rating": 4.6,
+      "preferred_amenities": [
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_149",
+    "hotel_id": "Hotel_7301",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 179,
+      "min_rating": 2.6,
+      "preferred_amenities": [
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_150",
+    "hotel_id": "Hotel_1296",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 310,
+      "min_rating": 4.6,
+      "preferred_amenities": [
+        "wifi",
+        "restaurant",
+        "pool",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_151",
+    "hotel_id": "Hotel_5656",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 132,
+      "min_rating": 2.9,
+      "preferred_amenities": [
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_152",
+    "hotel_id": "Hotel_7845",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 363,
+      "min_rating": 3.3,
+      "preferred_amenities": [
+        "bar",
+        "pool",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_153",
+    "hotel_id": "Hotel_325",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 239,
+      "min_rating": 3.8,
+      "preferred_amenities": [
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_154",
+    "hotel_id": "Hotel_7836",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 215,
+      "min_rating": 4.2,
+      "preferred_amenities": [
+        "pool",
+        "gym",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_155",
+    "hotel_id": "Hotel_6223",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 261,
+      "min_rating": 4.1,
+      "preferred_amenities": [
+        "restaurant",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_156",
+    "hotel_id": "Hotel_4110",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 145,
+      "min_rating": 4.7,
+      "preferred_amenities": [
+        "restaurant",
+        "wifi",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_157",
+    "hotel_id": "Hotel_3387",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 139,
+      "min_rating": 3.5,
+      "preferred_amenities": [
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_158",
+    "hotel_id": "Hotel_192",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 282,
+      "min_rating": 4.2,
+      "preferred_amenities": [
+        "spa",
+        "pool",
+        "wifi",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_159",
+    "hotel_id": "Hotel_1847",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 247,
+      "min_rating": 2.9,
+      "preferred_amenities": [
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_160",
+    "hotel_id": "Hotel_5228",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 314,
+      "min_rating": 3.5,
+      "preferred_amenities": [
+        "gym",
+        "pool",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_161",
+    "hotel_id": "Hotel_325",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 190,
+      "min_rating": 3.0,
+      "preferred_amenities": [
+        "spa",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_162",
+    "hotel_id": "Hotel_1135",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 224,
+      "min_rating": 2.7,
+      "preferred_amenities": [
+        "bar",
+        "restaurant",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_163",
+    "hotel_id": "Hotel_192",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 370,
+      "min_rating": 3.0,
+      "preferred_amenities": [
+        "restaurant",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_164",
+    "hotel_id": "Hotel_192",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 391,
+      "min_rating": 4.0,
+      "preferred_amenities": [
+        "spa",
+        "wifi",
+        "bar",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_165",
+    "hotel_id": "Hotel_1657",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 308,
+      "min_rating": 2.7,
+      "preferred_amenities": [
+        "restaurant",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_166",
+    "hotel_id": "Hotel_1296",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 190,
+      "min_rating": 4.5,
+      "preferred_amenities": [
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_167",
+    "hotel_id": "Hotel_5067",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 397,
+      "min_rating": 2.7,
+      "preferred_amenities": [
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_168",
+    "hotel_id": "Hotel_3715",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 278,
+      "min_rating": 2.9,
+      "preferred_amenities": [
+        "spa",
+        "wifi",
+        "gym",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_169",
+    "hotel_id": "Hotel_521",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 145,
+      "min_rating": 3.0,
+      "preferred_amenities": [
+        "spa",
+        "restaurant",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_170",
+    "hotel_id": "Hotel_9942",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 135,
+      "min_rating": 3.2,
+      "preferred_amenities": [
+        "gym",
+        "pool",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_171",
+    "hotel_id": "Hotel_1299",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 319,
+      "min_rating": 3.9,
+      "preferred_amenities": [
+        "restaurant",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_172",
+    "hotel_id": "Hotel_6482",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 278,
+      "min_rating": 3.9,
+      "preferred_amenities": [
+        "wifi",
+        "spa",
+        "pool",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_173",
+    "hotel_id": "Hotel_1296",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 286,
+      "min_rating": 4.2,
+      "preferred_amenities": [
+        "spa",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_174",
+    "hotel_id": "Hotel_3703",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 318,
+      "min_rating": 4.9,
+      "preferred_amenities": [
+        "restaurant",
+        "bar",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_175",
+    "hotel_id": "Hotel_5867",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 258,
+      "min_rating": 2.8,
+      "preferred_amenities": [
+        "wifi",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_176",
+    "hotel_id": "Hotel_6552",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 234,
+      "min_rating": 4.6,
+      "preferred_amenities": [
+        "spa",
+        "bar",
+        "pool",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_177",
+    "hotel_id": "Hotel_8365",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 118,
+      "min_rating": 3.9,
+      "preferred_amenities": [
+        "gym",
+        "spa",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_178",
+    "hotel_id": "Hotel_8801",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 264,
+      "min_rating": 4.9,
+      "preferred_amenities": [
+        "gym",
+        "spa",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_179",
+    "hotel_id": "Hotel_4561",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 276,
+      "min_rating": 3.1,
+      "preferred_amenities": [
+        "gym",
+        "spa",
+        "wifi",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_180",
+    "hotel_id": "Hotel_5656",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 318,
+      "min_rating": 4.1,
+      "preferred_amenities": [
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_181",
+    "hotel_id": "Hotel_7301",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 116,
+      "min_rating": 4.9,
+      "preferred_amenities": [
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_182",
+    "hotel_id": "Hotel_832",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 335,
+      "min_rating": 2.9,
+      "preferred_amenities": [
+        "bar",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_183",
+    "hotel_id": "Hotel_8951",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 112,
+      "min_rating": 3.3,
+      "preferred_amenities": [
+        "wifi",
+        "gym",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_184",
+    "hotel_id": "Hotel_9433",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 100,
+      "min_rating": 4.9,
+      "preferred_amenities": [
+        "gym",
+        "wifi",
+        "spa",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_185",
+    "hotel_id": "Hotel_7276",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 332,
+      "min_rating": 4.0,
+      "preferred_amenities": [
+        "wifi",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_186",
+    "hotel_id": "Hotel_3222",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 302,
+      "min_rating": 2.7,
+      "preferred_amenities": [
+        "restaurant",
+        "gym",
+        "wifi",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_187",
+    "hotel_id": "Hotel_9080",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 239,
+      "min_rating": 4.3,
+      "preferred_amenities": [
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_188",
+    "hotel_id": "Hotel_1481",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 339,
+      "min_rating": 4.0,
+      "preferred_amenities": [
+        "bar",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_189",
+    "hotel_id": "Hotel_7551",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 354,
+      "min_rating": 2.6,
+      "preferred_amenities": [
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_190",
+    "hotel_id": "Hotel_7276",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 175,
+      "min_rating": 2.9,
+      "preferred_amenities": [
+        "restaurant",
+        "gym",
+        "spa",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_191",
+    "hotel_id": "Hotel_8134",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 309,
+      "min_rating": 4.0,
+      "preferred_amenities": [
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_192",
+    "hotel_id": "Hotel_1657",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 261,
+      "min_rating": 5.0,
+      "preferred_amenities": [
+        "restaurant",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_193",
+    "hotel_id": "Hotel_746",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 172,
+      "min_rating": 4.0,
+      "preferred_amenities": [
+        "wifi",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_194",
+    "hotel_id": "Hotel_7487",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 276,
+      "min_rating": 4.3,
+      "preferred_amenities": [
+        "spa",
+        "restaurant",
+        "pool",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_195",
+    "hotel_id": "Hotel_1122",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 212,
+      "min_rating": 3.4,
+      "preferred_amenities": [
+        "pool",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_196",
+    "hotel_id": "Hotel_4579",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 156,
+      "min_rating": 2.6,
+      "preferred_amenities": [
+        "pool",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_197",
+    "hotel_id": "Hotel_5271",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 166,
+      "min_rating": 3.4,
+      "preferred_amenities": [
+        "spa",
+        "gym",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_198",
+    "hotel_id": "Hotel_6048",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 116,
+      "min_rating": 3.4,
+      "preferred_amenities": [
+        "gym",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_199",
+    "hotel_id": "Hotel_3703",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 220,
+      "min_rating": 2.5,
+      "preferred_amenities": [
+        "restaurant",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_200",
+    "hotel_id": "Hotel_8951",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 103,
+      "min_rating": 2.7,
+      "preferred_amenities": [
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_201",
+    "hotel_id": "Hotel_3581",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 367,
+      "min_rating": 3.3,
+      "preferred_amenities": [
+        "gym",
+        "pool",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_202",
+    "hotel_id": "Hotel_5867",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 192,
+      "min_rating": 3.1,
+      "preferred_amenities": [
+        "pool",
+        "gym",
+        "bar",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_203",
+    "hotel_id": "Hotel_325",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 349,
+      "min_rating": 2.6,
+      "preferred_amenities": [
+        "gym",
+        "wifi",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_204",
+    "hotel_id": "Hotel_3294",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 213,
+      "min_rating": 4.9,
+      "preferred_amenities": [
+        "pool",
+        "restaurant",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_205",
+    "hotel_id": "Hotel_8592",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 131,
+      "min_rating": 4.8,
+      "preferred_amenities": [
+        "gym",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_206",
+    "hotel_id": "Hotel_7845",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 108,
+      "min_rating": 4.4,
+      "preferred_amenities": [
+        "bar",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_207",
+    "hotel_id": "Hotel_5235",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 117,
+      "min_rating": 4.8,
+      "preferred_amenities": [
+        "restaurant",
+        "wifi",
+        "gym",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_208",
+    "hotel_id": "Hotel_1644",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 276,
+      "min_rating": 3.7,
+      "preferred_amenities": [
+        "restaurant",
+        "bar",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_209",
+    "hotel_id": "Hotel_6552",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 247,
+      "min_rating": 3.4,
+      "preferred_amenities": [
+        "restaurant",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_210",
+    "hotel_id": "Hotel_1799",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 386,
+      "min_rating": 3.5,
+      "preferred_amenities": [
+        "restaurant",
+        "gym",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_211",
+    "hotel_id": "Hotel_6223",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 313,
+      "min_rating": 4.8,
+      "preferred_amenities": [
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_212",
+    "hotel_id": "Hotel_2697",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 309,
+      "min_rating": 4.0,
+      "preferred_amenities": [
+        "restaurant",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_213",
+    "hotel_id": "Hotel_3294",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 354,
+      "min_rating": 3.4,
+      "preferred_amenities": [
+        "wifi",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_214",
+    "hotel_id": "Hotel_1644",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 322,
+      "min_rating": 2.8,
+      "preferred_amenities": [
+        "wifi",
+        "pool",
+        "gym",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_215",
+    "hotel_id": "Hotel_98",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 297,
+      "min_rating": 2.9,
+      "preferred_amenities": [
+        "wifi",
+        "pool",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_216",
+    "hotel_id": "Hotel_4789",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 345,
+      "min_rating": 4.0,
+      "preferred_amenities": [
+        "spa",
+        "bar",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_217",
+    "hotel_id": "Hotel_8951",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 360,
+      "min_rating": 3.7,
+      "preferred_amenities": [
+        "spa",
+        "restaurant",
+        "gym",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_218",
+    "hotel_id": "Hotel_6223",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 276,
+      "min_rating": 4.3,
+      "preferred_amenities": [
+        "wifi",
+        "spa",
+        "gym",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_219",
+    "hotel_id": "Hotel_4725",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 327,
+      "min_rating": 3.5,
+      "preferred_amenities": [
+        "bar",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_220",
+    "hotel_id": "Hotel_889",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 177,
+      "min_rating": 4.0,
+      "preferred_amenities": [
+        "bar",
+        "wifi",
+        "gym",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_221",
+    "hotel_id": "Hotel_6390",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 300,
+      "min_rating": 4.9,
+      "preferred_amenities": [
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_222",
+    "hotel_id": "Hotel_8787",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 197,
+      "min_rating": 4.7,
+      "preferred_amenities": [
+        "gym",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_223",
+    "hotel_id": "Hotel_6482",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 202,
+      "min_rating": 4.7,
+      "preferred_amenities": [
+        "wifi",
+        "bar",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_224",
+    "hotel_id": "Hotel_7899",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 328,
+      "min_rating": 4.7,
+      "preferred_amenities": [
+        "wifi",
+        "pool",
+        "restaurant",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_225",
+    "hotel_id": "Hotel_4318",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 301,
+      "min_rating": 3.9,
+      "preferred_amenities": [
+        "gym",
+        "wifi",
+        "restaurant",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_226",
+    "hotel_id": "Hotel_6510",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 89,
+      "min_rating": 4.5,
+      "preferred_amenities": [
+        "gym",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_227",
+    "hotel_id": "Hotel_9152",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 256,
+      "min_rating": 3.9,
+      "preferred_amenities": [
+        "gym",
+        "restaurant",
+        "wifi",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_228",
+    "hotel_id": "Hotel_7197",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 150,
+      "min_rating": 3.2,
+      "preferred_amenities": [
+        "spa",
+        "bar",
+        "gym",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_229",
+    "hotel_id": "Hotel_7587",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 344,
+      "min_rating": 3.1,
+      "preferred_amenities": [
+        "pool",
+        "wifi",
+        "gym",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_230",
+    "hotel_id": "Hotel_902",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 198,
+      "min_rating": 3.6,
+      "preferred_amenities": [
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_231",
+    "hotel_id": "Hotel_7034",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 119,
+      "min_rating": 4.3,
+      "preferred_amenities": [
+        "pool",
+        "spa",
+        "wifi",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_232",
+    "hotel_id": "Hotel_3670",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 281,
+      "min_rating": 3.8,
+      "preferred_amenities": [
+        "wifi",
+        "spa",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_233",
+    "hotel_id": "Hotel_4533",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 284,
+      "min_rating": 2.8,
+      "preferred_amenities": [
+        "gym",
+        "pool",
+        "bar",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_234",
+    "hotel_id": "Hotel_189",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 311,
+      "min_rating": 2.9,
+      "preferred_amenities": [
+        "spa",
+        "pool",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_235",
+    "hotel_id": "Hotel_1514",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 278,
+      "min_rating": 2.8,
+      "preferred_amenities": [
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_236",
+    "hotel_id": "Hotel_9459",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 238,
+      "min_rating": 2.9,
+      "preferred_amenities": [
+        "wifi",
+        "bar",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_237",
+    "hotel_id": "Hotel_5883",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 367,
+      "min_rating": 3.8,
+      "preferred_amenities": [
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_238",
+    "hotel_id": "Hotel_2335",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 159,
+      "min_rating": 4.0,
+      "preferred_amenities": [
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_239",
+    "hotel_id": "Hotel_3254",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 277,
+      "min_rating": 4.2,
+      "preferred_amenities": [
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_240",
+    "hotel_id": "Hotel_9507",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 180,
+      "min_rating": 4.3,
+      "preferred_amenities": [
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_241",
+    "hotel_id": "Hotel_9055",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 126,
+      "min_rating": 2.6,
+      "preferred_amenities": [
+        "bar",
+        "gym",
+        "pool",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_242",
+    "hotel_id": "Hotel_4865",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 231,
+      "min_rating": 4.8,
+      "preferred_amenities": [
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_243",
+    "hotel_id": "Hotel_2335",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 377,
+      "min_rating": 4.3,
+      "preferred_amenities": [
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_244",
+    "hotel_id": "Hotel_4318",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 97,
+      "min_rating": 2.5,
+      "preferred_amenities": [
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_245",
+    "hotel_id": "Hotel_6552",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 340,
+      "min_rating": 4.7,
+      "preferred_amenities": [
+        "restaurant",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_246",
+    "hotel_id": "Hotel_2135",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 366,
+      "min_rating": 3.6,
+      "preferred_amenities": [
+        "bar",
+        "restaurant",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_247",
+    "hotel_id": "Hotel_6487",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 352,
+      "min_rating": 2.7,
+      "preferred_amenities": [
+        "bar",
+        "spa",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_248",
+    "hotel_id": "Hotel_4318",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 272,
+      "min_rating": 3.5,
+      "preferred_amenities": [
+        "gym",
+        "restaurant",
+        "wifi",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_249",
+    "hotel_id": "Hotel_86",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 216,
+      "min_rating": 4.6,
+      "preferred_amenities": [
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_250",
+    "hotel_id": "Hotel_3254",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 107,
+      "min_rating": 3.3,
+      "preferred_amenities": [
+        "gym",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_251",
+    "hotel_id": "Hotel_2055",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 366,
+      "min_rating": 4.1,
+      "preferred_amenities": [
+        "spa",
+        "pool",
+        "restaurant",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_252",
+    "hotel_id": "Hotel_9117",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 131,
+      "min_rating": 2.5,
+      "preferred_amenities": [
+        "restaurant",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_253",
+    "hotel_id": "Hotel_8787",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 327,
+      "min_rating": 4.9,
+      "preferred_amenities": [
+        "spa",
+        "bar",
+        "restaurant",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_254",
+    "hotel_id": "Hotel_3521",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 296,
+      "min_rating": 3.6,
+      "preferred_amenities": [
+        "gym",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_255",
+    "hotel_id": "Hotel_3230",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 366,
+      "min_rating": 3.4,
+      "preferred_amenities": [
+        "gym",
+        "bar",
+        "pool",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_256",
+    "hotel_id": "Hotel_8931",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 334,
+      "min_rating": 3.6,
+      "preferred_amenities": [
+        "pool",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_257",
+    "hotel_id": "Hotel_3230",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 238,
+      "min_rating": 3.2,
+      "preferred_amenities": [
+        "pool",
+        "restaurant",
+        "gym",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_258",
+    "hotel_id": "Hotel_691",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 377,
+      "min_rating": 4.1,
+      "preferred_amenities": [
+        "spa",
+        "wifi",
+        "gym",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_259",
+    "hotel_id": "Hotel_920",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 287,
+      "min_rating": 3.3,
+      "preferred_amenities": [
+        "restaurant",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_260",
+    "hotel_id": "Hotel_3581",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 141,
+      "min_rating": 4.4,
+      "preferred_amenities": [
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_261",
+    "hotel_id": "Hotel_5580",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 329,
+      "min_rating": 2.6,
+      "preferred_amenities": [
+        "restaurant",
+        "gym",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_262",
+    "hotel_id": "Hotel_8951",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 379,
+      "min_rating": 2.8,
+      "preferred_amenities": [
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_263",
+    "hotel_id": "Hotel_5867",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 289,
+      "min_rating": 4.6,
+      "preferred_amenities": [
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_264",
+    "hotel_id": "Hotel_1541",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 159,
+      "min_rating": 2.8,
+      "preferred_amenities": [
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_265",
+    "hotel_id": "Hotel_1481",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 326,
+      "min_rating": 2.7,
+      "preferred_amenities": [
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_266",
+    "hotel_id": "Hotel_537",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 222,
+      "min_rating": 4.7,
+      "preferred_amenities": [
+        "pool",
+        "restaurant",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_267",
+    "hotel_id": "Hotel_7487",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 313,
+      "min_rating": 3.4,
+      "preferred_amenities": [
+        "spa",
+        "bar",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_268",
+    "hotel_id": "Hotel_9371",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 319,
+      "min_rating": 2.9,
+      "preferred_amenities": [
+        "spa",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_269",
+    "hotel_id": "Hotel_1481",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 259,
+      "min_rating": 3.7,
+      "preferred_amenities": [
+        "restaurant",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_270",
+    "hotel_id": "Hotel_4151",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 387,
+      "min_rating": 3.8,
+      "preferred_amenities": [
+        "restaurant",
+        "bar",
+        "pool",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_271",
+    "hotel_id": "Hotel_5086",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 195,
+      "min_rating": 3.5,
+      "preferred_amenities": [
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_272",
+    "hotel_id": "Hotel_4110",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 347,
+      "min_rating": 4.3,
+      "preferred_amenities": [
+        "wifi",
+        "gym",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_273",
+    "hotel_id": "Hotel_192",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 265,
+      "min_rating": 4.1,
+      "preferred_amenities": [
+        "gym",
+        "wifi",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_274",
+    "hotel_id": "Hotel_6713",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 213,
+      "min_rating": 4.6,
+      "preferred_amenities": [
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_275",
+    "hotel_id": "Hotel_8211",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 204,
+      "min_rating": 4.0,
+      "preferred_amenities": [
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_276",
+    "hotel_id": "Hotel_6457",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 376,
+      "min_rating": 3.9,
+      "preferred_amenities": [
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_277",
+    "hotel_id": "Hotel_5235",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 289,
+      "min_rating": 3.3,
+      "preferred_amenities": [
+        "gym",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_278",
+    "hotel_id": "Hotel_1296",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 388,
+      "min_rating": 4.1,
+      "preferred_amenities": [
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_279",
+    "hotel_id": "Hotel_5228",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 106,
+      "min_rating": 3.1,
+      "preferred_amenities": [
+        "pool",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_280",
+    "hotel_id": "Hotel_8385",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 210,
+      "min_rating": 2.5,
+      "preferred_amenities": [
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_281",
+    "hotel_id": "Hotel_7148",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 123,
+      "min_rating": 4.0,
+      "preferred_amenities": [
+        "spa",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_282",
+    "hotel_id": "Hotel_1847",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 392,
+      "min_rating": 3.7,
+      "preferred_amenities": [
+        "gym",
+        "pool",
+        "restaurant",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_283",
+    "hotel_id": "Hotel_5235",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 376,
+      "min_rating": 4.3,
+      "preferred_amenities": [
+        "restaurant",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_284",
+    "hotel_id": "Hotel_6048",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 397,
+      "min_rating": 3.7,
+      "preferred_amenities": [
+        "restaurant",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_285",
+    "hotel_id": "Hotel_8392",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 391,
+      "min_rating": 2.8,
+      "preferred_amenities": [
+        "bar",
+        "restaurant",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_286",
+    "hotel_id": "Hotel_601",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 295,
+      "min_rating": 3.9,
+      "preferred_amenities": [
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_287",
+    "hotel_id": "Hotel_1975",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 99,
+      "min_rating": 4.1,
+      "preferred_amenities": [
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_288",
+    "hotel_id": "Hotel_8534",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 170,
+      "min_rating": 2.9,
+      "preferred_amenities": [
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_289",
+    "hotel_id": "Hotel_2498",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 366,
+      "min_rating": 3.9,
+      "preferred_amenities": [
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_290",
+    "hotel_id": "Hotel_8676",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 340,
+      "min_rating": 4.8,
+      "preferred_amenities": [
+        "spa",
+        "gym",
+        "pool",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_291",
+    "hotel_id": "Hotel_2016",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 343,
+      "min_rating": 3.5,
+      "preferred_amenities": [
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_292",
+    "hotel_id": "Hotel_7148",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 81,
+      "min_rating": 2.7,
+      "preferred_amenities": [
+        "bar",
+        "wifi",
+        "spa",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_293",
+    "hotel_id": "Hotel_163",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 315,
+      "min_rating": 2.7,
+      "preferred_amenities": [
+        "wifi",
+        "pool",
+        "spa",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_294",
+    "hotel_id": "Hotel_4725",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 112,
+      "min_rating": 4.7,
+      "preferred_amenities": [
+        "gym",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_295",
+    "hotel_id": "Hotel_7836",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 170,
+      "min_rating": 3.3,
+      "preferred_amenities": [
+        "restaurant",
+        "pool",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_296",
+    "hotel_id": "Hotel_8622",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 273,
+      "min_rating": 3.3,
+      "preferred_amenities": [
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_297",
+    "hotel_id": "Hotel_1657",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 352,
+      "min_rating": 3.0,
+      "preferred_amenities": [
+        "spa",
+        "gym",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_298",
+    "hotel_id": "Hotel_2652",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 200,
+      "min_rating": 3.3,
+      "preferred_amenities": [
+        "gym",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_299",
+    "hotel_id": "Hotel_8392",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 85,
+      "min_rating": 2.7,
+      "preferred_amenities": [
+        "spa",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_300",
+    "hotel_id": "Hotel_3421",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 183,
+      "min_rating": 2.7,
+      "preferred_amenities": [
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_301",
+    "hotel_id": "Hotel_8592",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 368,
+      "min_rating": 4.3,
+      "preferred_amenities": [
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_302",
+    "hotel_id": "Hotel_2055",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 101,
+      "min_rating": 4.1,
+      "preferred_amenities": [
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_303",
+    "hotel_id": "Hotel_4991",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 251,
+      "min_rating": 3.6,
+      "preferred_amenities": [
+        "wifi",
+        "spa",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_304",
+    "hotel_id": "Hotel_3066",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 235,
+      "min_rating": 2.8,
+      "preferred_amenities": [
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_305",
+    "hotel_id": "Hotel_3387",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 299,
+      "min_rating": 4.5,
+      "preferred_amenities": [
+        "pool",
+        "gym",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_306",
+    "hotel_id": "Hotel_4533",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 97,
+      "min_rating": 4.7,
+      "preferred_amenities": [
+        "gym",
+        "spa",
+        "bar",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_307",
+    "hotel_id": "Hotel_3374",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 305,
+      "min_rating": 5.0,
+      "preferred_amenities": [
+        "spa",
+        "pool",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_308",
+    "hotel_id": "Hotel_8787",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 87,
+      "min_rating": 4.8,
+      "preferred_amenities": [
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_309",
+    "hotel_id": "Hotel_3987",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 224,
+      "min_rating": 3.9,
+      "preferred_amenities": [
+        "pool",
+        "gym",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_310",
+    "hotel_id": "Hotel_6819",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 391,
+      "min_rating": 3.9,
+      "preferred_amenities": [
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_311",
+    "hotel_id": "Hotel_3066",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 198,
+      "min_rating": 4.3,
+      "preferred_amenities": [
+        "pool",
+        "spa",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_312",
+    "hotel_id": "Hotel_5228",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 136,
+      "min_rating": 2.6,
+      "preferred_amenities": [
+        "bar",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_313",
+    "hotel_id": "Hotel_8787",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 275,
+      "min_rating": 3.2,
+      "preferred_amenities": [
+        "bar",
+        "pool",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_314",
+    "hotel_id": "Hotel_1887",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 399,
+      "min_rating": 3.9,
+      "preferred_amenities": [
+        "wifi",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_315",
+    "hotel_id": "Hotel_7483",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 173,
+      "min_rating": 4.6,
+      "preferred_amenities": [
+        "pool",
+        "gym",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_316",
+    "hotel_id": "Hotel_5753",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 255,
+      "min_rating": 3.8,
+      "preferred_amenities": [
+        "bar",
+        "gym",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_317",
+    "hotel_id": "Hotel_192",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 175,
+      "min_rating": 3.0,
+      "preferred_amenities": [
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_318",
+    "hotel_id": "Hotel_7487",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 254,
+      "min_rating": 2.6,
+      "preferred_amenities": [
+        "bar",
+        "restaurant",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_319",
+    "hotel_id": "Hotel_1847",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 161,
+      "min_rating": 3.6,
+      "preferred_amenities": [
+        "gym",
+        "spa",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_320",
+    "hotel_id": "Hotel_8681",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 107,
+      "min_rating": 4.4,
+      "preferred_amenities": [
+        "wifi",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_321",
+    "hotel_id": "Hotel_8724",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 181,
+      "min_rating": 4.4,
+      "preferred_amenities": [
+        "bar",
+        "restaurant",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_322",
+    "hotel_id": "Hotel_746",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 115,
+      "min_rating": 4.4,
+      "preferred_amenities": [
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_323",
+    "hotel_id": "Hotel_8551",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 119,
+      "min_rating": 4.8,
+      "preferred_amenities": [
+        "gym",
+        "bar",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_324",
+    "hotel_id": "Hotel_3387",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 359,
+      "min_rating": 3.3,
+      "preferred_amenities": [
+        "pool",
+        "wifi",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_325",
+    "hotel_id": "Hotel_4579",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 312,
+      "min_rating": 3.5,
+      "preferred_amenities": [
+        "pool",
+        "wifi",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_326",
+    "hotel_id": "Hotel_9170",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 357,
+      "min_rating": 4.8,
+      "preferred_amenities": [
+        "gym",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_327",
+    "hotel_id": "Hotel_4690",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 173,
+      "min_rating": 2.6,
+      "preferred_amenities": [
+        "spa",
+        "bar",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_328",
+    "hotel_id": "Hotel_8787",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 200,
+      "min_rating": 3.1,
+      "preferred_amenities": [
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_329",
+    "hotel_id": "Hotel_1799",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 304,
+      "min_rating": 4.3,
+      "preferred_amenities": [
+        "gym",
+        "pool",
+        "bar",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_330",
+    "hotel_id": "Hotel_1277",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 303,
+      "min_rating": 4.6,
+      "preferred_amenities": [
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_331",
+    "hotel_id": "Hotel_98",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 332,
+      "min_rating": 3.0,
+      "preferred_amenities": [
+        "gym",
+        "bar",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_332",
+    "hotel_id": "Hotel_1887",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 203,
+      "min_rating": 4.6,
+      "preferred_amenities": [
+        "wifi",
+        "pool",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_333",
+    "hotel_id": "Hotel_7642",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 97,
+      "min_rating": 3.1,
+      "preferred_amenities": [
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_334",
+    "hotel_id": "Hotel_5529",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 337,
+      "min_rating": 4.8,
+      "preferred_amenities": [
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_335",
+    "hotel_id": "Hotel_8207",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 338,
+      "min_rating": 3.9,
+      "preferred_amenities": [
+        "spa",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_336",
+    "hotel_id": "Hotel_9371",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 351,
+      "min_rating": 3.5,
+      "preferred_amenities": [
+        "gym",
+        "spa",
+        "pool",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_337",
+    "hotel_id": "Hotel_5470",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 104,
+      "min_rating": 2.6,
+      "preferred_amenities": [
+        "spa",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_338",
+    "hotel_id": "Hotel_4690",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 178,
+      "min_rating": 4.2,
+      "preferred_amenities": [
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_339",
+    "hotel_id": "Hotel_1122",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 242,
+      "min_rating": 4.0,
+      "preferred_amenities": [
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_340",
+    "hotel_id": "Hotel_902",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 268,
+      "min_rating": 4.7,
+      "preferred_amenities": [
+        "wifi",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_341",
+    "hotel_id": "Hotel_6196",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 140,
+      "min_rating": 4.3,
+      "preferred_amenities": [
+        "spa",
+        "pool",
+        "bar",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_342",
+    "hotel_id": "Hotel_1481",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 181,
+      "min_rating": 3.3,
+      "preferred_amenities": [
+        "pool",
+        "gym",
+        "restaurant",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_343",
+    "hotel_id": "Hotel_7587",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 244,
+      "min_rating": 3.8,
+      "preferred_amenities": [
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_344",
+    "hotel_id": "Hotel_5957",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 291,
+      "min_rating": 2.6,
+      "preferred_amenities": [
+        "gym",
+        "pool",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_345",
+    "hotel_id": "Hotel_5271",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 109,
+      "min_rating": 3.1,
+      "preferred_amenities": [
+        "spa",
+        "pool",
+        "restaurant",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_346",
+    "hotel_id": "Hotel_5867",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 381,
+      "min_rating": 2.6,
+      "preferred_amenities": [
+        "spa",
+        "bar",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_347",
+    "hotel_id": "Hotel_6089",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 273,
+      "min_rating": 4.2,
+      "preferred_amenities": [
+        "wifi",
+        "pool",
+        "spa",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_348",
+    "hotel_id": "Hotel_3066",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 104,
+      "min_rating": 3.2,
+      "preferred_amenities": [
+        "gym",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_349",
+    "hotel_id": "Hotel_9055",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 332,
+      "min_rating": 4.7,
+      "preferred_amenities": [
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_350",
+    "hotel_id": "Hotel_9942",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 307,
+      "min_rating": 3.0,
+      "preferred_amenities": [
+        "bar",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_351",
+    "hotel_id": "Hotel_372",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 244,
+      "min_rating": 4.7,
+      "preferred_amenities": [
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_352",
+    "hotel_id": "Hotel_5537",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 301,
+      "min_rating": 4.4,
+      "preferred_amenities": [
+        "wifi",
+        "bar",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_353",
+    "hotel_id": "Hotel_5470",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 389,
+      "min_rating": 4.3,
+      "preferred_amenities": [
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_354",
+    "hotel_id": "Hotel_9371",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 108,
+      "min_rating": 3.9,
+      "preferred_amenities": [
+        "bar",
+        "spa",
+        "restaurant",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_355",
+    "hotel_id": "Hotel_3254",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 341,
+      "min_rating": 3.6,
+      "preferred_amenities": [
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_356",
+    "hotel_id": "Hotel_832",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 167,
+      "min_rating": 3.9,
+      "preferred_amenities": [
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_357",
+    "hotel_id": "Hotel_1777",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 163,
+      "min_rating": 4.1,
+      "preferred_amenities": [
+        "pool",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_358",
+    "hotel_id": "Hotel_8951",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 271,
+      "min_rating": 3.9,
+      "preferred_amenities": [
+        "pool",
+        "spa",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_359",
+    "hotel_id": "Hotel_9241",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 278,
+      "min_rating": 4.1,
+      "preferred_amenities": [
+        "gym",
+        "bar",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_360",
+    "hotel_id": "Hotel_4690",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 250,
+      "min_rating": 4.4,
+      "preferred_amenities": [
+        "gym",
+        "wifi",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_361",
+    "hotel_id": "Hotel_5656",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 388,
+      "min_rating": 4.3,
+      "preferred_amenities": [
+        "spa",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_362",
+    "hotel_id": "Hotel_2055",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 100,
+      "min_rating": 3.5,
+      "preferred_amenities": [
+        "wifi",
+        "pool",
+        "spa",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_363",
+    "hotel_id": "Hotel_8951",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 109,
+      "min_rating": 2.9,
+      "preferred_amenities": [
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_364",
+    "hotel_id": "Hotel_1240",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 363,
+      "min_rating": 3.9,
+      "preferred_amenities": [
+        "pool",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_365",
+    "hotel_id": "Hotel_8823",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 170,
+      "min_rating": 3.3,
+      "preferred_amenities": [
+        "wifi",
+        "gym",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_366",
+    "hotel_id": "Hotel_7861",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 275,
+      "min_rating": 3.0,
+      "preferred_amenities": [
+        "gym",
+        "restaurant",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_367",
+    "hotel_id": "Hotel_3374",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 282,
+      "min_rating": 4.8,
+      "preferred_amenities": [
+        "gym",
+        "wifi",
+        "bar",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_368",
+    "hotel_id": "Hotel_889",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 320,
+      "min_rating": 3.7,
+      "preferred_amenities": [
+        "bar",
+        "gym",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_369",
+    "hotel_id": "Hotel_163",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 217,
+      "min_rating": 3.0,
+      "preferred_amenities": [
+        "spa",
+        "bar",
+        "pool",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_370",
+    "hotel_id": "Hotel_2498",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 183,
+      "min_rating": 4.3,
+      "preferred_amenities": [
+        "wifi",
+        "pool",
+        "restaurant",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_371",
+    "hotel_id": "Hotel_902",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 307,
+      "min_rating": 2.6,
+      "preferred_amenities": [
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_372",
+    "hotel_id": "Hotel_8551",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 270,
+      "min_rating": 4.5,
+      "preferred_amenities": [
+        "gym",
+        "restaurant",
+        "spa",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_373",
+    "hotel_id": "Hotel_372",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 183,
+      "min_rating": 4.4,
+      "preferred_amenities": [
+        "wifi",
+        "pool",
+        "gym",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_374",
+    "hotel_id": "Hotel_9956",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 247,
+      "min_rating": 2.8,
+      "preferred_amenities": [
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_375",
+    "hotel_id": "Hotel_20",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 314,
+      "min_rating": 2.9,
+      "preferred_amenities": [
+        "pool",
+        "wifi",
+        "restaurant",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_376",
+    "hotel_id": "Hotel_6196",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 166,
+      "min_rating": 3.1,
+      "preferred_amenities": [
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_377",
+    "hotel_id": "Hotel_7836",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 400,
+      "min_rating": 3.3,
+      "preferred_amenities": [
+        "bar",
+        "spa",
+        "gym",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_378",
+    "hotel_id": "Hotel_9238",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 365,
+      "min_rating": 3.3,
+      "preferred_amenities": [
+        "pool",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_379",
+    "hotel_id": "Hotel_2335",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 288,
+      "min_rating": 4.9,
+      "preferred_amenities": [
+        "spa",
+        "wifi",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_380",
+    "hotel_id": "Hotel_7034",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 185,
+      "min_rating": 3.8,
+      "preferred_amenities": [
+        "bar",
+        "restaurant",
+        "wifi",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_381",
+    "hotel_id": "Hotel_9000",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 129,
+      "min_rating": 5.0,
+      "preferred_amenities": [
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_382",
+    "hotel_id": "Hotel_2652",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 349,
+      "min_rating": 3.9,
+      "preferred_amenities": [
+        "bar",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_383",
+    "hotel_id": "Hotel_7691",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 305,
+      "min_rating": 3.1,
+      "preferred_amenities": [
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_384",
+    "hotel_id": "Hotel_920",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 321,
+      "min_rating": 3.1,
+      "preferred_amenities": [
+        "pool",
+        "wifi",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_385",
+    "hotel_id": "Hotel_7899",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 360,
+      "min_rating": 4.2,
+      "preferred_amenities": [
+        "wifi",
+        "bar",
+        "pool",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_386",
+    "hotel_id": "Hotel_3703",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 270,
+      "min_rating": 4.6,
+      "preferred_amenities": [
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_387",
+    "hotel_id": "Hotel_2748",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 277,
+      "min_rating": 4.7,
+      "preferred_amenities": [
+        "gym",
+        "bar",
+        "spa",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_388",
+    "hotel_id": "Hotel_7836",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 234,
+      "min_rating": 4.6,
+      "preferred_amenities": [
+        "pool",
+        "gym",
+        "wifi",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_389",
+    "hotel_id": "Hotel_4110",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 284,
+      "min_rating": 2.9,
+      "preferred_amenities": [
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_390",
+    "hotel_id": "Hotel_5727",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 86,
+      "min_rating": 3.4,
+      "preferred_amenities": [
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_391",
+    "hotel_id": "Hotel_9238",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 363,
+      "min_rating": 4.9,
+      "preferred_amenities": [
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_392",
+    "hotel_id": "Hotel_3294",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 169,
+      "min_rating": 2.9,
+      "preferred_amenities": [
+        "bar",
+        "wifi",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_393",
+    "hotel_id": "Hotel_189",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 198,
+      "min_rating": 4.9,
+      "preferred_amenities": [
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_394",
+    "hotel_id": "Hotel_3306",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 85,
+      "min_rating": 3.0,
+      "preferred_amenities": [
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_395",
+    "hotel_id": "Hotel_4151",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 347,
+      "min_rating": 3.8,
+      "preferred_amenities": [
+        "wifi",
+        "restaurant",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_396",
+    "hotel_id": "Hotel_1108",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 322,
+      "min_rating": 4.2,
+      "preferred_amenities": [
+        "spa",
+        "bar",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_397",
+    "hotel_id": "Hotel_8385",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 358,
+      "min_rating": 2.6,
+      "preferred_amenities": [
+        "spa",
+        "gym",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_398",
+    "hotel_id": "Hotel_9659",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 163,
+      "min_rating": 3.0,
+      "preferred_amenities": [
+        "pool",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_399",
+    "hotel_id": "Hotel_9049",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 130,
+      "min_rating": 3.1,
+      "preferred_amenities": [
+        "pool",
+        "gym",
+        "wifi",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_400",
+    "hotel_id": "Hotel_1073",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 242,
+      "min_rating": 2.7,
+      "preferred_amenities": [
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_401",
+    "hotel_id": "Hotel_5537",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 359,
+      "min_rating": 2.7,
+      "preferred_amenities": [
+        "gym",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_402",
+    "hotel_id": "Hotel_4485",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 167,
+      "min_rating": 3.7,
+      "preferred_amenities": [
+        "spa",
+        "wifi",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_403",
+    "hotel_id": "Hotel_7483",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 153,
+      "min_rating": 3.8,
+      "preferred_amenities": [
+        "spa",
+        "wifi",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_404",
+    "hotel_id": "Hotel_8551",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 174,
+      "min_rating": 4.0,
+      "preferred_amenities": [
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_405",
+    "hotel_id": "Hotel_2016",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 260,
+      "min_rating": 2.6,
+      "preferred_amenities": [
+        "gym",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_406",
+    "hotel_id": "Hotel_4151",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 127,
+      "min_rating": 3.7,
+      "preferred_amenities": [
+        "gym",
+        "pool",
+        "restaurant",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_407",
+    "hotel_id": "Hotel_691",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 93,
+      "min_rating": 3.1,
+      "preferred_amenities": [
+        "wifi",
+        "restaurant",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_408",
+    "hotel_id": "Hotel_7612",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 367,
+      "min_rating": 4.0,
+      "preferred_amenities": [
+        "spa",
+        "gym",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_409",
+    "hotel_id": "Hotel_5470",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 311,
+      "min_rating": 3.0,
+      "preferred_amenities": [
+        "wifi",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_410",
+    "hotel_id": "Hotel_557",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 162,
+      "min_rating": 4.1,
+      "preferred_amenities": [
+        "gym",
+        "wifi",
+        "bar",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_411",
+    "hotel_id": "Hotel_170",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 226,
+      "min_rating": 3.2,
+      "preferred_amenities": [
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_412",
+    "hotel_id": "Hotel_1481",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 297,
+      "min_rating": 4.2,
+      "preferred_amenities": [
+        "spa",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_413",
+    "hotel_id": "Hotel_691",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 334,
+      "min_rating": 4.8,
+      "preferred_amenities": [
+        "wifi",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_414",
+    "hotel_id": "Hotel_2498",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 385,
+      "min_rating": 2.6,
+      "preferred_amenities": [
+        "bar",
+        "spa",
+        "restaurant",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_415",
+    "hotel_id": "Hotel_4561",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 350,
+      "min_rating": 3.0,
+      "preferred_amenities": [
+        "spa",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_416",
+    "hotel_id": "Hotel_5067",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 89,
+      "min_rating": 2.8,
+      "preferred_amenities": [
+        "restaurant",
+        "pool",
+        "bar",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_417",
+    "hotel_id": "Hotel_8801",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 397,
+      "min_rating": 4.3,
+      "preferred_amenities": [
+        "spa",
+        "pool",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_418",
+    "hotel_id": "Hotel_5677",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 188,
+      "min_rating": 3.5,
+      "preferred_amenities": [
+        "bar",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_419",
+    "hotel_id": "Hotel_189",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 331,
+      "min_rating": 3.1,
+      "preferred_amenities": [
+        "spa",
+        "wifi",
+        "gym",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_420",
+    "hotel_id": "Hotel_8956",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 269,
+      "min_rating": 4.4,
+      "preferred_amenities": [
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_421",
+    "hotel_id": "Hotel_9272",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 323,
+      "min_rating": 3.3,
+      "preferred_amenities": [
+        "pool",
+        "spa",
+        "wifi",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_422",
+    "hotel_id": "Hotel_163",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 309,
+      "min_rating": 4.2,
+      "preferred_amenities": [
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_423",
+    "hotel_id": "Hotel_691",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 212,
+      "min_rating": 4.2,
+      "preferred_amenities": [
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_424",
+    "hotel_id": "Hotel_7276",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 373,
+      "min_rating": 3.2,
+      "preferred_amenities": [
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_425",
+    "hotel_id": "Hotel_1514",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 170,
+      "min_rating": 4.6,
+      "preferred_amenities": [
+        "spa",
+        "gym",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_426",
+    "hotel_id": "Hotel_8951",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 321,
+      "min_rating": 3.1,
+      "preferred_amenities": [
+        "pool",
+        "restaurant",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_427",
+    "hotel_id": "Hotel_7836",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 254,
+      "min_rating": 4.5,
+      "preferred_amenities": [
+        "spa",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_428",
+    "hotel_id": "Hotel_5883",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 233,
+      "min_rating": 4.5,
+      "preferred_amenities": [
+        "pool",
+        "restaurant",
+        "wifi",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_429",
+    "hotel_id": "Hotel_1135",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 302,
+      "min_rating": 2.9,
+      "preferred_amenities": [
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_430",
+    "hotel_id": "Hotel_9372",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 111,
+      "min_rating": 4.6,
+      "preferred_amenities": [
+        "bar",
+        "wifi",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_431",
+    "hotel_id": "Hotel_8787",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 184,
+      "min_rating": 3.7,
+      "preferred_amenities": [
+        "wifi",
+        "spa",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_432",
+    "hotel_id": "Hotel_3294",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 377,
+      "min_rating": 2.6,
+      "preferred_amenities": [
+        "bar",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_433",
+    "hotel_id": "Hotel_7899",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 379,
+      "min_rating": 4.6,
+      "preferred_amenities": [
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_434",
+    "hotel_id": "Hotel_2652",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 250,
+      "min_rating": 4.8,
+      "preferred_amenities": [
+        "restaurant",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_435",
+    "hotel_id": "Hotel_6875",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 156,
+      "min_rating": 4.4,
+      "preferred_amenities": [
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_436",
+    "hotel_id": "Hotel_8392",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 316,
+      "min_rating": 4.3,
+      "preferred_amenities": [
+        "bar",
+        "spa",
+        "gym",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_437",
+    "hotel_id": "Hotel_2652",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 211,
+      "min_rating": 4.6,
+      "preferred_amenities": [
+        "spa",
+        "pool",
+        "gym",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_438",
+    "hotel_id": "Hotel_189",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 230,
+      "min_rating": 4.2,
+      "preferred_amenities": [
+        "restaurant",
+        "pool",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_439",
+    "hotel_id": "Hotel_9507",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 376,
+      "min_rating": 2.8,
+      "preferred_amenities": [
+        "pool",
+        "gym",
+        "bar",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_440",
+    "hotel_id": "Hotel_521",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 342,
+      "min_rating": 3.0,
+      "preferred_amenities": [
+        "gym",
+        "bar",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_441",
+    "hotel_id": "Hotel_1541",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 201,
+      "min_rating": 2.9,
+      "preferred_amenities": [
+        "wifi",
+        "bar",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_442",
+    "hotel_id": "Hotel_4286",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 158,
+      "min_rating": 3.7,
+      "preferred_amenities": [
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_443",
+    "hotel_id": "Hotel_6457",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 330,
+      "min_rating": 2.6,
+      "preferred_amenities": [
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_444",
+    "hotel_id": "Hotel_3230",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 143,
+      "min_rating": 2.7,
+      "preferred_amenities": [
+        "restaurant",
+        "bar",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_445",
+    "hotel_id": "Hotel_8701",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 220,
+      "min_rating": 4.7,
+      "preferred_amenities": [
+        "gym",
+        "restaurant",
+        "wifi",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_446",
+    "hotel_id": "Hotel_1514",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 318,
+      "min_rating": 4.4,
+      "preferred_amenities": [
+        "pool",
+        "restaurant",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_447",
+    "hotel_id": "Hotel_8801",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 194,
+      "min_rating": 3.2,
+      "preferred_amenities": [
+        "spa",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_448",
+    "hotel_id": "Hotel_9659",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 248,
+      "min_rating": 3.8,
+      "preferred_amenities": [
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_449",
+    "hotel_id": "Hotel_1975",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 289,
+      "min_rating": 4.0,
+      "preferred_amenities": [
+        "gym",
+        "pool",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_450",
+    "hotel_id": "Hotel_5753",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 99,
+      "min_rating": 4.5,
+      "preferred_amenities": [
+        "wifi",
+        "restaurant",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_451",
+    "hotel_id": "Hotel_5656",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 356,
+      "min_rating": 5.0,
+      "preferred_amenities": [
+        "spa",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_452",
+    "hotel_id": "Hotel_9739",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 118,
+      "min_rating": 3.1,
+      "preferred_amenities": [
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_453",
+    "hotel_id": "Hotel_8365",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 170,
+      "min_rating": 5.0,
+      "preferred_amenities": [
+        "spa",
+        "wifi",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_454",
+    "hotel_id": "Hotel_601",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 353,
+      "min_rating": 3.0,
+      "preferred_amenities": [
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_455",
+    "hotel_id": "Hotel_601",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 194,
+      "min_rating": 4.6,
+      "preferred_amenities": [
+        "pool",
+        "spa",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_456",
+    "hotel_id": "Hotel_3605",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 230,
+      "min_rating": 3.7,
+      "preferred_amenities": [
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_457",
+    "hotel_id": "Hotel_1296",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 224,
+      "min_rating": 4.1,
+      "preferred_amenities": [
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_458",
+    "hotel_id": "Hotel_159",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 217,
+      "min_rating": 3.7,
+      "preferred_amenities": [
+        "restaurant",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_459",
+    "hotel_id": "Hotel_3711",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 303,
+      "min_rating": 3.4,
+      "preferred_amenities": [
+        "restaurant",
+        "wifi",
+        "pool",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_460",
+    "hotel_id": "Hotel_9739",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 265,
+      "min_rating": 3.2,
+      "preferred_amenities": [
+        "restaurant",
+        "gym",
+        "spa",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_461",
+    "hotel_id": "Hotel_537",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 85,
+      "min_rating": 2.5,
+      "preferred_amenities": [
+        "spa",
+        "gym",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_462",
+    "hotel_id": "Hotel_836",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 253,
+      "min_rating": 3.6,
+      "preferred_amenities": [
+        "gym",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_463",
+    "hotel_id": "Hotel_1286",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 338,
+      "min_rating": 4.5,
+      "preferred_amenities": [
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_464",
+    "hotel_id": "Hotel_1887",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 139,
+      "min_rating": 3.6,
+      "preferred_amenities": [
+        "gym",
+        "bar",
+        "wifi",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_465",
+    "hotel_id": "Hotel_8134",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 132,
+      "min_rating": 3.2,
+      "preferred_amenities": [
+        "pool",
+        "wifi",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_466",
+    "hotel_id": "Hotel_5656",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 172,
+      "min_rating": 4.8,
+      "preferred_amenities": [
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_467",
+    "hotel_id": "Hotel_2335",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 267,
+      "min_rating": 4.9,
+      "preferred_amenities": [
+        "bar",
+        "wifi",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_468",
+    "hotel_id": "Hotel_1847",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 117,
+      "min_rating": 4.9,
+      "preferred_amenities": [
+        "gym",
+        "pool",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_469",
+    "hotel_id": "Hotel_372",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 276,
+      "min_rating": 4.1,
+      "preferred_amenities": [
+        "restaurant",
+        "gym",
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_470",
+    "hotel_id": "Hotel_6255",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 374,
+      "min_rating": 3.7,
+      "preferred_amenities": [
+        "gym",
+        "spa",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_471",
+    "hotel_id": "Hotel_7612",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 360,
+      "min_rating": 2.8,
+      "preferred_amenities": [
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_472",
+    "hotel_id": "Hotel_1481",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 127,
+      "min_rating": 3.7,
+      "preferred_amenities": [
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_473",
+    "hotel_id": "Hotel_3067",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 171,
+      "min_rating": 4.8,
+      "preferred_amenities": [
+        "restaurant",
+        "gym",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_474",
+    "hotel_id": "Hotel_691",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 125,
+      "min_rating": 3.5,
+      "preferred_amenities": [
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_475",
+    "hotel_id": "Hotel_9936",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 260,
+      "min_rating": 3.0,
+      "preferred_amenities": [
+        "restaurant",
+        "wifi",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_476",
+    "hotel_id": "Hotel_889",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 390,
+      "min_rating": 3.6,
+      "preferred_amenities": [
+        "spa",
+        "bar",
+        "pool",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_477",
+    "hotel_id": "Hotel_889",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 266,
+      "min_rating": 2.5,
+      "preferred_amenities": [
+        "gym",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_478",
+    "hotel_id": "Hotel_4725",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 150,
+      "min_rating": 4.2,
+      "preferred_amenities": [
+        "restaurant",
+        "spa",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_479",
+    "hotel_id": "Hotel_5656",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 144,
+      "min_rating": 2.5,
+      "preferred_amenities": [
+        "gym",
+        "spa",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_480",
+    "hotel_id": "Hotel_7642",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 203,
+      "min_rating": 3.4,
+      "preferred_amenities": [
+        "bar",
+        "pool",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_481",
+    "hotel_id": "Hotel_1122",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 106,
+      "min_rating": 2.7,
+      "preferred_amenities": [
+        "bar",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_482",
+    "hotel_id": "Hotel_4579",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 347,
+      "min_rating": 4.8,
+      "preferred_amenities": [
+        "bar",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_483",
+    "hotel_id": "Hotel_920",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 242,
+      "min_rating": 4.8,
+      "preferred_amenities": [
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_484",
+    "hotel_id": "Hotel_4151",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 262,
+      "min_rating": 4.5,
+      "preferred_amenities": [
+        "wifi",
+        "bar",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_485",
+    "hotel_id": "Hotel_7148",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 345,
+      "min_rating": 3.8,
+      "preferred_amenities": [
+        "restaurant",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_486",
+    "hotel_id": "Hotel_5922",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 329,
+      "min_rating": 3.8,
+      "preferred_amenities": [
+        "restaurant",
+        "gym",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_487",
+    "hotel_id": "Hotel_4533",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 114,
+      "min_rating": 2.6,
+      "preferred_amenities": [
+        "bar"
+      ]
+    }
+  },
+  {
+    "user_id": "user_488",
+    "hotel_id": "Hotel_8283",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 155,
+      "min_rating": 2.7,
+      "preferred_amenities": [
+        "spa",
+        "gym",
+        "restaurant",
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_489",
+    "hotel_id": "Hotel_2748",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 111,
+      "min_rating": 4.9,
+      "preferred_amenities": [
+        "wifi"
+      ]
+    }
+  },
+  {
+    "user_id": "user_490",
+    "hotel_id": "Hotel_3374",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 388,
+      "min_rating": 3.3,
+      "preferred_amenities": [
+        "bar",
+        "restaurant",
+        "pool",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_491",
+    "hotel_id": "Hotel_9055",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 297,
+      "min_rating": 4.0,
+      "preferred_amenities": [
+        "pool",
+        "spa",
+        "restaurant",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_492",
+    "hotel_id": "Hotel_9117",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 244,
+      "min_rating": 3.5,
+      "preferred_amenities": [
+        "restaurant",
+        "gym",
+        "pool",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_493",
+    "hotel_id": "Hotel_8905",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 203,
+      "min_rating": 3.8,
+      "preferred_amenities": [
+        "bar",
+        "spa",
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_494",
+    "hotel_id": "Hotel_3421",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 181,
+      "min_rating": 5.0,
+      "preferred_amenities": [
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_495",
+    "hotel_id": "Hotel_5228",
+    "preferences": {
+      "preferred_hotel_type": "resort",
+      "max_price": 218,
+      "min_rating": 4.6,
+      "preferred_amenities": [
+        "pool",
+        "restaurant",
+        "spa",
+        "gym"
+      ]
+    }
+  },
+  {
+    "user_id": "user_496",
+    "hotel_id": "Hotel_8385",
+    "preferences": {
+      "preferred_hotel_type": "budget",
+      "max_price": 347,
+      "min_rating": 3.7,
+      "preferred_amenities": [
+        "pool"
+      ]
+    }
+  },
+  {
+    "user_id": "user_497",
+    "hotel_id": "Hotel_8702",
+    "preferences": {
+      "preferred_hotel_type": "boutique",
+      "max_price": 118,
+      "min_rating": 4.3,
+      "preferred_amenities": [
+        "bar",
+        "gym",
+        "spa",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "user_id": "user_498",
+    "hotel_id": "Hotel_192",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 366,
+      "min_rating": 3.5,
+      "preferred_amenities": [
+        "pool",
+        "spa"
+      ]
+    }
+  },
+  {
+    "user_id": "user_499",
+    "hotel_id": "Hotel_537",
+    "preferences": {
+      "preferred_hotel_type": "luxury",
+      "max_price": 127,
+      "min_rating": 4.1,
+      "preferred_amenities": [
+        "gym",
+        "pool",
+        "bar"
+      ]
+    }
+  }
+]
