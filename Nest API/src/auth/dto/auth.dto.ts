@@ -1,4 +1,5 @@
-import { IsEmail, IsNotEmpty, IsString } from 'class-validator';
+import { IsEmail, IsEnum, IsNotEmpty, IsString } from 'class-validator';
+import { UserRole } from 'src/schema/users';
 
 export class ILoginBody {
   @IsEmail()
@@ -23,4 +24,7 @@ export class RegisterBodyDto {
   @IsNotEmpty()
   @IsString()
   pass: string;
+
+  @IsEnum(UserRole, { message: 'role must be Manager or user' })
+  role: UserRole;
 }

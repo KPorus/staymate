@@ -8,16 +8,21 @@ import {
   ParseFilePipe,
   Post,
   Put,
+  Query,
   UploadedFile,
   UseGuards,
   UseInterceptors,
 } from '@nestjs/common';
 import { JwtGuard } from 'src/auth/guard';
 import { HotelsService } from './hotels.service';
-import { Hotels } from 'src/schema/hotels';
-import { UpdateHotelDto } from './dto';
+// import { Hotels } from 'src/schema/hotels';
+import { CreateHotelDto, NearbyHotelsDto, UpdateHotelDto } from './dto';
 import { FileInterceptor } from '@nestjs/platform-express';
 import { AdminGuard } from 'src/auth/guard/admin.guard';
+import { GetUser } from 'src/auth/decorator';
+import { ParseGeoCoordinatesPipe } from './dto/pipe';
+import { ManagerGuard } from 'src/auth/guard/manager.guard';
+import { CommonGuard } from 'src/auth/guard/common.guard';
 
 @Controller('hotels')
 @UseGuards(JwtGuard)
@@ -25,12 +30,20 @@ export class HotelsController {
   constructor(private readonly HotelsService: HotelsService) {}
 
   @Get()
+  @UseGuards(AdminGuard)
   getAllProjects() {
     return this.HotelsService.allhotels();
   }
+
+  @Get('nearby')
+  async getNearbyHotels(@Query() query: NearbyHotelsDto) {
+    const { latitude, longitude } = query;
+    return this.HotelsService.findNearbyHotels(latitude, longitude);
+  }
+
   @HttpCode(200)
   @UseInterceptors(FileInterceptor('file'))
-  @UseGuards(AdminGuard)
+  @UseGuards(ManagerGuard)
   @Post('create')
   createProject(
     @UploadedFile(
@@ -39,8 +52,10 @@ export class HotelsController {
       }),
     )
     file: Express.Multer.File,
-    project: Hotels,
+    @Body(ParseGeoCoordinatesPipe) project: CreateHotelDto,
+    @GetUser() user,
   ) {
+    project.userId = user._id;
     return this.HotelsService.addHotels(file, project);
   }
 
@@ -52,14 +67,18 @@ export class HotelsController {
   }
   @HttpCode(200)
   @Put('/update/:id')
-  @UseGuards(AdminGuard)
-  updateHotelInfo(@Param('id') id: string, @Body() dto: UpdateHotelDto) {
+  @UseGuards(ManagerGuard)
+  updateHotelInfo(
+    @Param('id') id: string,
+    @Body() dto: UpdateHotelDto,
+    @GetUser() user: any,
+  ) {
     // console.log(id, dto);
-    return this.HotelsService.updateHotelById(id, dto);
+    return this.HotelsService.updateHotelById(id, dto, user._id);
   }
   @HttpCode(200)
   @Put('/delete/:id')
-  @UseGuards(AdminGuard)
+  @UseGuards(CommonGuard)
   deleteHotel(@Param('id') id: string) {
     return this.HotelsService.deleteHotelById(id);
   }

@@ -1,18 +1,21 @@
 import random
 import json, os
+import random
 
-# 1. Generate synthetic hotel data
 def generate_hotel_data(num_hotels=200):
     hotel_types = ['luxury', 'budget', 'boutique', 'resort']
     amenities = ['pool', 'gym', 'spa', 'wifi', 'restaurant', 'bar']
 
     hotels = []
     for _ in range(num_hotels):
+        lat = round(random.uniform(10.0, 50.0), 6)
+        lng = round(random.uniform(10.0, 50.0), 6)
+
         hotel = {
-            "name": f"Hotel_{random.randint(1,10000)}",
+            "name": f"Hotel_{random.randint(1, 10000)}",
             "location": {
-                "lat": round(random.uniform(10.0, 50.0), 6),
-                "lng": round(random.uniform(10.0, 50.0), 6),
+                "type": "Point",
+                "coordinates": [lng, lat]  # [longitude, latitude]
             },
             "hotel_type": random.choice(hotel_types),
             "price_per_night": random.randint(50, 500),
@@ -20,6 +23,7 @@ def generate_hotel_data(num_hotels=200):
             "amenities": random.sample(amenities, random.randint(1, 6)),
         }
         hotels.append(hotel)
+
     return hotels
 
 # Save hotels.json

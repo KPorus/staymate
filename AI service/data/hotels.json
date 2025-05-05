@@ -1,2779 +1,1529 @@
 [
   {
-    "name": "Hotel_3230",
+    "name": "Hotel_3720",
     "location": {
-      "lat": 35.823273,
-      "lng": 38.852042
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 324,
-    "rating": 4.1,
-    "amenities": [
-      "wifi",
-      "pool",
-      "gym",
-      "bar",
-      "spa",
-      "restaurant"
-    ]
-  },
-  {
-    "name": "Hotel_9936",
-    "location": {
-      "lat": 31.221882,
-      "lng": 48.637476
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 460,
-    "rating": 4.6,
-    "amenities": [
-      "pool",
-      "bar",
-      "gym"
-    ]
-  },
-  {
-    "name": "Hotel_163",
-    "location": {
-      "lat": 34.070403,
-      "lng": 21.858704
-    },
-    "hotel_type": "budget",
-    "price_per_night": 259,
-    "rating": 3.7,
-    "amenities": [
-      "pool",
-      "spa",
-      "gym",
-      "bar",
-      "wifi"
-    ]
-  },
-  {
-    "name": "Hotel_5235",
-    "location": {
-      "lat": 35.314279,
-      "lng": 16.985574
-    },
-    "hotel_type": "budget",
-    "price_per_night": 340,
-    "rating": 3.4,
-    "amenities": [
-      "wifi",
-      "restaurant",
-      "spa",
-      "bar",
-      "pool"
-    ]
-  },
-  {
-    "name": "Hotel_9080",
-    "location": {
-      "lat": 33.996451,
-      "lng": 21.259979
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 342,
-    "rating": 3.7,
-    "amenities": [
-      "gym"
-    ]
-  },
-  {
-    "name": "Hotel_691",
-    "location": {
-      "lat": 42.445919,
-      "lng": 30.544949
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 186,
-    "rating": 3.2,
-    "amenities": [
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_4865",
-    "location": {
-      "lat": 12.449847,
-      "lng": 36.605851
+      "type": "Point",
+      "coordinates": [
+        42.721628,
+        41.17598
+      ]
     },
     "hotel_type": "resort",
-    "price_per_night": 418,
-    "rating": 2.1,
-    "amenities": [
-      "spa",
-      "pool",
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_2135",
-    "location": {
-      "lat": 14.02762,
-      "lng": 20.783306
-    },
-    "hotel_type": "resort",
-    "price_per_night": 494,
-    "rating": 4.3,
-    "amenities": [
-      "bar",
-      "spa",
-      "restaurant",
-      "pool",
-      "wifi"
-    ]
-  },
-  {
-    "name": "Hotel_5922",
-    "location": {
-      "lat": 42.1317,
-      "lng": 40.434843
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 82,
-    "rating": 2.7,
-    "amenities": [
-      "restaurant",
-      "wifi",
-      "gym",
-      "pool",
-      "spa"
-    ]
-  },
-  {
-    "name": "Hotel_8211",
-    "location": {
-      "lat": 29.047063,
-      "lng": 41.54658
-    },
-    "hotel_type": "resort",
-    "price_per_night": 467,
-    "rating": 4.0,
-    "amenities": [
-      "pool",
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_8134",
-    "location": {
-      "lat": 14.192829,
-      "lng": 29.080017
-    },
-    "hotel_type": "resort",
-    "price_per_night": 431,
-    "rating": 4.7,
-    "amenities": [
-      "pool",
-      "bar",
-      "restaurant"
-    ]
-  },
-  {
-    "name": "Hotel_4533",
-    "location": {
-      "lat": 48.122657,
-      "lng": 21.59003
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 326,
+    "price_per_night": 286,
     "rating": 3.1,
     "amenities": [
-      "spa",
-      "pool",
+      "restaurant",
       "bar",
-      "gym",
-      "wifi"
+      "pool"
     ]
   },
   {
-    "name": "Hotel_3834",
+    "name": "Hotel_2898",
     "location": {
-      "lat": 21.001213,
-      "lng": 42.760268
+      "type": "Point",
+      "coordinates": [
+        44.31123,
+        15.556822
+      ]
     },
     "hotel_type": "luxury",
-    "price_per_night": 245,
-    "rating": 2.3,
+    "price_per_night": 163,
+    "rating": 3.7,
     "amenities": [
-      "spa",
-      "wifi",
-      "gym",
-      "restaurant",
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_6487",
-    "location": {
-      "lat": 30.864383,
-      "lng": 39.155078
-    },
-    "hotel_type": "resort",
-    "price_per_night": 149,
-    "rating": 2.8,
-    "amenities": [
-      "pool",
-      "restaurant",
-      "wifi",
-      "spa",
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_170",
-    "location": {
-      "lat": 48.045,
-      "lng": 14.466791
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 88,
-    "rating": 4.8,
-    "amenities": [
-      "gym",
-      "wifi",
-      "bar",
-      "pool",
       "spa"
     ]
   },
   {
-    "name": "Hotel_5228",
+    "name": "Hotel_8944",
     "location": {
-      "lat": 27.648373,
-      "lng": 15.344455
+      "type": "Point",
+      "coordinates": [
+        18.494132,
+        41.344577
+      ]
     },
-    "hotel_type": "luxury",
-    "price_per_night": 95,
-    "rating": 4.6,
-    "amenities": [
-      "bar",
-      "spa",
-      "wifi",
-      "restaurant",
-      "pool"
-    ]
-  },
-  {
-    "name": "Hotel_8483",
-    "location": {
-      "lat": 16.766474,
-      "lng": 40.608758
-    },
-    "hotel_type": "budget",
-    "price_per_night": 102,
+    "hotel_type": "resort",
+    "price_per_night": 257,
     "rating": 4.8,
     "amenities": [
-      "spa",
-      "pool",
-      "wifi",
-      "gym",
-      "restaurant",
-      "bar"
+      "wifi"
     ]
   },
   {
-    "name": "Hotel_1975",
+    "name": "Hotel_6065",
     "location": {
-      "lat": 44.913595,
-      "lng": 44.362637
+      "type": "Point",
+      "coordinates": [
+        42.744132,
+        18.23597
+      ]
     },
-    "hotel_type": "resort",
-    "price_per_night": 403,
-    "rating": 3.0,
-    "amenities": [
-      "spa",
-      "bar",
-      "wifi",
-      "gym",
-      "pool",
-      "restaurant"
-    ]
-  },
-  {
-    "name": "Hotel_3703",
-    "location": {
-      "lat": 48.439985,
-      "lng": 29.173995
-    },
-    "hotel_type": "resort",
-    "price_per_night": 66,
-    "rating": 2.7,
+    "hotel_type": "boutique",
+    "price_per_night": 208,
+    "rating": 2.5,
     "amenities": [
       "restaurant",
-      "spa",
-      "wifi",
-      "bar",
-      "pool"
+      "wifi"
     ]
   },
   {
-    "name": "Hotel_2748",
+    "name": "Hotel_6217",
     "location": {
-      "lat": 37.102916,
-      "lng": 12.303251
+      "type": "Point",
+      "coordinates": [
+        28.568102,
+        14.50353
+      ]
     },
-    "hotel_type": "budget",
-    "price_per_night": 201,
-    "rating": 2.1,
+    "hotel_type": "boutique",
+    "price_per_night": 418,
+    "rating": 2.4,
     "amenities": [
-      "wifi",
       "gym"
     ]
   },
   {
-    "name": "Hotel_2652",
+    "name": "Hotel_3491",
     "location": {
-      "lat": 39.939486,
-      "lng": 14.809669
-    },
-    "hotel_type": "resort",
-    "price_per_night": 469,
-    "rating": 3.4,
-    "amenities": [
-      "restaurant",
-      "wifi",
-      "gym",
-      "spa",
-      "pool",
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_3066",
-    "location": {
-      "lat": 40.588088,
-      "lng": 23.993037
-    },
-    "hotel_type": "resort",
-    "price_per_night": 462,
-    "rating": 3.5,
-    "amenities": [
-      "gym",
-      "restaurant",
-      "pool",
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_5656",
-    "location": {
-      "lat": 37.211482,
-      "lng": 35.199626
-    },
-    "hotel_type": "budget",
-    "price_per_night": 108,
-    "rating": 3.5,
-    "amenities": [
-      "wifi",
-      "gym",
-      "pool",
-      "restaurant"
-    ]
-  },
-  {
-    "name": "Hotel_7483",
-    "location": {
-      "lat": 21.33147,
-      "lng": 47.262791
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 437,
-    "rating": 2.8,
-    "amenities": [
-      "bar",
-      "pool",
-      "spa",
-      "wifi",
-      "restaurant"
-    ]
-  },
-  {
-    "name": "Hotel_5470",
-    "location": {
-      "lat": 19.690888,
-      "lng": 23.090006
-    },
-    "hotel_type": "budget",
-    "price_per_night": 260,
-    "rating": 2.2,
-    "amenities": [
-      "restaurant",
-      "gym",
-      "bar",
-      "wifi",
-      "spa",
-      "pool"
-    ]
-  },
-  {
-    "name": "Hotel_1657",
-    "location": {
-      "lat": 13.440124,
-      "lng": 12.744952
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 150,
-    "rating": 5.0,
-    "amenities": [
-      "restaurant",
-      "wifi",
-      "pool",
-      "spa",
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_2335",
-    "location": {
-      "lat": 46.171901,
-      "lng": 23.765562
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 107,
-    "rating": 4.7,
-    "amenities": [
-      "spa",
-      "pool",
-      "wifi"
-    ]
-  },
-  {
-    "name": "Hotel_256",
-    "location": {
-      "lat": 47.306046,
-      "lng": 18.579698
+      "type": "Point",
+      "coordinates": [
+        49.290995,
+        20.648775
+      ]
     },
     "hotel_type": "luxury",
-    "price_per_night": 419,
-    "rating": 3.3,
+    "price_per_night": 481,
+    "rating": 4.1,
     "amenities": [
-      "bar",
-      "spa",
-      "gym",
-      "restaurant",
-      "pool"
+      "pool",
+      "gym"
     ]
   },
   {
-    "name": "Hotel_1635",
+    "name": "Hotel_3330",
     "location": {
-      "lat": 38.268972,
-      "lng": 48.001906
+      "type": "Point",
+      "coordinates": [
+        26.081348,
+        22.102217
+      ]
     },
     "hotel_type": "boutique",
-    "price_per_night": 427,
-    "rating": 4.7,
+    "price_per_night": 278,
+    "rating": 2.9,
     "amenities": [
-      "spa",
-      "pool",
-      "wifi",
-      "restaurant"
-    ]
-  },
-  {
-    "name": "Hotel_3374",
-    "location": {
-      "lat": 36.942791,
-      "lng": 48.46857
-    },
-    "hotel_type": "budget",
-    "price_per_night": 188,
-    "rating": 3.9,
-    "amenities": [
-      "bar",
       "wifi"
     ]
   },
   {
-    "name": "Hotel_6819",
+    "name": "Hotel_6098",
     "location": {
-      "lat": 30.171242,
-      "lng": 39.771007
+      "type": "Point",
+      "coordinates": [
+        47.906867,
+        41.489746
+      ]
     },
     "hotel_type": "budget",
-    "price_per_night": 490,
+    "price_per_night": 96,
     "rating": 3.6,
     "amenities": [
       "wifi",
-      "spa",
+      "gym",
+      "pool",
+      "bar",
+      "spa"
+    ]
+  },
+  {
+    "name": "Hotel_2140",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.644269,
+        13.41819
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 262,
+    "rating": 4.9,
+    "amenities": [
+      "pool"
+    ]
+  },
+  {
+    "name": "Hotel_7286",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        11.862025,
+        49.153444
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 108,
+    "rating": 2.2,
+    "amenities": [
+      "pool",
       "gym",
       "restaurant",
+      "spa"
+    ]
+  },
+  {
+    "name": "Hotel_7381",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        39.879818,
+        20.787327
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 359,
+    "rating": 3.1,
+    "amenities": [
+      "restaurant",
+      "pool",
+      "spa",
+      "wifi",
+      "gym",
+      "bar"
+    ]
+  },
+  {
+    "name": "Hotel_2477",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        37.251755,
+        31.225754
+      ]
+    },
+    "hotel_type": "boutique",
+    "price_per_night": 186,
+    "rating": 2.9,
+    "amenities": [
+      "restaurant",
+      "gym",
+      "wifi",
+      "spa",
+      "pool",
+      "bar"
+    ]
+  },
+  {
+    "name": "Hotel_1830",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        22.68926,
+        31.257982
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 407,
+    "rating": 2.4,
+    "amenities": [
+      "pool",
       "bar",
+      "gym",
+      "restaurant",
+      "spa"
+    ]
+  },
+  {
+    "name": "Hotel_9165",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.604234,
+        17.36129
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 213,
+    "rating": 2.4,
+    "amenities": [
+      "bar",
+      "restaurant",
+      "gym"
+    ]
+  },
+  {
+    "name": "Hotel_4394",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        23.321412,
+        22.105809
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 56,
+    "rating": 2.8,
+    "amenities": [
+      "wifi",
+      "restaurant",
+      "gym",
+      "spa",
+      "bar"
+    ]
+  },
+  {
+    "name": "Hotel_3393",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        26.339241,
+        28.604192
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 140,
+    "rating": 4.9,
+    "amenities": [
+      "wifi",
+      "bar",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Hotel_7110",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        14.301047,
+        30.846706
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 158,
+    "rating": 2.9,
+    "amenities": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Hotel_2720",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        34.361089,
+        41.083815
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 328,
+    "rating": 2.9,
+    "amenities": [
+      "pool",
+      "gym",
+      "spa",
+      "wifi",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Hotel_4674",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        39.450517,
+        44.013445
+      ]
+    },
+    "hotel_type": "boutique",
+    "price_per_night": 196,
+    "rating": 3.1,
+    "amenities": [
+      "bar",
+      "gym",
+      "pool"
+    ]
+  },
+  {
+    "name": "Hotel_421",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        42.196647,
+        41.275023
+      ]
+    },
+    "hotel_type": "boutique",
+    "price_per_night": 208,
+    "rating": 2.4,
+    "amenities": [
+      "restaurant",
+      "pool",
+      "gym",
+      "bar",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "name": "Hotel_6161",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.97278,
+        36.371602
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 87,
+    "rating": 3.4,
+    "amenities": [
+      "restaurant",
+      "bar",
+      "spa",
+      "gym",
+      "pool"
+    ]
+  },
+  {
+    "name": "Hotel_4569",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        24.642114,
+        39.238677
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 407,
+    "rating": 3.4,
+    "amenities": [
+      "gym",
+      "spa",
       "pool"
     ]
   },
   {
     "name": "Hotel_189",
     "location": {
-      "lat": 14.728275,
-      "lng": 27.468178
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 271,
-    "rating": 2.8,
-    "amenities": [
-      "pool"
-    ]
-  },
-  {
-    "name": "Hotel_7899",
-    "location": {
-      "lat": 39.960318,
-      "lng": 27.076484
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 273,
-    "rating": 4.6,
-    "amenities": [
-      "pool",
-      "wifi",
-      "gym",
-      "spa",
-      "bar",
-      "restaurant"
-    ]
-  },
-  {
-    "name": "Hotel_917",
-    "location": {
-      "lat": 10.791866,
-      "lng": 42.323893
+      "type": "Point",
+      "coordinates": [
+        45.747393,
+        37.86497
+      ]
     },
     "hotel_type": "budget",
-    "price_per_night": 285,
-    "rating": 4.6,
+    "price_per_night": 388,
+    "rating": 4.0,
     "amenities": [
       "restaurant",
-      "pool"
-    ]
-  },
-  {
-    "name": "Hotel_9957",
-    "location": {
-      "lat": 43.531845,
-      "lng": 10.959329
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 386,
-    "rating": 4.6,
-    "amenities": [
-      "spa"
-    ]
-  },
-  {
-    "name": "Hotel_1541",
-    "location": {
-      "lat": 19.026699,
-      "lng": 48.055633
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 66,
-    "rating": 3.3,
-    "amenities": [
-      "spa",
       "bar",
-      "restaurant",
-      "gym",
       "wifi"
     ]
   },
   {
-    "name": "Hotel_5261",
+    "name": "Hotel_5527",
     "location": {
-      "lat": 17.350743,
-      "lng": 33.393527
-    },
-    "hotel_type": "budget",
-    "price_per_night": 264,
-    "rating": 3.5,
-    "amenities": [
-      "restaurant",
-      "bar",
-      "wifi",
-      "gym",
-      "spa"
-    ]
-  },
-  {
-    "name": "Hotel_9507",
-    "location": {
-      "lat": 36.96818,
-      "lng": 10.035703
+      "type": "Point",
+      "coordinates": [
+        12.403484,
+        41.828345
+      ]
     },
     "hotel_type": "resort",
-    "price_per_night": 291,
-    "rating": 2.4,
-    "amenities": [
-      "gym",
-      "spa"
-    ]
-  },
-  {
-    "name": "Hotel_5867",
-    "location": {
-      "lat": 14.227198,
-      "lng": 36.553514
-    },
-    "hotel_type": "budget",
-    "price_per_night": 393,
-    "rating": 3.3,
-    "amenities": [
-      "restaurant"
-    ]
-  },
-  {
-    "name": "Hotel_1299",
-    "location": {
-      "lat": 47.571553,
-      "lng": 31.010517
-    },
-    "hotel_type": "resort",
-    "price_per_night": 186,
-    "rating": 2.6,
-    "amenities": [
-      "gym",
-      "restaurant",
-      "bar",
-      "wifi",
-      "pool",
-      "spa"
-    ]
-  },
-  {
-    "name": "Hotel_6223",
-    "location": {
-      "lat": 28.716591,
-      "lng": 20.97426
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 56,
+    "price_per_night": 370,
     "rating": 2.9,
     "amenities": [
-      "restaurant",
       "bar",
-      "wifi",
-      "spa"
-    ]
-  },
-  {
-    "name": "Hotel_2016",
-    "location": {
-      "lat": 19.294968,
-      "lng": 49.823166
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 268,
-    "rating": 2.4,
-    "amenities": [
-      "spa",
       "restaurant",
       "wifi",
       "pool",
-      "gym",
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_746",
-    "location": {
-      "lat": 20.952484,
-      "lng": 32.485762
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 50,
-    "rating": 3.8,
-    "amenities": [
-      "gym",
-      "wifi",
-      "pool",
-      "bar",
-      "spa"
-    ]
-  },
-  {
-    "name": "Hotel_3670",
-    "location": {
-      "lat": 23.775714,
-      "lng": 18.602412
-    },
-    "hotel_type": "resort",
-    "price_per_night": 494,
-    "rating": 4.1,
-    "amenities": [
-      "restaurant",
       "gym"
     ]
   },
   {
-    "name": "Hotel_8681",
+    "name": "Hotel_8169",
     "location": {
-      "lat": 19.619828,
-      "lng": 20.866624
+      "type": "Point",
+      "coordinates": [
+        21.10509,
+        22.827488
+      ]
     },
-    "hotel_type": "boutique",
-    "price_per_night": 282,
-    "rating": 3.1,
+    "hotel_type": "resort",
+    "price_per_night": 50,
+    "rating": 3.6,
     "amenities": [
-      "bar",
-      "pool",
+      "wifi",
       "restaurant"
     ]
   },
   {
-    "name": "Hotel_9371",
+    "name": "Hotel_6992",
     "location": {
-      "lat": 32.903548,
-      "lng": 41.226761
+      "type": "Point",
+      "coordinates": [
+        49.399602,
+        17.313452
+      ]
+    },
+    "hotel_type": "boutique",
+    "price_per_night": 101,
+    "rating": 2.4,
+    "amenities": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Hotel_1830",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        49.902862,
+        39.610031
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 250,
+    "rating": 3.8,
+    "amenities": [
+      "wifi",
+      "pool",
+      "spa"
+    ]
+  },
+  {
+    "name": "Hotel_8294",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        42.470157,
+        20.784656
+      ]
     },
     "hotel_type": "luxury",
-    "price_per_night": 422,
+    "price_per_night": 392,
+    "rating": 2.9,
+    "amenities": [
+      "pool",
+      "spa",
+      "gym",
+      "wifi",
+      "bar"
+    ]
+  },
+  {
+    "name": "Hotel_5508",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.403697,
+        49.277369
+      ]
+    },
+    "hotel_type": "boutique",
+    "price_per_night": 265,
     "rating": 2.7,
     "amenities": [
-      "restaurant",
-      "spa",
-      "gym",
-      "bar",
-      "wifi",
-      "pool"
-    ]
-  },
-  {
-    "name": "Hotel_1277",
-    "location": {
-      "lat": 29.552576,
-      "lng": 39.875254
-    },
-    "hotel_type": "resort",
-    "price_per_night": 465,
-    "rating": 3.6,
-    "amenities": [
-      "restaurant",
       "pool",
-      "wifi",
-      "bar",
-      "spa",
-      "gym"
+      "gym",
+      "spa"
     ]
   },
   {
-    "name": "Hotel_1799",
+    "name": "Hotel_1036",
     "location": {
-      "lat": 41.85267,
-      "lng": 42.004483
+      "type": "Point",
+      "coordinates": [
+        46.94371,
+        41.036646
+      ]
     },
     "hotel_type": "budget",
-    "price_per_night": 137,
+    "price_per_night": 288,
     "rating": 4.1,
     "amenities": [
-      "gym",
-      "wifi",
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_3581",
-    "location": {
-      "lat": 16.444088,
-      "lng": 22.392773
-    },
-    "hotel_type": "budget",
-    "price_per_night": 399,
-    "rating": 4.5,
-    "amenities": [
+      "restaurant",
       "spa",
-      "bar",
-      "wifi",
-      "pool"
+      "pool",
+      "wifi"
     ]
   },
   {
-    "name": "Hotel_6510",
+    "name": "Hotel_3064",
     "location": {
-      "lat": 35.630751,
-      "lng": 14.422724
+      "type": "Point",
+      "coordinates": [
+        40.505478,
+        47.853552
+      ]
     },
     "hotel_type": "resort",
-    "price_per_night": 96,
+    "price_per_night": 374,
     "rating": 2.2,
     "amenities": [
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_3715",
-    "location": {
-      "lat": 23.40529,
-      "lng": 13.816962
-    },
-    "hotel_type": "budget",
-    "price_per_night": 461,
-    "rating": 2.9,
-    "amenities": [
-      "gym",
       "spa",
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_1733",
-    "location": {
-      "lat": 28.820896,
-      "lng": 48.30895
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 489,
-    "rating": 4.6,
-    "amenities": [
-      "gym",
-      "restaurant",
-      "bar",
-      "spa",
-      "wifi"
-    ]
-  },
-  {
-    "name": "Hotel_1122",
-    "location": {
-      "lat": 26.895254,
-      "lng": 12.650529
-    },
-    "hotel_type": "resort",
-    "price_per_night": 255,
-    "rating": 2.4,
-    "amenities": [
       "wifi",
-      "restaurant",
-      "spa",
+      "gym",
       "pool",
-      "bar",
-      "gym"
-    ]
-  },
-  {
-    "name": "Hotel_7836",
-    "location": {
-      "lat": 33.515871,
-      "lng": 40.527113
-    },
-    "hotel_type": "budget",
-    "price_per_night": 391,
-    "rating": 3.4,
-    "amenities": [
       "restaurant",
-      "gym"
+      "bar"
     ]
   },
   {
-    "name": "Hotel_2055",
+    "name": "Hotel_7138",
     "location": {
-      "lat": 28.937251,
-      "lng": 21.582722
+      "type": "Point",
+      "coordinates": [
+        28.807686,
+        33.499575
+      ]
     },
     "hotel_type": "luxury",
-    "price_per_night": 132,
-    "rating": 3.5,
+    "price_per_night": 457,
+    "rating": 3.9,
     "amenities": [
-      "restaurant",
-      "pool",
       "spa"
     ]
   },
   {
-    "name": "Hotel_842",
+    "name": "Hotel_45",
     "location": {
-      "lat": 22.492047,
-      "lng": 40.648023
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 496,
-    "rating": 4.6,
-    "amenities": [
-      "gym",
-      "restaurant",
-      "wifi",
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_896",
-    "location": {
-      "lat": 12.381125,
-      "lng": 43.874511
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 251,
-    "rating": 2.9,
-    "amenities": [
-      "spa",
-      "gym",
-      "bar",
-      "wifi"
-    ]
-  },
-  {
-    "name": "Hotel_902",
-    "location": {
-      "lat": 33.801502,
-      "lng": 28.625356
-    },
-    "hotel_type": "resort",
-    "price_per_night": 316,
-    "rating": 2.5,
-    "amenities": [
-      "spa",
-      "restaurant",
-      "bar",
-      "wifi",
-      "pool"
-    ]
-  },
-  {
-    "name": "Hotel_3521",
-    "location": {
-      "lat": 14.192675,
-      "lng": 43.343337
-    },
-    "hotel_type": "resort",
-    "price_per_night": 491,
-    "rating": 3.6,
-    "amenities": [
-      "spa",
-      "gym",
-      "restaurant"
-    ]
-  },
-  {
-    "name": "Hotel_9272",
-    "location": {
-      "lat": 35.235646,
-      "lng": 13.474851
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 494,
-    "rating": 4.4,
-    "amenities": [
-      "gym",
-      "wifi",
-      "bar",
-      "restaurant"
-    ]
-  },
-  {
-    "name": "Hotel_836",
-    "location": {
-      "lat": 48.33071,
-      "lng": 28.045234
-    },
-    "hotel_type": "budget",
-    "price_per_night": 348,
-    "rating": 3.0,
-    "amenities": [
-      "spa",
-      "gym",
-      "wifi",
-      "restaurant",
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_4579",
-    "location": {
-      "lat": 13.287031,
-      "lng": 44.873443
-    },
-    "hotel_type": "budget",
-    "price_per_night": 347,
-    "rating": 3.6,
-    "amenities": [
-      "pool",
-      "bar",
-      "restaurant"
-    ]
-  },
-  {
-    "name": "Hotel_4725",
-    "location": {
-      "lat": 42.950352,
-      "lng": 12.009406
-    },
-    "hotel_type": "resort",
-    "price_per_night": 96,
-    "rating": 3.1,
-    "amenities": [
-      "gym",
-      "wifi",
-      "pool",
-      "spa",
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_1481",
-    "location": {
-      "lat": 26.63086,
-      "lng": 27.545316
-    },
-    "hotel_type": "resort",
-    "price_per_night": 141,
-    "rating": 4.8,
-    "amenities": [
-      "restaurant",
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_8931",
-    "location": {
-      "lat": 25.656715,
-      "lng": 27.891717
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 292,
-    "rating": 2.9,
-    "amenities": [
-      "spa",
-      "bar",
-      "pool",
-      "wifi"
-    ]
-  },
-  {
-    "name": "Hotel_9241",
-    "location": {
-      "lat": 18.428557,
-      "lng": 10.292028
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 341,
-    "rating": 3.5,
-    "amenities": [
-      "restaurant",
-      "bar",
-      "wifi",
-      "pool",
-      "gym",
-      "spa"
-    ]
-  },
-  {
-    "name": "Hotel_537",
-    "location": {
-      "lat": 22.778433,
-      "lng": 27.337516
+      "type": "Point",
+      "coordinates": [
+        28.173728,
+        24.933397
+      ]
     },
     "hotel_type": "boutique",
-    "price_per_night": 430,
-    "rating": 2.8,
-    "amenities": [
-      "spa",
-      "restaurant"
-    ]
-  },
-  {
-    "name": "Hotel_2111",
-    "location": {
-      "lat": 41.949896,
-      "lng": 35.484416
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 474,
+    "price_per_night": 281,
     "rating": 2.3,
     "amenities": [
-      "gym",
-      "wifi",
-      "bar",
-      "pool",
-      "restaurant"
-    ]
-  },
-  {
-    "name": "Hotel_6089",
-    "location": {
-      "lat": 37.293771,
-      "lng": 16.291243
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 227,
-    "rating": 4.6,
-    "amenities": [
-      "restaurant",
-      "spa",
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_4151",
-    "location": {
-      "lat": 33.655467,
-      "lng": 42.177022
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 286,
-    "rating": 2.8,
-    "amenities": [
-      "spa",
-      "restaurant",
-      "wifi",
-      "pool",
-      "gym"
-    ]
-  },
-  {
-    "name": "Hotel_2018",
-    "location": {
-      "lat": 40.295447,
-      "lng": 43.141947
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 185,
-    "rating": 4.4,
-    "amenities": [
-      "pool",
-      "restaurant"
-    ]
-  },
-  {
-    "name": "Hotel_6390",
-    "location": {
-      "lat": 32.989416,
-      "lng": 48.377766
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 369,
-    "rating": 3.7,
-    "amenities": [
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_6552",
-    "location": {
-      "lat": 41.472746,
-      "lng": 14.069482
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 76,
-    "rating": 3.8,
-    "amenities": [
-      "wifi",
-      "bar",
-      "spa"
-    ]
-  },
-  {
-    "name": "Hotel_5656",
-    "location": {
-      "lat": 14.253137,
-      "lng": 35.330908
-    },
-    "hotel_type": "resort",
-    "price_per_night": 153,
-    "rating": 3.9,
-    "amenities": [
       "pool",
       "gym",
       "restaurant",
       "bar",
-      "wifi",
-      "spa"
-    ]
-  },
-  {
-    "name": "Hotel_5529",
-    "location": {
-      "lat": 33.344116,
-      "lng": 44.023975
-    },
-    "hotel_type": "budget",
-    "price_per_night": 456,
-    "rating": 3.9,
-    "amenities": [
-      "pool",
-      "spa",
-      "bar",
-      "gym",
-      "restaurant",
       "wifi"
     ]
   },
   {
-    "name": "Hotel_8724",
+    "name": "Hotel_3290",
     "location": {
-      "lat": 43.586778,
-      "lng": 19.888268
+      "type": "Point",
+      "coordinates": [
+        27.001022,
+        47.408703
+      ]
     },
-    "hotel_type": "resort",
-    "price_per_night": 261,
-    "rating": 2.9,
-    "amenities": [
-      "restaurant",
-      "spa",
-      "gym",
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_6713",
-    "location": {
-      "lat": 44.012973,
-      "lng": 16.119919
-    },
-    "hotel_type": "resort",
-    "price_per_night": 279,
-    "rating": 3.8,
-    "amenities": [
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_9049",
-    "location": {
-      "lat": 38.840927,
-      "lng": 10.84705
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 326,
-    "rating": 4.1,
-    "amenities": [
-      "pool",
-      "wifi",
-      "spa",
-      "restaurant",
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_521",
-    "location": {
-      "lat": 28.004421,
-      "lng": 10.134039
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 158,
+    "hotel_type": "budget",
+    "price_per_night": 219,
     "rating": 3.6,
     "amenities": [
-      "wifi",
-      "pool",
-      "restaurant"
-    ]
-  },
-  {
-    "name": "Hotel_7197",
-    "location": {
-      "lat": 39.125912,
-      "lng": 37.931706
-    },
-    "hotel_type": "resort",
-    "price_per_night": 318,
-    "rating": 2.0,
-    "amenities": [
-      "wifi",
+      "spa",
       "restaurant",
       "gym",
-      "pool",
-      "spa",
       "bar"
     ]
   },
   {
-    "name": "Hotel_832",
+    "name": "Hotel_2242",
     "location": {
-      "lat": 48.188047,
-      "lng": 35.026582
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 213,
-    "rating": 4.1,
-    "amenities": [
-      "wifi"
-    ]
-  },
-  {
-    "name": "Hotel_5677",
-    "location": {
-      "lat": 36.321255,
-      "lng": 42.770076
+      "type": "Point",
+      "coordinates": [
+        12.965288,
+        40.842638
+      ]
     },
     "hotel_type": "budget",
-    "price_per_night": 280,
-    "rating": 2.1,
+    "price_per_night": 173,
+    "rating": 2.4,
     "amenities": [
-      "restaurant",
-      "wifi"
-    ]
-  },
-  {
-    "name": "Hotel_8534",
-    "location": {
-      "lat": 34.09017,
-      "lng": 29.299463
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 329,
-    "rating": 4.6,
-    "amenities": [
+      "pool",
       "spa",
+      "wifi",
       "bar",
-      "pool",
-      "gym",
-      "wifi"
+      "restaurant"
     ]
   },
   {
-    "name": "Hotel_20",
+    "name": "Hotel_8751",
     "location": {
-      "lat": 16.538499,
-      "lng": 45.20452
+      "type": "Point",
+      "coordinates": [
+        12.476131,
+        25.505179
+      ]
     },
-    "hotel_type": "resort",
-    "price_per_night": 471,
-    "rating": 4.7,
+    "hotel_type": "budget",
+    "price_per_night": 363,
+    "rating": 4.5,
     "amenities": [
+      "restaurant",
+      "bar",
       "spa",
-      "restaurant",
+      "wifi",
       "gym",
-      "pool",
-      "wifi"
-    ]
-  },
-  {
-    "name": "Hotel_8801",
-    "location": {
-      "lat": 23.991259,
-      "lng": 18.505119
-    },
-    "hotel_type": "resort",
-    "price_per_night": 394,
-    "rating": 2.8,
-    "amenities": [
-      "restaurant",
-      "gym",
-      "bar",
-      "pool",
-      "wifi"
-    ]
-  },
-  {
-    "name": "Hotel_3067",
-    "location": {
-      "lat": 24.34505,
-      "lng": 40.130424
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 305,
-    "rating": 3.8,
-    "amenities": [
       "pool"
     ]
   },
   {
-    "name": "Hotel_920",
+    "name": "Hotel_3410",
     "location": {
-      "lat": 30.270159,
-      "lng": 18.619351
+      "type": "Point",
+      "coordinates": [
+        23.950756,
+        42.383513
+      ]
     },
-    "hotel_type": "budget",
-    "price_per_night": 131,
-    "rating": 3.5,
+    "hotel_type": "resort",
+    "price_per_night": 325,
+    "rating": 4.4,
     "amenities": [
-      "spa",
-      "gym",
+      "restaurant",
       "pool",
       "wifi",
+      "gym",
+      "bar",
+      "spa"
+    ]
+  },
+  {
+    "name": "Hotel_3555",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.138908,
+        44.639333
+      ]
+    },
+    "hotel_type": "boutique",
+    "price_per_night": 464,
+    "rating": 4.2,
+    "amenities": [
+      "pool",
+      "spa",
+      "bar",
+      "gym"
+    ]
+  },
+  {
+    "name": "Hotel_1376",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        11.211051,
+        18.088252
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 120,
+    "rating": 3.8,
+    "amenities": [
       "restaurant",
+      "wifi",
+      "pool",
+      "gym",
+      "bar",
+      "spa"
+    ]
+  },
+  {
+    "name": "Hotel_1226",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        24.287163,
+        46.76983
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 158,
+    "rating": 3.9,
+    "amenities": [
+      "pool",
+      "bar",
+      "restaurant",
+      "spa"
+    ]
+  },
+  {
+    "name": "Hotel_7518",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        28.380222,
+        34.238847
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 79,
+    "rating": 4.0,
+    "amenities": [
+      "wifi",
+      "restaurant",
+      "spa",
       "bar"
     ]
   },
   {
-    "name": "Hotel_9117",
+    "name": "Hotel_7124",
     "location": {
-      "lat": 42.055525,
-      "lng": 32.231467
+      "type": "Point",
+      "coordinates": [
+        45.904326,
+        17.244174
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 470,
+    "rating": 4.1,
+    "amenities": [
+      "gym"
+    ]
+  },
+  {
+    "name": "Hotel_8998",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        32.304451,
+        18.285634
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 95,
+    "rating": 3.4,
+    "amenities": [
+      "pool",
+      "gym",
+      "bar"
+    ]
+  },
+  {
+    "name": "Hotel_5589",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        42.672615,
+        22.878654
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 248,
+    "rating": 3.6,
+    "amenities": [
+      "spa",
+      "bar",
+      "gym"
+    ]
+  },
+  {
+    "name": "Hotel_9510",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        36.565756,
+        18.704163
+      ]
     },
     "hotel_type": "boutique",
     "price_per_night": 230,
-    "rating": 2.8,
+    "rating": 4.0,
     "amenities": [
-      "gym",
-      "bar",
       "wifi",
+      "bar",
       "spa",
       "pool"
     ]
   },
   {
-    "name": "Hotel_5883",
+    "name": "Hotel_7050",
     "location": {
-      "lat": 19.568226,
-      "lng": 42.522257
+      "type": "Point",
+      "coordinates": [
+        21.943782,
+        26.333478
+      ]
     },
     "hotel_type": "resort",
-    "price_per_night": 348,
-    "rating": 4.8,
-    "amenities": [
-      "gym",
-      "bar",
-      "wifi"
-    ]
-  },
-  {
-    "name": "Hotel_826",
-    "location": {
-      "lat": 20.774519,
-      "lng": 37.38625
-    },
-    "hotel_type": "budget",
-    "price_per_night": 310,
-    "rating": 2.0,
-    "amenities": [
-      "gym",
-      "restaurant",
-      "pool",
-      "spa",
-      "wifi",
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_3149",
-    "location": {
-      "lat": 29.809122,
-      "lng": 34.20659
-    },
-    "hotel_type": "resort",
-    "price_per_night": 328,
-    "rating": 2.7,
-    "amenities": [
-      "spa",
-      "bar",
-      "wifi",
-      "restaurant",
-      "pool",
-      "gym"
-    ]
-  },
-  {
-    "name": "Hotel_3306",
-    "location": {
-      "lat": 44.131444,
-      "lng": 34.607521
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 413,
+    "price_per_night": 179,
     "rating": 2.2,
     "amenities": [
-      "wifi"
-    ]
-  },
-  {
-    "name": "Hotel_3421",
-    "location": {
-      "lat": 19.653759,
-      "lng": 21.971717
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 315,
-    "rating": 3.8,
-    "amenities": [
-      "gym",
-      "wifi",
       "bar",
-      "spa",
+      "wifi",
       "pool",
-      "restaurant"
-    ]
-  },
-  {
-    "name": "Hotel_9238",
-    "location": {
-      "lat": 22.055029,
-      "lng": 43.577831
-    },
-    "hotel_type": "budget",
-    "price_per_night": 218,
-    "rating": 3.6,
-    "amenities": [
-      "pool"
-    ]
-  },
-  {
-    "name": "Hotel_159",
-    "location": {
-      "lat": 31.870984,
-      "lng": 30.53516
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 264,
-    "rating": 4.5,
-    "amenities": [
-      "gym",
-      "bar",
-      "wifi"
-    ]
-  },
-  {
-    "name": "Hotel_4110",
-    "location": {
-      "lat": 36.144382,
-      "lng": 42.407952
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 401,
-    "rating": 4.5,
-    "amenities": [
       "restaurant",
       "spa",
-      "pool",
-      "wifi",
-      "gym",
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_3605",
-    "location": {
-      "lat": 39.121736,
-      "lng": 10.935385
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 404,
-    "rating": 2.7,
-    "amenities": [
-      "restaurant",
-      "bar",
-      "wifi"
-    ]
-  },
-  {
-    "name": "Hotel_9459",
-    "location": {
-      "lat": 20.777247,
-      "lng": 19.345238
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 142,
-    "rating": 2.3,
-    "amenities": [
-      "restaurant"
-    ]
-  },
-  {
-    "name": "Hotel_9942",
-    "location": {
-      "lat": 25.852527,
-      "lng": 16.02937
-    },
-    "hotel_type": "budget",
-    "price_per_night": 123,
-    "rating": 3.6,
-    "amenities": [
-      "gym",
-      "wifi"
-    ]
-  },
-  {
-    "name": "Hotel_3987",
-    "location": {
-      "lat": 13.031535,
-      "lng": 19.748313
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 254,
-    "rating": 4.9,
-    "amenities": [
-      "gym",
-      "restaurant"
-    ]
-  },
-  {
-    "name": "Hotel_8676",
-    "location": {
-      "lat": 13.908864,
-      "lng": 38.609303
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 295,
-    "rating": 3.6,
-    "amenities": [
-      "spa",
-      "bar",
-      "gym",
-      "pool"
-    ]
-  },
-  {
-    "name": "Hotel_8365",
-    "location": {
-      "lat": 27.654919,
-      "lng": 44.334137
-    },
-    "hotel_type": "resort",
-    "price_per_night": 296,
-    "rating": 3.6,
-    "amenities": [
-      "restaurant",
-      "pool"
-    ]
-  },
-  {
-    "name": "Hotel_5537",
-    "location": {
-      "lat": 26.864861,
-      "lng": 49.474985
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 308,
-    "rating": 3.8,
-    "amenities": [
-      "gym",
-      "restaurant",
-      "spa",
-      "wifi",
-      "bar",
-      "pool"
-    ]
-  },
-  {
-    "name": "Hotel_6482",
-    "location": {
-      "lat": 47.816746,
-      "lng": 14.981993
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 444,
-    "rating": 2.6,
-    "amenities": [
-      "spa",
-      "wifi",
-      "restaurant",
-      "pool",
-      "bar",
       "gym"
     ]
   },
   {
-    "name": "Hotel_4318",
+    "name": "Hotel_3296",
     "location": {
-      "lat": 14.392468,
-      "lng": 47.964566
+      "type": "Point",
+      "coordinates": [
+        11.14294,
+        25.80041
+      ]
     },
-    "hotel_type": "resort",
-    "price_per_night": 80,
-    "rating": 2.7,
-    "amenities": [
-      "restaurant",
-      "gym",
-      "spa",
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_4991",
-    "location": {
-      "lat": 46.928977,
-      "lng": 35.741704
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 264,
-    "rating": 4.8,
-    "amenities": [
-      "pool",
-      "restaurant",
-      "bar",
-      "gym"
-    ]
-  },
-  {
-    "name": "Hotel_5086",
-    "location": {
-      "lat": 26.740967,
-      "lng": 17.68216
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 378,
-    "rating": 4.1,
-    "amenities": [
-      "restaurant"
-    ]
-  },
-  {
-    "name": "Hotel_325",
-    "location": {
-      "lat": 23.47377,
-      "lng": 29.008876
-    },
-    "hotel_type": "resort",
-    "price_per_night": 97,
+    "hotel_type": "budget",
+    "price_per_night": 84,
     "rating": 3.3,
     "amenities": [
-      "wifi",
-      "restaurant",
       "bar",
-      "pool",
-      "spa",
-      "gym"
-    ]
-  },
-  {
-    "name": "Hotel_8551",
-    "location": {
-      "lat": 23.61694,
-      "lng": 16.371036
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 131,
-    "rating": 3.3,
-    "amenities": [
-      "gym"
-    ]
-  },
-  {
-    "name": "Hotel_1820",
-    "location": {
-      "lat": 26.423864,
-      "lng": 36.828307
-    },
-    "hotel_type": "resort",
-    "price_per_night": 255,
-    "rating": 2.3,
-    "amenities": [
-      "pool",
-      "restaurant",
-      "spa",
       "wifi",
-      "gym"
-    ]
-  },
-  {
-    "name": "Hotel_1264",
-    "location": {
-      "lat": 16.207544,
-      "lng": 39.460415
-    },
-    "hotel_type": "budget",
-    "price_per_night": 92,
-    "rating": 4.4,
-    "amenities": [
-      "spa"
-    ]
-  },
-  {
-    "name": "Hotel_8592",
-    "location": {
-      "lat": 20.234629,
-      "lng": 23.831818
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 146,
-    "rating": 3.5,
-    "amenities": [
-      "spa",
-      "restaurant",
       "gym",
       "pool",
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_9170",
-    "location": {
-      "lat": 12.969409,
-      "lng": 41.149948
-    },
-    "hotel_type": "budget",
-    "price_per_night": 166,
-    "rating": 4.9,
-    "amenities": [
-      "wifi"
-    ]
-  },
-  {
-    "name": "Hotel_431",
-    "location": {
-      "lat": 46.043242,
-      "lng": 46.817508
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 404,
-    "rating": 4.1,
-    "amenities": [
-      "pool",
-      "restaurant",
       "spa",
-      "gym"
-    ]
-  },
-  {
-    "name": "Hotel_98",
-    "location": {
-      "lat": 25.257724,
-      "lng": 30.607809
-    },
-    "hotel_type": "resort",
-    "price_per_night": 296,
-    "rating": 3.4,
-    "amenities": [
-      "pool",
-      "wifi",
-      "restaurant",
-      "spa",
-      "bar",
-      "gym"
-    ]
-  },
-  {
-    "name": "Hotel_8905",
-    "location": {
-      "lat": 15.575103,
-      "lng": 23.513172
-    },
-    "hotel_type": "budget",
-    "price_per_night": 302,
-    "rating": 3.4,
-    "amenities": [
       "restaurant"
     ]
   },
   {
-    "name": "Hotel_3711",
+    "name": "Hotel_6648",
     "location": {
-      "lat": 47.03643,
-      "lng": 35.359524
+      "type": "Point",
+      "coordinates": [
+        10.323354,
+        35.749294
+      ]
     },
     "hotel_type": "boutique",
     "price_per_night": 310,
-    "rating": 3.1,
-    "amenities": [
-      "pool",
-      "wifi",
-      "spa",
-      "bar",
-      "restaurant"
-    ]
-  },
-  {
-    "name": "Hotel_1851",
-    "location": {
-      "lat": 37.559171,
-      "lng": 33.997567
-    },
-    "hotel_type": "resort",
-    "price_per_night": 237,
-    "rating": 4.7,
-    "amenities": [
-      "wifi",
-      "spa"
-    ]
-  },
-  {
-    "name": "Hotel_7845",
-    "location": {
-      "lat": 33.573953,
-      "lng": 42.489536
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 122,
-    "rating": 3.4,
-    "amenities": [
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_9433",
-    "location": {
-      "lat": 28.633933,
-      "lng": 37.980128
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 263,
-    "rating": 2.7,
-    "amenities": [
-      "gym",
-      "wifi"
-    ]
-  },
-  {
-    "name": "Hotel_7347",
-    "location": {
-      "lat": 27.180432,
-      "lng": 42.045214
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 343,
-    "rating": 3.6,
-    "amenities": [
-      "pool"
-    ]
-  },
-  {
-    "name": "Hotel_8701",
-    "location": {
-      "lat": 47.960103,
-      "lng": 28.166404
-    },
-    "hotel_type": "resort",
-    "price_per_night": 380,
-    "rating": 2.8,
-    "amenities": [
-      "gym",
-      "wifi",
-      "bar",
-      "pool",
-      "restaurant"
-    ]
-  },
-  {
-    "name": "Hotel_86",
-    "location": {
-      "lat": 49.612226,
-      "lng": 33.679842
-    },
-    "hotel_type": "budget",
-    "price_per_night": 211,
-    "rating": 4.7,
-    "amenities": [
-      "restaurant"
-    ]
-  },
-  {
-    "name": "Hotel_7612",
-    "location": {
-      "lat": 36.04407,
-      "lng": 31.755079
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 395,
-    "rating": 2.5,
-    "amenities": [
-      "gym",
-      "spa",
-      "bar",
-      "restaurant",
-      "pool",
-      "wifi"
-    ]
-  },
-  {
-    "name": "Hotel_1514",
-    "location": {
-      "lat": 22.124516,
-      "lng": 35.473202
-    },
-    "hotel_type": "budget",
-    "price_per_night": 225,
-    "rating": 3.3,
-    "amenities": [
-      "gym",
-      "spa",
-      "restaurant",
-      "pool"
-    ]
-  },
-  {
-    "name": "Hotel_7148",
-    "location": {
-      "lat": 20.532326,
-      "lng": 48.903796
-    },
-    "hotel_type": "resort",
-    "price_per_night": 211,
-    "rating": 4.3,
-    "amenities": [
-      "restaurant"
-    ]
-  },
-  {
-    "name": "Hotel_5271",
-    "location": {
-      "lat": 43.978515,
-      "lng": 18.002068
-    },
-    "hotel_type": "budget",
-    "price_per_night": 125,
-    "rating": 4.5,
-    "amenities": [
-      "bar",
-      "gym",
-      "wifi",
-      "spa",
-      "restaurant"
-    ]
-  },
-  {
-    "name": "Hotel_1847",
-    "location": {
-      "lat": 28.528356,
-      "lng": 13.90629
-    },
-    "hotel_type": "resort",
-    "price_per_night": 459,
-    "rating": 3.7,
-    "amenities": [
-      "bar",
-      "gym",
-      "wifi",
-      "spa",
-      "pool",
-      "restaurant"
-    ]
-  },
-  {
-    "name": "Hotel_4789",
-    "location": {
-      "lat": 39.711445,
-      "lng": 40.733832
-    },
-    "hotel_type": "resort",
-    "price_per_night": 111,
-    "rating": 4.3,
-    "amenities": [
-      "gym",
-      "bar",
-      "wifi",
-      "restaurant",
-      "spa"
-    ]
-  },
-  {
-    "name": "Hotel_7487",
-    "location": {
-      "lat": 32.249942,
-      "lng": 17.850515
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 292,
-    "rating": 2.7,
-    "amenities": [
-      "gym",
-      "spa",
-      "bar",
-      "wifi",
-      "restaurant",
-      "pool"
-    ]
-  },
-  {
-    "name": "Hotel_6255",
-    "location": {
-      "lat": 12.881945,
-      "lng": 38.264948
-    },
-    "hotel_type": "resort",
-    "price_per_night": 350,
-    "rating": 2.6,
-    "amenities": [
-      "wifi",
-      "spa",
-      "bar",
-      "pool",
-      "restaurant",
-      "gym"
-    ]
-  },
-  {
-    "name": "Hotel_1296",
-    "location": {
-      "lat": 28.981859,
-      "lng": 28.286505
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 119,
-    "rating": 2.9,
-    "amenities": [
-      "restaurant"
-    ]
-  },
-  {
-    "name": "Hotel_6048",
-    "location": {
-      "lat": 35.829441,
-      "lng": 36.558831
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 253,
-    "rating": 4.0,
-    "amenities": [
-      "wifi",
-      "gym"
-    ]
-  },
-  {
-    "name": "Hotel_192",
-    "location": {
-      "lat": 29.042415,
-      "lng": 21.991231
-    },
-    "hotel_type": "resort",
-    "price_per_night": 249,
-    "rating": 4.1,
-    "amenities": [
-      "gym",
-      "spa",
-      "wifi"
-    ]
-  },
-  {
-    "name": "Hotel_7391",
-    "location": {
-      "lat": 13.701877,
-      "lng": 49.153953
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 69,
-    "rating": 4.2,
-    "amenities": [
-      "spa"
-    ]
-  },
-  {
-    "name": "Hotel_4690",
-    "location": {
-      "lat": 30.594787,
-      "lng": 42.550425
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 158,
-    "rating": 4.5,
-    "amenities": [
-      "bar",
-      "wifi",
-      "spa",
-      "restaurant",
-      "pool"
-    ]
-  },
-  {
-    "name": "Hotel_4551",
-    "location": {
-      "lat": 12.338426,
-      "lng": 12.745341
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 469,
-    "rating": 2.4,
-    "amenities": [
-      "spa"
-    ]
-  },
-  {
-    "name": "Hotel_7356",
-    "location": {
-      "lat": 11.965765,
-      "lng": 37.851712
-    },
-    "hotel_type": "budget",
-    "price_per_night": 175,
-    "rating": 2.1,
-    "amenities": [
-      "bar",
-      "wifi",
-      "pool",
-      "gym",
-      "restaurant",
-      "spa"
-    ]
-  },
-  {
-    "name": "Hotel_9152",
-    "location": {
-      "lat": 18.984813,
-      "lng": 47.965203
-    },
-    "hotel_type": "budget",
-    "price_per_night": 465,
-    "rating": 2.1,
-    "amenities": [
-      "restaurant",
-      "gym",
-      "pool",
-      "bar",
-      "wifi"
-    ]
-  },
-  {
-    "name": "Hotel_9372",
-    "location": {
-      "lat": 12.967894,
-      "lng": 31.735221
-    },
-    "hotel_type": "budget",
-    "price_per_night": 157,
-    "rating": 3.6,
-    "amenities": [
-      "spa",
-      "restaurant",
-      "gym",
-      "pool"
-    ]
-  },
-  {
-    "name": "Hotel_1777",
-    "location": {
-      "lat": 49.033992,
-      "lng": 20.048956
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 446,
-    "rating": 4.8,
-    "amenities": [
-      "gym",
-      "restaurant",
-      "wifi",
-      "spa",
-      "pool",
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_573",
-    "location": {
-      "lat": 14.729251,
-      "lng": 39.977748
-    },
-    "hotel_type": "budget",
-    "price_per_night": 312,
-    "rating": 2.8,
-    "amenities": [
-      "restaurant",
-      "wifi",
-      "spa",
-      "gym"
-    ]
-  },
-  {
-    "name": "Hotel_1240",
-    "location": {
-      "lat": 14.445399,
-      "lng": 48.94422
-    },
-    "hotel_type": "budget",
-    "price_per_night": 357,
-    "rating": 2.7,
-    "amenities": [
-      "spa",
-      "gym"
-    ]
-  },
-  {
-    "name": "Hotel_3294",
-    "location": {
-      "lat": 40.598859,
-      "lng": 43.506199
-    },
-    "hotel_type": "budget",
-    "price_per_night": 92,
-    "rating": 2.8,
-    "amenities": [
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_8283",
-    "location": {
-      "lat": 47.735937,
-      "lng": 27.91429
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 448,
-    "rating": 2.4,
-    "amenities": [
-      "gym",
-      "pool"
-    ]
-  },
-  {
-    "name": "Hotel_2279",
-    "location": {
-      "lat": 43.33236,
-      "lng": 44.055087
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 194,
-    "rating": 2.5,
-    "amenities": [
-      "pool",
-      "gym",
-      "restaurant"
-    ]
-  },
-  {
-    "name": "Hotel_4485",
-    "location": {
-      "lat": 21.236233,
-      "lng": 30.839556
-    },
-    "hotel_type": "resort",
-    "price_per_night": 215,
-    "rating": 4.0,
-    "amenities": [
-      "bar",
-      "pool",
-      "wifi",
-      "gym",
-      "restaurant",
-      "spa"
-    ]
-  },
-  {
-    "name": "Hotel_8392",
-    "location": {
-      "lat": 12.176469,
-      "lng": 35.368702
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 282,
     "rating": 2.3,
     "amenities": [
-      "spa",
-      "gym"
+      "spa"
     ]
   },
   {
-    "name": "Hotel_3254",
+    "name": "Hotel_4736",
     "location": {
-      "lat": 25.794793,
-      "lng": 34.381819
-    },
-    "hotel_type": "resort",
-    "price_per_night": 73,
-    "rating": 3.4,
-    "amenities": [
-      "gym",
-      "wifi",
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_8823",
-    "location": {
-      "lat": 10.478998,
-      "lng": 12.592787
-    },
-    "hotel_type": "resort",
-    "price_per_night": 406,
-    "rating": 3.2,
-    "amenities": [
-      "pool",
-      "bar",
-      "wifi",
-      "gym"
-    ]
-  },
-  {
-    "name": "Hotel_808",
-    "location": {
-      "lat": 46.264677,
-      "lng": 18.761797
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 150,
-    "rating": 4.7,
-    "amenities": [
-      "bar",
-      "spa",
-      "wifi",
-      "pool"
-    ]
-  },
-  {
-    "name": "Hotel_1108",
-    "location": {
-      "lat": 31.868252,
-      "lng": 31.275615
+      "type": "Point",
+      "coordinates": [
+        48.94811,
+        40.304574
+      ]
     },
     "hotel_type": "budget",
-    "price_per_night": 175,
-    "rating": 4.1,
+    "price_per_night": 474,
+    "rating": 2.9,
     "amenities": [
       "gym",
       "spa",
       "pool",
-      "wifi",
-      "bar"
+      "restaurant"
     ]
   },
   {
-    "name": "Hotel_8702",
+    "name": "Hotel_4717",
     "location": {
-      "lat": 19.107453,
-      "lng": 22.42177
+      "type": "Point",
+      "coordinates": [
+        17.242514,
+        21.916369
+      ]
     },
     "hotel_type": "resort",
-    "price_per_night": 217,
-    "rating": 3.1,
-    "amenities": [
-      "wifi",
-      "bar",
-      "restaurant",
-      "spa",
-      "pool",
-      "gym"
-    ]
-  },
-  {
-    "name": "Hotel_8622",
-    "location": {
-      "lat": 20.623858,
-      "lng": 19.834518
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 378,
-    "rating": 4.0,
-    "amenities": [
-      "pool",
-      "restaurant",
-      "gym",
-      "bar",
-      "spa",
-      "wifi"
-    ]
-  },
-  {
-    "name": "Hotel_8956",
-    "location": {
-      "lat": 12.37129,
-      "lng": 32.036745
-    },
-    "hotel_type": "budget",
-    "price_per_night": 491,
-    "rating": 4.7,
-    "amenities": [
-      "pool"
-    ]
-  },
-  {
-    "name": "Hotel_601",
-    "location": {
-      "lat": 42.861271,
-      "lng": 22.448727
-    },
-    "hotel_type": "resort",
-    "price_per_night": 359,
-    "rating": 4.0,
-    "amenities": [
-      "spa",
-      "gym"
-    ]
-  },
-  {
-    "name": "Hotel_4561",
-    "location": {
-      "lat": 49.426428,
-      "lng": 46.688348
-    },
-    "hotel_type": "resort",
-    "price_per_night": 221,
-    "rating": 4.9,
+    "price_per_night": 106,
+    "rating": 3.3,
     "amenities": [
       "bar",
       "gym",
-      "spa",
-      "restaurant",
-      "wifi"
-    ]
-  },
-  {
-    "name": "Hotel_3222",
-    "location": {
-      "lat": 11.741527,
-      "lng": 44.265959
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 418,
-    "rating": 4.1,
-    "amenities": [
       "pool",
-      "wifi",
       "restaurant",
       "spa"
     ]
   },
   {
-    "name": "Hotel_8207",
+    "name": "Hotel_8969",
     "location": {
-      "lat": 20.618664,
-      "lng": 21.295941
+      "type": "Point",
+      "coordinates": [
+        23.118463,
+        31.067482
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 193,
+    "rating": 2.9,
+    "amenities": [
+      "spa",
+      "bar"
+    ]
+  },
+  {
+    "name": "Hotel_9240",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        27.375425,
+        10.857402
+      ]
     },
     "hotel_type": "boutique",
+    "price_per_night": 248,
+    "rating": 2.3,
+    "amenities": [
+      "wifi",
+      "bar",
+      "restaurant",
+      "spa",
+      "gym",
+      "pool"
+    ]
+  },
+  {
+    "name": "Hotel_3798",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        32.327837,
+        23.229599
+      ]
+    },
+    "hotel_type": "resort",
     "price_per_night": 483,
-    "rating": 2.1,
+    "rating": 2.3,
     "amenities": [
-      "gym",
-      "wifi",
-      "spa"
-    ]
-  },
-  {
-    "name": "Hotel_9000",
-    "location": {
-      "lat": 18.97299,
-      "lng": 27.564647
-    },
-    "hotel_type": "resort",
-    "price_per_night": 386,
-    "rating": 4.7,
-    "amenities": [
-      "bar",
+      "pool",
       "restaurant"
     ]
   },
   {
-    "name": "Hotel_6196",
+    "name": "Hotel_1445",
     "location": {
-      "lat": 12.571903,
-      "lng": 48.558049
+      "type": "Point",
+      "coordinates": [
+        26.837996,
+        28.991994
+      ]
     },
-    "hotel_type": "budget",
-    "price_per_night": 66,
-    "rating": 2.7,
-    "amenities": [
-      "spa",
-      "wifi"
-    ]
-  },
-  {
-    "name": "Hotel_1073",
-    "location": {
-      "lat": 29.290831,
-      "lng": 12.78476
-    },
-    "hotel_type": "resort",
-    "price_per_night": 117,
+    "hotel_type": "boutique",
+    "price_per_night": 449,
     "rating": 2.2,
     "amenities": [
       "pool",
-      "bar",
-      "gym",
-      "wifi"
-    ]
-  },
-  {
-    "name": "Hotel_7861",
-    "location": {
-      "lat": 18.065772,
-      "lng": 32.086403
-    },
-    "hotel_type": "resort",
-    "price_per_night": 300,
-    "rating": 3.4,
-    "amenities": [
-      "bar",
-      "gym",
-      "spa",
-      "wifi"
-    ]
-  },
-  {
-    "name": "Hotel_889",
-    "location": {
-      "lat": 44.986569,
-      "lng": 42.076004
-    },
-    "hotel_type": "resort",
-    "price_per_night": 87,
-    "rating": 4.2,
-    "amenities": [
-      "spa"
-    ]
-  },
-  {
-    "name": "Hotel_1286",
-    "location": {
-      "lat": 42.998157,
-      "lng": 32.703825
-    },
-    "hotel_type": "budget",
-    "price_per_night": 201,
-    "rating": 2.9,
-    "amenities": [
-      "pool",
-      "bar",
-      "spa",
-      "wifi"
-    ]
-  },
-  {
-    "name": "Hotel_6875",
-    "location": {
-      "lat": 49.471712,
-      "lng": 43.950295
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 256,
-    "rating": 3.8,
-    "amenities": [
-      "bar",
       "wifi",
-      "restaurant",
-      "pool",
-      "spa"
-    ]
-  },
-  {
-    "name": "Hotel_9659",
-    "location": {
-      "lat": 40.209697,
-      "lng": 30.511546
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 174,
-    "rating": 3.2,
-    "amenities": [
       "bar",
-      "wifi",
-      "restaurant",
-      "pool"
-    ]
-  },
-  {
-    "name": "Hotel_7034",
-    "location": {
-      "lat": 29.817003,
-      "lng": 20.785068
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 429,
-    "rating": 3.2,
-    "amenities": [
-      "pool",
-      "wifi",
-      "restaurant",
-      "bar",
-      "spa",
       "gym"
     ]
   },
   {
-    "name": "Hotel_4898",
+    "name": "Hotel_5747",
     "location": {
-      "lat": 41.10058,
-      "lng": 37.591245
+      "type": "Point",
+      "coordinates": [
+        25.393025,
+        32.803204
+      ]
     },
     "hotel_type": "boutique",
-    "price_per_night": 51,
+    "price_per_night": 374,
+    "rating": 2.4,
+    "amenities": [
+      "gym",
+      "pool",
+      "spa",
+      "bar",
+      "wifi",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Hotel_2261",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        49.54095,
+        39.848075
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 479,
+    "rating": 3.1,
+    "amenities": [
+      "gym",
+      "restaurant",
+      "bar",
+      "spa"
+    ]
+  },
+  {
+    "name": "Hotel_8583",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        24.904989,
+        10.714763
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 74,
+    "rating": 4.0,
+    "amenities": [
+      "pool"
+    ]
+  },
+  {
+    "name": "Hotel_5469",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        22.621538,
+        21.977485
+      ]
+    },
+    "hotel_type": "boutique",
+    "price_per_night": 245,
+    "rating": 4.1,
+    "amenities": [
+      "restaurant",
+      "spa",
+      "pool",
+      "wifi",
+      "bar",
+      "gym"
+    ]
+  },
+  {
+    "name": "Hotel_5415",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        34.6114,
+        12.362475
+      ]
+    },
+    "hotel_type": "boutique",
+    "price_per_night": 300,
+    "rating": 3.1,
+    "amenities": [
+      "wifi"
+    ]
+  },
+  {
+    "name": "Hotel_7151",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        37.448267,
+        43.507527
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 271,
     "rating": 3.0,
     "amenities": [
-      "gym",
-      "bar",
-      "restaurant",
-      "pool",
-      "spa",
-      "wifi"
-    ]
-  },
-  {
-    "name": "Hotel_8385",
-    "location": {
-      "lat": 28.244492,
-      "lng": 31.674695
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 144,
-    "rating": 2.3,
-    "amenities": [
-      "restaurant",
       "pool"
     ]
   },
   {
-    "name": "Hotel_7587",
+    "name": "Hotel_8870",
     "location": {
-      "lat": 36.200857,
-      "lng": 49.709443
+      "type": "Point",
+      "coordinates": [
+        28.611511,
+        11.721602
+      ]
     },
-    "hotel_type": "luxury",
-    "price_per_night": 237,
-    "rating": 3.2,
+    "hotel_type": "budget",
+    "price_per_night": 70,
+    "rating": 3.3,
     "amenities": [
+      "gym"
+    ]
+  },
+  {
+    "name": "Hotel_4331",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        41.421065,
+        22.965056
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 290,
+    "rating": 3.9,
+    "amenities": [
+      "wifi",
+      "pool",
       "gym",
+      "bar",
+      "spa"
+    ]
+  },
+  {
+    "name": "Hotel_8867",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.807393,
+        37.191597
+      ]
+    },
+    "hotel_type": "boutique",
+    "price_per_night": 186,
+    "rating": 4.5,
+    "amenities": [
+      "pool",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Hotel_4938",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        12.267643,
+        27.524113
+      ]
+    },
+    "hotel_type": "boutique",
+    "price_per_night": 132,
+    "rating": 2.6,
+    "amenities": [
+      "spa",
+      "pool"
+    ]
+  },
+  {
+    "name": "Hotel_3816",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        43.899258,
+        44.566514
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 336,
+    "rating": 3.4,
+    "amenities": [
+      "wifi"
+    ]
+  },
+  {
+    "name": "Hotel_9917",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        10.286687,
+        31.432548
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 138,
+    "rating": 3.9,
+    "amenities": [
       "restaurant",
       "bar"
     ]
   },
   {
-    "name": "Hotel_4286",
+    "name": "Hotel_2139",
     "location": {
-      "lat": 46.881196,
-      "lng": 15.8705
+      "type": "Point",
+      "coordinates": [
+        48.08335,
+        17.97899
+      ]
     },
-    "hotel_type": "resort",
-    "price_per_night": 454,
-    "rating": 4.1,
-    "amenities": [
-      "pool",
-      "restaurant",
-      "gym",
-      "bar",
-      "spa"
-    ]
-  },
-  {
-    "name": "Hotel_4880",
-    "location": {
-      "lat": 23.963272,
-      "lng": 24.972418
-    },
-    "hotel_type": "resort",
-    "price_per_night": 248,
+    "hotel_type": "budget",
+    "price_per_night": 93,
     "rating": 2.2,
     "amenities": [
-      "gym",
-      "wifi"
-    ]
-  },
-  {
-    "name": "Hotel_3387",
-    "location": {
-      "lat": 10.436917,
-      "lng": 38.123097
-    },
-    "hotel_type": "resort",
-    "price_per_night": 296,
-    "rating": 2.5,
-    "amenities": [
-      "pool",
-      "restaurant",
       "spa"
     ]
   },
   {
-    "name": "Hotel_2498",
+    "name": "Hotel_277",
     "location": {
-      "lat": 32.065213,
-      "lng": 27.918461
+      "type": "Point",
+      "coordinates": [
+        28.496431,
+        46.092425
+      ]
     },
-    "hotel_type": "boutique",
-    "price_per_night": 400,
-    "rating": 4.2,
+    "hotel_type": "budget",
+    "price_per_night": 77,
+    "rating": 3.5,
     "amenities": [
       "pool",
+      "gym",
+      "spa",
+      "bar",
+      "restaurant",
       "wifi"
     ]
   },
   {
-    "name": "Hotel_5957",
+    "name": "Hotel_6331",
     "location": {
-      "lat": 19.163746,
-      "lng": 16.304962
+      "type": "Point",
+      "coordinates": [
+        46.765841,
+        32.866231
+      ]
     },
     "hotel_type": "luxury",
-    "price_per_night": 254,
-    "rating": 2.7,
+    "price_per_night": 99,
+    "rating": 2.2,
     "amenities": [
+      "spa",
       "pool"
     ]
   },
   {
-    "name": "Hotel_2697",
+    "name": "Hotel_9859",
     "location": {
-      "lat": 20.833004,
-      "lng": 35.856915
+      "type": "Point",
+      "coordinates": [
+        25.876757,
+        42.953723
+      ]
     },
     "hotel_type": "resort",
-    "price_per_night": 476,
+    "price_per_night": 403,
+    "rating": 4.5,
+    "amenities": [
+      "wifi",
+      "restaurant",
+      "bar"
+    ]
+  },
+  {
+    "name": "Hotel_7384",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        47.42984,
+        32.927311
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 220,
+    "rating": 4.7,
+    "amenities": [
+      "gym",
+      "bar",
+      "spa",
+      "restaurant",
+      "pool",
+      "wifi"
+    ]
+  },
+  {
+    "name": "Hotel_7635",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        11.922386,
+        47.039183
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 351,
+    "rating": 4.0,
+    "amenities": [
+      "spa",
+      "gym",
+      "wifi",
+      "bar"
+    ]
+  },
+  {
+    "name": "Hotel_1910",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        26.200835,
+        37.299147
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 470,
     "rating": 2.2,
+    "amenities": [
+      "gym",
+      "wifi",
+      "pool",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Hotel_4534",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        14.606401,
+        23.793875
+      ]
+    },
+    "hotel_type": "boutique",
+    "price_per_night": 212,
+    "rating": 3.6,
+    "amenities": [
+      "pool",
+      "gym",
+      "bar",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Hotel_4523",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.506882,
+        17.595912
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 445,
+    "rating": 4.3,
+    "amenities": [
+      "restaurant",
+      "spa",
+      "pool",
+      "wifi",
+      "gym"
+    ]
+  },
+  {
+    "name": "Hotel_2961",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        32.270125,
+        20.866841
+      ]
+    },
+    "hotel_type": "boutique",
+    "price_per_night": 421,
+    "rating": 2.9,
+    "amenities": [
+      "restaurant",
+      "spa",
+      "pool",
+      "bar",
+      "gym",
+      "wifi"
+    ]
+  },
+  {
+    "name": "Hotel_9124",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        10.024777,
+        31.802131
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 89,
+    "rating": 3.0,
+    "amenities": [
+      "bar"
+    ]
+  },
+  {
+    "name": "Hotel_8614",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        24.594494,
+        38.963618
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 141,
+    "rating": 3.9,
+    "amenities": [
+      "wifi",
+      "spa",
+      "pool"
+    ]
+  },
+  {
+    "name": "Hotel_5100",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        26.638089,
+        14.500216
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 195,
+    "rating": 4.9,
+    "amenities": [
+      "wifi"
+    ]
+  },
+  {
+    "name": "Hotel_8972",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        33.509468,
+        31.116338
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 287,
+    "rating": 3.1,
+    "amenities": [
+      "bar",
+      "pool"
+    ]
+  },
+  {
+    "name": "Hotel_6933",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.340187,
+        19.335202
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 106,
+    "rating": 2.4,
+    "amenities": [
+      "spa",
+      "gym",
+      "pool",
+      "wifi"
+    ]
+  },
+  {
+    "name": "Hotel_5095",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        26.787288,
+        16.114102
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 365,
+    "rating": 3.4,
+    "amenities": [
+      "restaurant",
+      "bar",
+      "gym"
+    ]
+  },
+  {
+    "name": "Hotel_8830",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        14.802156,
+        49.815228
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 257,
+    "rating": 3.1,
     "amenities": [
       "pool",
       "spa",
@@ -2782,350 +1532,2191 @@
     ]
   },
   {
-    "name": "Hotel_9956",
+    "name": "Hotel_6581",
     "location": {
-      "lat": 36.793397,
-      "lng": 47.396575
+      "type": "Point",
+      "coordinates": [
+        17.912612,
+        18.601536
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 452,
+    "rating": 3.3,
+    "amenities": [
+      "wifi",
+      "spa",
+      "pool",
+      "restaurant",
+      "gym"
+    ]
+  },
+  {
+    "name": "Hotel_5186",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        16.66069,
+        29.668855
+      ]
     },
     "hotel_type": "resort",
-    "price_per_night": 170,
-    "rating": 4.8,
+    "price_per_night": 180,
+    "rating": 3.5,
+    "amenities": [
+      "wifi",
+      "restaurant",
+      "spa",
+      "gym",
+      "pool",
+      "bar"
+    ]
+  },
+  {
+    "name": "Hotel_7991",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        15.166281,
+        40.442214
+      ]
+    },
+    "hotel_type": "boutique",
+    "price_per_night": 269,
+    "rating": 3.4,
+    "amenities": [
+      "pool",
+      "bar",
+      "wifi",
+      "restaurant",
+      "gym",
+      "spa"
+    ]
+  },
+  {
+    "name": "Hotel_2346",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        40.705459,
+        10.502048
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 322,
+    "rating": 2.8,
+    "amenities": [
+      "spa",
+      "restaurant",
+      "bar",
+      "wifi"
+    ]
+  },
+  {
+    "name": "Hotel_4277",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.802954,
+        33.25584
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 362,
+    "rating": 4.9,
+    "amenities": [
+      "pool",
+      "spa",
+      "restaurant",
+      "gym"
+    ]
+  },
+  {
+    "name": "Hotel_5572",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.418323,
+        36.203167
+      ]
+    },
+    "hotel_type": "boutique",
+    "price_per_night": 108,
+    "rating": 3.2,
+    "amenities": [
+      "restaurant",
+      "bar",
+      "wifi",
+      "pool"
+    ]
+  },
+  {
+    "name": "Hotel_4821",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.834861,
+        10.712374
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 266,
+    "rating": 3.6,
     "amenities": [
       "bar",
+      "gym",
+      "wifi",
+      "spa"
+    ]
+  },
+  {
+    "name": "Hotel_5366",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.317276,
+        15.781659
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 427,
+    "rating": 2.6,
+    "amenities": [
+      "bar",
+      "wifi",
+      "gym",
+      "restaurant",
+      "pool",
+      "spa"
+    ]
+  },
+  {
+    "name": "Hotel_9180",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.32181,
+        21.024476
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 334,
+    "rating": 4.2,
+    "amenities": [
+      "spa"
+    ]
+  },
+  {
+    "name": "Hotel_5843",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        32.058129,
+        21.528381
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 410,
+    "rating": 2.9,
+    "amenities": [
+      "gym",
+      "wifi",
+      "spa",
+      "pool",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Hotel_4341",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        12.328999,
+        41.823082
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 436,
+    "rating": 2.1,
+    "amenities": [
+      "bar",
+      "wifi",
+      "spa"
+    ]
+  },
+  {
+    "name": "Hotel_6332",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        22.461233,
+        44.737583
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 193,
+    "rating": 3.4,
+    "amenities": [
+      "bar",
+      "pool",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Hotel_6078",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        32.464663,
+        47.416887
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 347,
+    "rating": 3.9,
+    "amenities": [
+      "gym",
+      "spa",
+      "wifi",
+      "restaurant",
+      "pool",
+      "bar"
+    ]
+  },
+  {
+    "name": "Hotel_7842",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.64653,
+        23.161723
+      ]
+    },
+    "hotel_type": "boutique",
+    "price_per_night": 144,
+    "rating": 3.4,
+    "amenities": [
+      "bar",
+      "pool",
+      "gym",
+      "wifi",
+      "spa"
+    ]
+  },
+  {
+    "name": "Hotel_5761",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        13.627683,
+        22.082585
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 55,
+    "rating": 3.0,
+    "amenities": [
+      "pool",
+      "wifi",
+      "gym",
+      "spa"
+    ]
+  },
+  {
+    "name": "Hotel_8627",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        40.117868,
+        38.297935
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 83,
+    "rating": 2.2,
+    "amenities": [
+      "spa",
+      "restaurant",
+      "bar"
+    ]
+  },
+  {
+    "name": "Hotel_6192",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        16.418381,
+        31.814531
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 60,
+    "rating": 3.6,
+    "amenities": [
+      "gym",
+      "spa",
+      "restaurant",
+      "wifi",
+      "bar",
+      "pool"
+    ]
+  },
+  {
+    "name": "Hotel_1360",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        21.683815,
+        23.524963
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 130,
+    "rating": 3.0,
+    "amenities": [
+      "pool",
+      "wifi",
+      "restaurant",
+      "bar"
+    ]
+  },
+  {
+    "name": "Hotel_5898",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.58553,
+        41.405027
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 79,
+    "rating": 3.2,
+    "amenities": [
+      "wifi",
+      "pool",
+      "bar",
+      "restaurant",
+      "spa"
+    ]
+  },
+  {
+    "name": "Hotel_8644",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        43.03869,
+        16.00458
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 317,
+    "rating": 3.6,
+    "amenities": [
+      "bar",
+      "pool",
       "restaurant"
     ]
   },
   {
     "name": "Hotel_7301",
     "location": {
-      "lat": 13.219239,
-      "lng": 38.726644
+      "type": "Point",
+      "coordinates": [
+        28.38631,
+        17.884874
+      ]
     },
-    "hotel_type": "budget",
-    "price_per_night": 357,
-    "rating": 3.1,
+    "hotel_type": "boutique",
+    "price_per_night": 401,
+    "rating": 4.1,
     "amenities": [
+      "gym",
+      "bar",
+      "pool",
+      "spa",
+      "restaurant",
+      "wifi"
+    ]
+  },
+  {
+    "name": "Hotel_3555",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        42.523014,
+        11.827526
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 461,
+    "rating": 4.9,
+    "amenities": [
+      "bar"
+    ]
+  },
+  {
+    "name": "Hotel_6637",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        43.802147,
+        42.764697
+      ]
+    },
+    "hotel_type": "boutique",
+    "price_per_night": 370,
+    "rating": 2.7,
+    "amenities": [
+      "bar",
+      "gym",
+      "spa",
+      "pool",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Hotel_8614",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        15.013854,
+        34.27241
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 373,
+    "rating": 2.7,
+    "amenities": [
+      "gym",
       "wifi",
       "pool",
-      "restaurant",
+      "spa",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Hotel_9951",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        28.99811,
+        38.192544
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 144,
+    "rating": 4.8,
+    "amenities": [
+      "spa",
       "bar",
+      "restaurant",
+      "gym"
+    ]
+  },
+  {
+    "name": "Hotel_282",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        36.924809,
+        11.676551
+      ]
+    },
+    "hotel_type": "boutique",
+    "price_per_night": 488,
+    "rating": 4.9,
+    "amenities": [
+      "bar",
+      "pool"
+    ]
+  },
+  {
+    "name": "Hotel_6617",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        45.125994,
+        13.04491
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 366,
+    "rating": 2.1,
+    "amenities": [
+      "wifi",
+      "gym",
       "spa"
     ]
   },
   {
-    "name": "Hotel_557",
+    "name": "Hotel_281",
     "location": {
-      "lat": 21.790242,
-      "lng": 49.666605
+      "type": "Point",
+      "coordinates": [
+        22.39814,
+        38.34231
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 494,
+    "rating": 2.9,
+    "amenities": [
+      "spa",
+      "gym",
+      "bar"
+    ]
+  },
+  {
+    "name": "Hotel_9164",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        11.604727,
+        25.35247
+      ]
     },
     "hotel_type": "boutique",
-    "price_per_night": 154,
-    "rating": 4.2,
+    "price_per_night": 299,
+    "rating": 3.8,
+    "amenities": [
+      "pool",
+      "spa"
+    ]
+  },
+  {
+    "name": "Hotel_3178",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        33.296584,
+        26.248811
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 172,
+    "rating": 3.9,
+    "amenities": [
+      "wifi",
+      "pool",
+      "bar"
+    ]
+  },
+  {
+    "name": "Hotel_9916",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        14.30024,
+        40.481316
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 352,
+    "rating": 3.0,
+    "amenities": [
+      "bar",
+      "gym"
+    ]
+  },
+  {
+    "name": "Hotel_9683",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        36.655402,
+        21.279976
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 349,
+    "rating": 2.4,
+    "amenities": [
+      "pool",
+      "spa",
+      "gym",
+      "wifi",
+      "bar"
+    ]
+  },
+  {
+    "name": "Hotel_206",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        35.884645,
+        11.98368
+      ]
+    },
+    "hotel_type": "boutique",
+    "price_per_night": 362,
+    "rating": 4.3,
+    "amenities": [
+      "gym",
+      "pool",
+      "wifi",
+      "bar"
+    ]
+  },
+  {
+    "name": "Hotel_3870",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.590251,
+        48.810294
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 464,
+    "rating": 3.5,
+    "amenities": [
+      "wifi",
+      "bar",
+      "pool",
+      "spa"
+    ]
+  },
+  {
+    "name": "Hotel_9046",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        43.49361,
+        36.884291
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 238,
+    "rating": 3.1,
+    "amenities": [
+      "pool",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Hotel_7758",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.678574,
+        20.7324
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 481,
+    "rating": 2.4,
+    "amenities": [
+      "spa",
+      "pool",
+      "gym",
+      "wifi",
+      "bar",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Hotel_7117",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.148389,
+        17.144161
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 327,
+    "rating": 4.9,
     "amenities": [
       "bar"
     ]
   },
   {
-    "name": "Hotel_7276",
+    "name": "Hotel_5895",
     "location": {
-      "lat": 28.482522,
-      "lng": 12.032088
+      "type": "Point",
+      "coordinates": [
+        35.441379,
+        21.097698
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 440,
+    "rating": 4.7,
+    "amenities": [
+      "wifi",
+      "gym",
+      "pool",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Hotel_6291",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        35.571678,
+        40.699541
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 406,
+    "rating": 4.5,
+    "amenities": [
+      "bar",
+      "spa",
+      "wifi",
+      "pool"
+    ]
+  },
+  {
+    "name": "Hotel_6853",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        31.0084,
+        37.336792
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 441,
+    "rating": 4.3,
+    "amenities": [
+      "spa",
+      "bar",
+      "wifi"
+    ]
+  },
+  {
+    "name": "Hotel_8076",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.390778,
+        28.041688
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 205,
+    "rating": 3.0,
+    "amenities": [
+      "spa",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Hotel_2273",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        12.709278,
+        41.592396
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 228,
+    "rating": 4.2,
+    "amenities": [
+      "wifi",
+      "pool",
+      "bar"
+    ]
+  },
+  {
+    "name": "Hotel_1032",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        32.526344,
+        38.706264
+      ]
+    },
+    "hotel_type": "boutique",
+    "price_per_night": 337,
+    "rating": 2.4,
+    "amenities": [
+      "restaurant",
+      "gym",
+      "bar"
+    ]
+  },
+  {
+    "name": "Hotel_876",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        31.336429,
+        30.534588
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 192,
+    "rating": 2.5,
+    "amenities": [
+      "gym",
+      "restaurant",
+      "pool",
+      "bar",
+      "wifi",
+      "spa"
+    ]
+  },
+  {
+    "name": "Hotel_1704",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        12.105899,
+        25.108612
+      ]
     },
     "hotel_type": "budget",
-    "price_per_night": 463,
-    "rating": 3.3,
+    "price_per_night": 472,
+    "rating": 3.7,
     "amenities": [
+      "wifi",
+      "bar",
+      "restaurant",
       "pool",
+      "spa",
       "gym"
     ]
   },
   {
-    "name": "Hotel_9739",
+    "name": "Hotel_9458",
     "location": {
-      "lat": 42.855474,
-      "lng": 11.988242
+      "type": "Point",
+      "coordinates": [
+        14.526886,
+        40.803773
+      ]
     },
     "hotel_type": "luxury",
-    "price_per_night": 72,
-    "rating": 4.1,
+    "price_per_night": 464,
+    "rating": 3.9,
     "amenities": [
+      "wifi",
+      "restaurant",
+      "spa",
       "gym",
+      "pool",
+      "bar"
+    ]
+  },
+  {
+    "name": "Hotel_1427",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        48.168304,
+        44.157892
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 494,
+    "rating": 2.0,
+    "amenities": [
+      "bar",
       "pool",
       "restaurant",
       "wifi",
+      "gym"
+    ]
+  },
+  {
+    "name": "Hotel_8345",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        29.31763,
+        48.447033
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 337,
+    "rating": 4.3,
+    "amenities": [
+      "pool",
+      "gym"
+    ]
+  },
+  {
+    "name": "Hotel_8869",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        12.068539,
+        28.324244
+      ]
+    },
+    "hotel_type": "boutique",
+    "price_per_night": 439,
+    "rating": 2.9,
+    "amenities": [
+      "bar",
+      "gym",
+      "restaurant",
+      "pool"
+    ]
+  },
+  {
+    "name": "Hotel_8595",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        16.035493,
+        29.680859
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 83,
+    "rating": 2.4,
+    "amenities": [
+      "restaurant",
+      "pool",
       "spa",
       "bar"
     ]
   },
   {
-    "name": "Hotel_5753",
+    "name": "Hotel_3604",
     "location": {
-      "lat": 22.529296,
-      "lng": 15.884239
+      "type": "Point",
+      "coordinates": [
+        24.321597,
+        41.890656
+      ]
+    },
+    "hotel_type": "boutique",
+    "price_per_night": 440,
+    "rating": 2.4,
+    "amenities": [
+      "bar",
+      "gym",
+      "wifi",
+      "pool",
+      "spa",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Hotel_8701",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        16.774298,
+        23.790762
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 338,
+    "rating": 2.8,
+    "amenities": [
+      "bar",
+      "spa",
+      "gym",
+      "restaurant",
+      "pool"
+    ]
+  },
+  {
+    "name": "Hotel_6588",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        21.624388,
+        10.443006
+      ]
     },
     "hotel_type": "resort",
-    "price_per_night": 288,
+    "price_per_night": 345,
+    "rating": 2.6,
+    "amenities": [
+      "bar",
+      "wifi"
+    ]
+  },
+  {
+    "name": "Hotel_6126",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        31.128733,
+        27.780539
+      ]
+    },
+    "hotel_type": "boutique",
+    "price_per_night": 261,
+    "rating": 4.0,
+    "amenities": [
+      "pool",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Hotel_4498",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        21.351653,
+        35.334629
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 79,
+    "rating": 3.6,
+    "amenities": [
+      "spa",
+      "gym",
+      "wifi",
+      "pool"
+    ]
+  },
+  {
+    "name": "Hotel_8511",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        36.57338,
+        23.399305
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 335,
+    "rating": 3.1,
+    "amenities": [
+      "spa",
+      "pool",
+      "wifi"
+    ]
+  },
+  {
+    "name": "Hotel_2452",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        47.590601,
+        23.461698
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 110,
     "rating": 3.9,
     "amenities": [
+      "bar",
+      "spa",
+      "restaurant",
+      "pool"
+    ]
+  },
+  {
+    "name": "Hotel_5403",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        22.645178,
+        26.797895
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 267,
+    "rating": 2.5,
+    "amenities": [
+      "restaurant",
+      "spa",
+      "wifi",
+      "pool",
       "gym",
       "bar"
     ]
   },
   {
-    "name": "Hotel_7642",
+    "name": "Hotel_6746",
     "location": {
-      "lat": 45.12842,
-      "lng": 11.292905
+      "type": "Point",
+      "coordinates": [
+        20.963752,
+        38.603705
+      ]
     },
     "hotel_type": "resort",
-    "price_per_night": 426,
-    "rating": 4.8,
+    "price_per_night": 111,
+    "rating": 2.0,
     "amenities": [
-      "gym"
-    ]
-  },
-  {
-    "name": "Hotel_9055",
-    "location": {
-      "lat": 31.607021,
-      "lng": 39.993677
-    },
-    "hotel_type": "budget",
-    "price_per_night": 351,
-    "rating": 2.6,
-    "amenities": [
-      "spa",
       "gym",
       "restaurant"
     ]
   },
   {
-    "name": "Hotel_7691",
+    "name": "Hotel_5504",
     "location": {
-      "lat": 48.829957,
-      "lng": 48.287664
+      "type": "Point",
+      "coordinates": [
+        32.23702,
+        21.427437
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 491,
+    "rating": 3.3,
+    "amenities": [
+      "wifi",
+      "bar",
+      "gym",
+      "spa",
+      "restaurant",
+      "pool"
+    ]
+  },
+  {
+    "name": "Hotel_5367",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.045452,
+        48.10082
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 322,
+    "rating": 4.6,
+    "amenities": [
+      "restaurant",
+      "gym",
+      "pool",
+      "spa"
+    ]
+  },
+  {
+    "name": "Hotel_5944",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        47.735101,
+        37.853939
+      ]
     },
     "hotel_type": "boutique",
-    "price_per_night": 212,
+    "price_per_night": 100,
+    "rating": 3.2,
+    "amenities": [
+      "wifi"
+    ]
+  },
+  {
+    "name": "Hotel_8501",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        21.310172,
+        36.161918
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 350,
+    "rating": 2.3,
+    "amenities": [
+      "spa",
+      "bar",
+      "pool"
+    ]
+  },
+  {
+    "name": "Hotel_7812",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        36.829608,
+        36.393804
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 345,
+    "rating": 4.9,
+    "amenities": [
+      "bar",
+      "gym",
+      "wifi",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Hotel_4479",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        21.509838,
+        40.813433
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 437,
+    "rating": 2.6,
+    "amenities": [
+      "spa",
+      "pool",
+      "bar",
+      "wifi",
+      "gym"
+    ]
+  },
+  {
+    "name": "Hotel_778",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        27.809794,
+        39.292041
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 477,
+    "rating": 3.1,
+    "amenities": [
+      "spa",
+      "bar",
+      "pool",
+      "gym",
+      "wifi"
+    ]
+  },
+  {
+    "name": "Hotel_6290",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        13.845131,
+        23.083174
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 346,
+    "rating": 2.2,
+    "amenities": [
+      "pool",
+      "gym",
+      "spa",
+      "bar",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Hotel_3016",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        24.481219,
+        39.499906
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 253,
+    "rating": 4.2,
+    "amenities": [
+      "gym",
+      "pool",
+      "restaurant",
+      "wifi",
+      "spa",
+      "bar"
+    ]
+  },
+  {
+    "name": "Hotel_9312",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.979133,
+        26.823582
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 352,
     "rating": 3.0,
+    "amenities": [
+      "spa",
+      "wifi",
+      "restaurant",
+      "pool"
+    ]
+  },
+  {
+    "name": "Hotel_7368",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        25.907567,
+        42.935679
+      ]
+    },
+    "hotel_type": "boutique",
+    "price_per_night": 235,
+    "rating": 2.4,
+    "amenities": [
+      "bar",
+      "restaurant",
+      "gym",
+      "spa"
+    ]
+  },
+  {
+    "name": "Hotel_786",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        40.60652,
+        38.825789
+      ]
+    },
+    "hotel_type": "boutique",
+    "price_per_night": 249,
+    "rating": 2.7,
+    "amenities": [
+      "pool",
+      "wifi"
+    ]
+  },
+  {
+    "name": "Hotel_3735",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        13.198723,
+        44.738224
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 406,
+    "rating": 3.3,
+    "amenities": [
+      "bar",
+      "restaurant",
+      "wifi",
+      "spa"
+    ]
+  },
+  {
+    "name": "Hotel_6686",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        36.395368,
+        10.897508
+      ]
+    },
+    "hotel_type": "boutique",
+    "price_per_night": 135,
+    "rating": 4.1,
+    "amenities": [
+      "restaurant",
+      "pool",
+      "bar",
+      "gym"
+    ]
+  },
+  {
+    "name": "Hotel_8808",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.727602,
+        28.960261
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 172,
+    "rating": 2.8,
+    "amenities": [
+      "pool",
+      "bar",
+      "gym",
+      "wifi",
+      "spa",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Hotel_9326",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.212001,
+        45.274525
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 485,
+    "rating": 4.0,
+    "amenities": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Hotel_6324",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.823381,
+        20.964829
+      ]
+    },
+    "hotel_type": "boutique",
+    "price_per_night": 177,
+    "rating": 2.9,
+    "amenities": [
+      "bar"
+    ]
+  },
+  {
+    "name": "Hotel_5034",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        29.861802,
+        31.113899
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 360,
+    "rating": 4.4,
+    "amenities": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Hotel_8026",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        42.094338,
+        19.85227
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 151,
+    "rating": 3.8,
+    "amenities": [
+      "restaurant",
+      "bar",
+      "wifi",
+      "spa",
+      "pool"
+    ]
+  },
+  {
+    "name": "Hotel_1952",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        28.044839,
+        11.819333
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 75,
+    "rating": 4.1,
+    "amenities": [
+      "bar",
+      "gym",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Hotel_2828",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        45.378961,
+        36.976801
+      ]
+    },
+    "hotel_type": "boutique",
+    "price_per_night": 276,
+    "rating": 4.8,
     "amenities": [
       "pool"
     ]
   },
   {
-    "name": "Hotel_7551",
+    "name": "Hotel_6070",
     "location": {
-      "lat": 43.310149,
-      "lng": 29.262815
+      "type": "Point",
+      "coordinates": [
+        24.359359,
+        14.167223
+      ]
     },
-    "hotel_type": "budget",
-    "price_per_night": 259,
-    "rating": 4.5,
+    "hotel_type": "boutique",
+    "price_per_night": 246,
+    "rating": 3.0,
     "amenities": [
+      "restaurant",
       "pool",
+      "gym",
       "spa",
       "bar"
     ]
   },
   {
-    "name": "Hotel_8850",
+    "name": "Hotel_3725",
     "location": {
-      "lat": 48.79913,
-      "lng": 13.875203
-    },
-    "hotel_type": "resort",
-    "price_per_night": 473,
-    "rating": 4.9,
-    "amenities": [
-      "bar",
-      "pool",
-      "wifi",
-      "gym",
-      "restaurant"
-    ]
-  },
-  {
-    "name": "Hotel_372",
-    "location": {
-      "lat": 19.763299,
-      "lng": 40.146319
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 190,
-    "rating": 4.1,
-    "amenities": [
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_5727",
-    "location": {
-      "lat": 28.933505,
-      "lng": 35.74019
+      "type": "Point",
+      "coordinates": [
+        48.550117,
+        41.285191
+      ]
     },
     "hotel_type": "budget",
-    "price_per_night": 176,
-    "rating": 4.5,
+    "price_per_night": 282,
+    "rating": 2.3,
     "amenities": [
+      "restaurant",
+      "spa",
       "wifi"
     ]
   },
   {
-    "name": "Hotel_6003",
+    "name": "Hotel_917",
     "location": {
-      "lat": 33.535874,
-      "lng": 30.90963
+      "type": "Point",
+      "coordinates": [
+        49.961697,
+        36.675789
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 160,
+    "rating": 4.7,
+    "amenities": [
+      "wifi",
+      "pool",
+      "bar",
+      "gym",
+      "spa",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Hotel_5963",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        45.763467,
+        33.151401
+      ]
     },
     "hotel_type": "boutique",
-    "price_per_night": 258,
-    "rating": 2.9,
+    "price_per_night": 274,
+    "rating": 3.1,
     "amenities": [
+      "pool"
+    ]
+  },
+  {
+    "name": "Hotel_2049",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        23.521485,
+        10.896072
+      ]
+    },
+    "hotel_type": "boutique",
+    "price_per_night": 61,
+    "rating": 3.5,
+    "amenities": [
+      "bar",
       "spa",
+      "pool"
+    ]
+  },
+  {
+    "name": "Hotel_1914",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        29.616165,
+        40.918342
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 67,
+    "rating": 2.1,
+    "amenities": [
+      "gym",
       "pool",
+      "wifi"
+    ]
+  },
+  {
+    "name": "Hotel_4657",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.731378,
+        29.481039
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 100,
+    "rating": 2.0,
+    "amenities": [
+      "pool",
+      "bar",
       "gym"
     ]
   },
   {
-    "name": "Hotel_5580",
+    "name": "Hotel_5965",
     "location": {
-      "lat": 19.750783,
-      "lng": 30.596549
+      "type": "Point",
+      "coordinates": [
+        31.195713,
+        43.042411
+      ]
     },
-    "hotel_type": "boutique",
-    "price_per_night": 173,
-    "rating": 3.9,
+    "hotel_type": "budget",
+    "price_per_night": 334,
+    "rating": 4.5,
     "amenities": [
-      "spa",
-      "bar",
-      "restaurant",
-      "wifi"
+      "spa"
     ]
   },
   {
-    "name": "Hotel_1644",
+    "name": "Hotel_7607",
     "location": {
-      "lat": 31.006562,
-      "lng": 12.53073
+      "type": "Point",
+      "coordinates": [
+        18.57558,
+        48.104001
+      ]
     },
-    "hotel_type": "boutique",
-    "price_per_night": 487,
-    "rating": 2.7,
+    "hotel_type": "budget",
+    "price_per_night": 315,
+    "rating": 4.4,
+    "amenities": [
+      "gym",
+      "spa"
+    ]
+  },
+  {
+    "name": "Hotel_2350",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        37.07141,
+        17.048951
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 251,
+    "rating": 4.9,
+    "amenities": [
+      "restaurant",
+      "gym",
+      "wifi",
+      "spa",
+      "pool"
+    ]
+  },
+  {
+    "name": "Hotel_2368",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        44.558558,
+        45.53947
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 442,
+    "rating": 3.7,
     "amenities": [
       "wifi",
+      "restaurant",
       "pool",
-      "bar",
+      "spa"
+    ]
+  },
+  {
+    "name": "Hotel_4681",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        23.147357,
+        22.08409
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 478,
+    "rating": 3.4,
+    "amenities": [
       "spa",
+      "wifi",
+      "restaurant",
       "gym",
+      "bar",
+      "pool"
+    ]
+  },
+  {
+    "name": "Hotel_3106",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        10.880364,
+        47.191018
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 112,
+    "rating": 3.9,
+    "amenities": [
+      "bar",
       "restaurant"
     ]
   },
   {
-    "name": "Hotel_2901",
+    "name": "Hotel_8238",
     "location": {
-      "lat": 42.311381,
-      "lng": 20.995481
+      "type": "Point",
+      "coordinates": [
+        24.355334,
+        44.748512
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 80,
+    "rating": 4.9,
+    "amenities": [
+      "bar"
+    ]
+  },
+  {
+    "name": "Hotel_567",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        49.160434,
+        42.186776
+      ]
     },
     "hotel_type": "boutique",
-    "price_per_night": 421,
+    "price_per_night": 395,
+    "rating": 2.5,
+    "amenities": [
+      "gym"
+    ]
+  },
+  {
+    "name": "Hotel_5994",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.079776,
+        37.637389
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 222,
     "rating": 4.4,
     "amenities": [
       "bar",
       "spa",
+      "wifi",
+      "restaurant",
       "pool"
     ]
   },
   {
-    "name": "Hotel_5067",
+    "name": "Hotel_4979",
     "location": {
-      "lat": 40.416536,
-      "lng": 29.719059
-    },
-    "hotel_type": "luxury",
-    "price_per_night": 220,
-    "rating": 2.3,
-    "amenities": [
-      "spa",
-      "wifi",
-      "gym",
-      "pool",
-      "bar"
-    ]
-  },
-  {
-    "name": "Hotel_1135",
-    "location": {
-      "lat": 36.89619,
-      "lng": 20.146003
-    },
-    "hotel_type": "budget",
-    "price_per_night": 290,
-    "rating": 2.9,
-    "amenities": [
-      "pool",
-      "gym",
-      "bar",
-      "spa",
-      "wifi"
-    ]
-  },
-  {
-    "name": "Hotel_8787",
-    "location": {
-      "lat": 12.281083,
-      "lng": 48.502007
+      "type": "Point",
+      "coordinates": [
+        20.708393,
+        15.596255
+      ]
     },
     "hotel_type": "resort",
-    "price_per_night": 337,
-    "rating": 2.6,
+    "price_per_night": 237,
+    "rating": 4.1,
     "amenities": [
+      "restaurant",
       "bar",
-      "gym",
-      "wifi"
-    ]
-  },
-  {
-    "name": "Hotel_6457",
-    "location": {
-      "lat": 27.00095,
-      "lng": 29.024494
-    },
-    "hotel_type": "budget",
-    "price_per_night": 52,
-    "rating": 2.4,
-    "amenities": [
-      "bar",
-      "gym"
-    ]
-  },
-  {
-    "name": "Hotel_8951",
-    "location": {
-      "lat": 13.990525,
-      "lng": 43.768374
-    },
-    "hotel_type": "boutique",
-    "price_per_night": 436,
-    "rating": 4.8,
-    "amenities": [
-      "pool",
-      "wifi",
-      "gym",
       "spa"
     ]
   },
   {
-    "name": "Hotel_1887",
+    "name": "Hotel_7487",
     "location": {
-      "lat": 25.654769,
-      "lng": 25.430592
+      "type": "Point",
+      "coordinates": [
+        20.471112,
+        32.946866
+      ]
     },
     "hotel_type": "resort",
-    "price_per_night": 147,
+    "price_per_night": 439,
+    "rating": 4.9,
+    "amenities": [
+      "pool",
+      "spa",
+      "restaurant",
+      "bar",
+      "wifi"
+    ]
+  },
+  {
+    "name": "Hotel_4789",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        46.414251,
+        44.55053
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 116,
+    "rating": 4.3,
+    "amenities": [
+      "gym",
+      "pool",
+      "spa"
+    ]
+  },
+  {
+    "name": "Hotel_242",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        47.475964,
+        14.742664
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 202,
+    "rating": 3.9,
+    "amenities": [
+      "bar",
+      "spa",
+      "pool",
+      "wifi",
+      "restaurant",
+      "gym"
+    ]
+  },
+  {
+    "name": "Hotel_1126",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        25.101695,
+        34.473325
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 307,
+    "rating": 3.3,
+    "amenities": [
+      "restaurant",
+      "wifi",
+      "spa",
+      "bar"
+    ]
+  },
+  {
+    "name": "Hotel_8362",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        31.964293,
+        23.125378
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 333,
+    "rating": 2.3,
+    "amenities": [
+      "restaurant",
+      "pool"
+    ]
+  },
+  {
+    "name": "Hotel_4794",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        16.145647,
+        31.720218
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 459,
+    "rating": 3.0,
+    "amenities": [
+      "restaurant",
+      "spa",
+      "gym",
+      "wifi"
+    ]
+  },
+  {
+    "name": "Hotel_2870",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        24.999247,
+        34.815476
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 158,
+    "rating": 4.9,
+    "amenities": [
+      "bar"
+    ]
+  },
+  {
+    "name": "Hotel_3598",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        49.34319,
+        29.008039
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 252,
     "rating": 3.4,
     "amenities": [
       "wifi",
+      "restaurant",
+      "spa",
+      "bar",
+      "pool"
+    ]
+  },
+  {
+    "name": "Hotel_5089",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        24.466502,
+        22.474485
+      ]
+    },
+    "hotel_type": "resort",
+    "price_per_night": 275,
+    "rating": 2.0,
+    "amenities": [
+      "spa",
+      "restaurant",
+      "pool"
+    ]
+  },
+  {
+    "name": "Hotel_6322",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        12.51795,
+        10.05104
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 436,
+    "rating": 4.5,
+    "amenities": [
       "gym",
+      "wifi",
+      "bar",
+      "restaurant",
+      "spa"
+    ]
+  },
+  {
+    "name": "Hotel_1692",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        35.761408,
+        37.287582
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 406,
+    "rating": 2.6,
+    "amenities": [
+      "restaurant",
+      "wifi",
+      "bar",
+      "gym",
+      "pool",
+      "spa"
+    ]
+  },
+  {
+    "name": "Hotel_5579",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        46.091451,
+        22.517504
+      ]
+    },
+    "hotel_type": "boutique",
+    "price_per_night": 51,
+    "rating": 4.0,
+    "amenities": [
+      "bar",
+      "wifi",
       "restaurant"
+    ]
+  },
+  {
+    "name": "Hotel_6033",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        28.10279,
+        35.415771
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 179,
+    "rating": 2.7,
+    "amenities": [
+      "spa",
+      "wifi",
+      "bar"
+    ]
+  },
+  {
+    "name": "Hotel_2613",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        12.954592,
+        48.182351
+      ]
+    },
+    "hotel_type": "luxury",
+    "price_per_night": 327,
+    "rating": 3.4,
+    "amenities": [
+      "restaurant",
+      "wifi",
+      "bar",
+      "pool"
+    ]
+  },
+  {
+    "name": "Hotel_2582",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.362652,
+        12.623201
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 476,
+    "rating": 4.6,
+    "amenities": [
+      "spa"
+    ]
+  },
+  {
+    "name": "Hotel_926",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        10.566464,
+        48.991771
+      ]
+    },
+    "hotel_type": "boutique",
+    "price_per_night": 359,
+    "rating": 2.9,
+    "amenities": [
+      "restaurant",
+      "pool"
+    ]
+  },
+  {
+    "name": "Hotel_4568",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        10.783443,
+        17.412113
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 178,
+    "rating": 3.9,
+    "amenities": [
+      "wifi",
+      "gym",
+      "bar",
+      "pool",
+      "restaurant",
+      "spa"
+    ]
+  },
+  {
+    "name": "Hotel_6782",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        11.522488,
+        24.340968
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 380,
+    "rating": 2.5,
+    "amenities": [
+      "bar"
+    ]
+  },
+  {
+    "name": "Hotel_4063",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        11.904474,
+        20.162261
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 341,
+    "rating": 4.0,
+    "amenities": [
+      "restaurant",
+      "pool",
+      "bar",
+      "wifi"
+    ]
+  },
+  {
+    "name": "Hotel_6172",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        25.974172,
+        10.796093
+      ]
+    },
+    "hotel_type": "budget",
+    "price_per_night": 332,
+    "rating": 2.3,
+    "amenities": [
+      "pool",
+      "restaurant",
+      "bar",
+      "wifi",
+      "gym"
     ]
   }
 ]

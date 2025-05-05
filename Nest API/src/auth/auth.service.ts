@@ -52,12 +52,13 @@ export class AuthService {
   // Register Function
   async register(dto: RegisterBodyDto) {
     try {
-      console.log(await encryptPassword(dto.pass));
+      // console.log(await encryptPassword(dto.pass));
       const encrypt = await encryptPassword(dto.pass);
       const hash = encrypt.iv + ':' + encrypt.key + ':' + encrypt.encryptedText;
       const user = new this.userModel({
         username: dto.username,
         email: dto.email,
+        role: dto.role,
         password: hash,
       });
       // console.log('indside', user);

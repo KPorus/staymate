@@ -8,7 +8,7 @@ import { Reflector } from '@nestjs/core';
 import { UserRole } from 'src/schema/users';
 
 @Injectable()
-export class SuperAdminGuard extends AuthGuard('jwt') {
+export class ManagerGuard extends AuthGuard('jwt') {
   constructor(private reflector: Reflector) {
     super();
   }
@@ -22,8 +22,8 @@ export class SuperAdminGuard extends AuthGuard('jwt') {
     const request = context.switchToHttp().getRequest();
     const user = request.user;
 
-    if (!user || user.role !== UserRole.SUPERADMIN) {
-      throw new ForbiddenException('Only super admin can access this route');
+    if (!user || user.role !== UserRole.MANAGER) {
+      throw new ForbiddenException('Only MANAGER can access this route');
     }
 
     return true;

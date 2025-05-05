@@ -8,16 +8,32 @@ export class Hotels {
   @Prop({ required: true })
   name: string;
 
+  // @Prop({
+  //   required: true,
+  //   type: {
+  //     lat: { type: Number, required: true },
+  //     lng: { type: Number, required: true },
+  //   },
+  // })
+  // location: {
+  //   lat: number;
+  //   lng: number;
+  // };
+
   @Prop({
-    required: true,
     type: {
-      lat: { type: Number, required: true },
-      lng: { type: Number, required: true },
+      type: String,
+      enum: ['Point'],
+      default: 'Point',
+    },
+    coordinates: {
+      type: [Number], // [longitude, latitude]
+      required: true,
     },
   })
   location: {
-    lat: number;
-    lng: number;
+    type: 'Point';
+    coordinates: [number, number];
   };
 
   @Prop({ required: true })
@@ -41,6 +57,9 @@ export class Hotels {
 
   @Prop({ type: Types.ObjectId, ref: 'Users', required: true })
   userId: Types.ObjectId;
+
+  @Prop({ type: String })
+  image_url?: string;
 }
 
 export const HotelsSchema = SchemaFactory.createForClass(Hotels);

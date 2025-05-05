@@ -2,7 +2,7 @@ import { Prop, Schema as NestSchema, SchemaFactory } from '@nestjs/mongoose';
 import { Types } from 'mongoose';
 
 export enum UserRole {
-  SUPERADMIN = 'SUPERADMIN',
+  MANAGER = 'MANAGER',
   ADMIN = 'ADMIN',
   USER = 'USER',
 }
