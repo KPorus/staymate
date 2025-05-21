@@ -5,6 +5,7 @@ export type HotelsDoc = HydratedDocument<Hotels>;
 
 @Schema()
 export class Hotels {
+  _id: Types.ObjectId;
   @Prop({ required: true })
   name: string;
 

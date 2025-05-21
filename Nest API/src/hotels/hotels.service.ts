@@ -162,4 +162,8 @@ export class HotelsService {
       throw new BadRequestException();
     }
   }
+
+  async getHotelsByIds(ids: string[]): Promise<Hotels[]> {
+    return this.hotelsModel.find({ _id: { $in: ids } }).exec();
+  }
 }

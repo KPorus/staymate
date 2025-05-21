@@ -5,6 +5,7 @@ import { DatabaseModule } from './database/database.module';
 import { HotelsModule } from './hotels/hotels.module';
 import { BookingsModule } from './bookings/bookings.module';
 import { ScheduleModule } from '@nestjs/schedule';
+import { RecommendationsModule } from './recommendations/recommendations.module';
 
 @Module({
   imports: [
@@ -16,6 +17,7 @@ import { ScheduleModule } from '@nestjs/schedule';
       isGlobal: true,
     }),
     BookingsModule,
+    RecommendationsModule,
   ],
 })
 export class AppModule {}

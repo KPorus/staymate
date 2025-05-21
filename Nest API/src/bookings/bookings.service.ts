@@ -175,4 +175,20 @@ export class BookingsService {
       throw new BadRequestException();
     }
   }
+  async getAllBooking(): Promise<Booking[]> {
+    try {
+      const bookings = await this.bookingsModel.find();
+
+      if (!bookings.length) {
+        throw new NotFoundException('No bookings found.');
+      }
+
+      return bookings;
+    } catch (error) {
+      if (error instanceof Error) {
+        handleMongoErrors(error);
+      }
+      throw new BadRequestException();
+    }
+  }
 }
