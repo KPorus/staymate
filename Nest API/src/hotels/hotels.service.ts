@@ -29,19 +29,28 @@ export class HotelsService {
     return hotels;
   }
 
-  async findNearbyHotels(lat: number, lng: number) {
+  async findNearbyHotels(
+    lat: number,
+    lng: number,
+  ): Promise<(Hotels & { distance: number })[]> {
     try {
-      const hotels = await this.hotelsModel.find({
-        location: {
-          $near: {
-            $geometry: {
+      const hotels = await this.hotelsModel.aggregate<
+        Hotels & { distance: number }
+      >([
+        {
+          $geoNear: {
+            near: {
               type: 'Point',
               coordinates: [lng, lat],
             },
-            $maxDistance: 100 * 1000,
+            distanceField: 'distance',
+            spherical: true,
           },
         },
-      });
+        {
+          $sort: { distance: 1 },
+        },
+      ]);
       if (hotels.length === 0) {
         throw new NotFoundException('No nearby hotels found');
       }

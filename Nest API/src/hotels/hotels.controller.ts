@@ -16,7 +16,7 @@ import {
 import { JwtGuard } from 'src/auth/guard';
 import { HotelsService } from './hotels.service';
 // import { Hotels } from 'src/schema/hotels';
-import { CreateHotelDto, NearbyHotelsDto, UpdateHotelDto } from './dto';
+import { CreateHotelDto, UpdateHotelDto } from './dto';
 import { FileInterceptor } from '@nestjs/platform-express';
 import { AdminGuard } from 'src/auth/guard/admin.guard';
 import { GetUser } from 'src/auth/decorator';
@@ -36,8 +36,10 @@ export class HotelsController {
   }
 
   @Get('nearby')
-  async getNearbyHotels(@Query() query: NearbyHotelsDto) {
-    const { latitude, longitude } = query;
+  async getNearbyHotels(@Query('lat') lat: string, @Query('lng') lng: string) {
+    const latitude = parseFloat(lat);
+    const longitude = parseFloat(lng);
+
     return this.HotelsService.findNearbyHotels(latitude, longitude);
   }
 
