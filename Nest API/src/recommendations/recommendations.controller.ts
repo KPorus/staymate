@@ -7,6 +7,7 @@ export class RecommendationsController {
 
   @Get(':userId')
   async get(@Param('userId') userId: string): Promise<any> {
+    // console.log(userId);
     return this.recService.recommendFor(userId, 5);
   }
 }

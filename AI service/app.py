@@ -4,8 +4,10 @@ import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 from transformers import AutoTokenizer, AutoModel
 import torch
+import logging
 
 app = Flask(__name__)
+logging.basicConfig(level=logging.DEBUG)
 
 # Configuration
 HF_TOKEN = os.getenv("HUGGINGFACE_TOKEN", None)
@@ -54,6 +56,7 @@ def hotel_to_text(h):
 def initialize():
     global hotel_embeddings, hotels
     hotels = request.json.get('hotels', [])
+    print(hotels)
     if not hotels:
         return jsonify({"error": "No hotels provided"}), 400
     hotel_texts = [hotel_to_text(h) for h in hotels]
@@ -67,8 +70,9 @@ def recommend():
     user_id = data.get('user_id')
     bookings = data.get('bookings', [])
     top_k = data.get('top_k', 5)
-
-    if not user_id or not hotel_embeddings or not hotels:
+    logging.debug(f"Received request: user_id={user_id}, bookings={bookings}")
+    # Fixed condition to avoid ValueError
+    if not user_id or hotel_embeddings is None or hotels is None:
         return jsonify({"error": "Missing user_id or uninitialized hotels"}), 400
 
     for booking in bookings:
@@ -85,8 +89,8 @@ def recommend():
 
     sims = cosine_similarity(user_hist[user_id].reshape(1, -1), hotel_embeddings)[0]
     idxs = np.argsort(-sims)[:top_k]
-    recommendations = [(hotels[i]["name"], float(sims[i])) for i in idxs]
-
+    # recommendations = [(hotels[i]["name"], float(sims[i])) for i in idxs]
+    recommendations = [(hotels[i]["id"], hotels[i]["name"], float(sims[i])) for i in idxs]
     return jsonify({"user_id": user_id, "recommendations": recommendations}), 200
 
 if __name__ == '__main__':

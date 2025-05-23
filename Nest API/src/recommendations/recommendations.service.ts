@@ -1,9 +1,12 @@
-import { Injectable, OnModuleInit } from '@nestjs/common';
+import { Injectable, NotFoundException, OnModuleInit } from '@nestjs/common';
 import { HotelsService } from '../hotels/hotels.service';
 import { BookingsService } from '../bookings/bookings.service';
+import { Types } from 'mongoose';
+// import { identity } from 'rxjs';
 
 // Define interfaces for type safety
 interface Hotel {
+  _id: Types.ObjectId;
   name: string;
   hotel_type: string;
   price_per_night: number;
@@ -42,6 +45,7 @@ export class RecommendationsService implements OnModuleInit {
       // Fetch all hotels
       const hotels: Hotel[] = await this.hotelsService.allhotels();
       const hotelData = hotels.map((h) => ({
+        id: h._id,
         name: h.name,
         hotel_type: h.hotel_type,
         price_per_night: h.price_per_night,
@@ -76,37 +80,63 @@ export class RecommendationsService implements OnModuleInit {
     topK: number = 5,
   ): Promise<Recommendation[]> {
     try {
-      // Fetch user bookings
       const bookings = await this.bookingsService.getAllBooking();
       const userBookings = bookings.filter(
         (b) => b.userId.toString() === userId,
       );
 
-      // Prepare booking data for Flask
+      if (!userBookings.length) {
+        return [
+          {
+            name: `No valid booking data for userId: ${userId}`,
+            score: 0,
+          },
+        ];
+      }
+
       const bookingData: FlaskBooking[] = [];
       for (const booking of userBookings) {
-        const hotel: Hotel = await this.hotelsService.getHotelById(
-          booking.hotelId.toString(),
-        );
-        bookingData.push({
-          preferred_hotel_type: hotel.hotel_type,
-          max_price: hotel.price_per_night,
-          min_rating: hotel.rating,
-          preferred_amenities: Array.isArray(hotel.amenities)
-            ? hotel.amenities
-            : [],
-        });
-      }
-      console.log(
-        'Sending bookingData to Flask:',
-        JSON.stringify(
-          { user_id: userId, bookings: bookingData, top_k: topK },
-          null,
-          2,
-        ),
-      );
+        try {
+          const hotel: Hotel = await this.hotelsService.getHotelById(
+            booking.hotelId.toString(),
+          );
 
-      // Send request to Flask recommendation endpoint
+          if (!hotel) {
+            console.warn(
+              `Hotel not found for hotelId: ${booking.hotelId.toString()}`,
+            );
+            continue;
+          }
+          const bookingEntry = {
+            preferred_hotel_type: hotel.hotel_type,
+            max_price: hotel.price_per_night,
+            min_rating: hotel.rating,
+            preferred_amenities: Array.isArray(hotel.amenities)
+              ? hotel.amenities
+              : [],
+          };
+          bookingData.push(bookingEntry);
+          // console.log('Pushed to bookingData:', bookingEntry);
+        } catch (error) {
+          if (error instanceof NotFoundException) {
+            console.warn(
+              `Hotel not found for hotelId: ${booking.hotelId.toString()}`,
+            );
+            continue;
+          }
+          throw error;
+        }
+      }
+
+      if (!bookingData.length) {
+        return [
+          {
+            name: `No valid booking data for userId: ${userId}`,
+            score: 0,
+          },
+        ];
+      }
+
       const response = await fetch(`${this.flaskUrl}/recommend`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -118,21 +148,26 @@ export class RecommendationsService implements OnModuleInit {
       });
 
       if (!response.ok) {
+        const errorText = await response.text();
         throw new Error(
-          `Failed to fetch recommendations: ${response.statusText}`,
+          `Failed to fetch recommendations: ${response.status} ${response.statusText} - ${errorText}`,
         );
       }
 
-      const { recommendations }: { recommendations: [string, number][] } =
+      const {
+        recommendations,
+      }: { recommendations: [string, string, number][] } =
         await response.json();
-
-      // Map response to Recommendation type
-      return recommendations.map(([name, score]) => ({
+      return recommendations.map(([id, name, score]) => ({
+        id,
         name,
         score,
       }));
     } catch (error) {
-      console.error('Recommendation failed:', error.message);
+      console.error('Recommendation failed:', {
+        message: error.message,
+        stack: error.stack,
+      });
       throw new Error('Failed to generate recommendations');
     }
   }
