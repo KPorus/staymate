@@ -1,7 +1,7 @@
-torch>=2.3.0
+torch
 transformers
-torchvision==0.16.0
-torchaudio==2.1.0
+torchvision
+torchaudio
 Flask==3.1.0
 flask-cors==5.0.1
 pandas==2.2.3
