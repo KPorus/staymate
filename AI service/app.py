@@ -14,12 +14,18 @@ HF_TOKEN = os.getenv("HUGGINGFACE_TOKEN", None)
 AUTH_KWARGS = {"use_auth_token": HF_TOKEN} if HF_TOKEN else {}
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # Load Model and Tokenizer
+# tokenizer = AutoTokenizer.from_pretrained(
+#     'sentence-transformers/all-MiniLM-L6-v2', **AUTH_KWARGS
+# )
+# model = AutoModel.from_pretrained(
+#     'sentence-transformers/all-MiniLM-L6-v2', **AUTH_KWARGS
+# ).to(device)
 tokenizer = AutoTokenizer.from_pretrained(
-    'sentence-transformers/all-MiniLM-L6-v2', **AUTH_KWARGS
+    'sentence-transformers/paraphrase-MiniLM-L3-v2', **AUTH_KWARGS
 )
 model = AutoModel.from_pretrained(
-    'sentence-transformers/all-MiniLM-L6-v2', **AUTH_KWARGS
-).to(device)
+    'sentence-transformers/paraphrase-MiniLM-L3-v2', **AUTH_KWARGS
+)
 model.eval()
 
 # In-Memory Storage
