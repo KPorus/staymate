@@ -12,14 +12,14 @@ logging.basicConfig(level=logging.DEBUG)
 # Configuration
 HF_TOKEN = os.getenv("HUGGINGFACE_TOKEN", None)
 AUTH_KWARGS = {"use_auth_token": HF_TOKEN} if HF_TOKEN else {}
-
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # Load Model and Tokenizer
 tokenizer = AutoTokenizer.from_pretrained(
     'sentence-transformers/all-MiniLM-L6-v2', **AUTH_KWARGS
 )
 model = AutoModel.from_pretrained(
     'sentence-transformers/all-MiniLM-L6-v2', **AUTH_KWARGS
-)
+).to(device)
 model.eval()
 
 # In-Memory Storage
