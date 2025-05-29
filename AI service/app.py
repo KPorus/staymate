@@ -5,6 +5,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from transformers import AutoTokenizer, AutoModel
 import torch
 import logging
+import gc
 
 app = Flask(__name__)
 logging.basicConfig(level=logging.DEBUG)
@@ -24,7 +25,7 @@ tokenizer = AutoTokenizer.from_pretrained(
     'sentence-transformers/paraphrase-MiniLM-L3-v2', **AUTH_KWARGS
 )
 model = AutoModel.from_pretrained(
-    'sentence-transformers/paraphrase-MiniLM-L3-v2', **AUTH_KWARGS
+    'sentence-transformers/paraphrase-MiniLM-L3-v2', **AUTH_KWARGS,torch_dtype=torch.float16
 )
 model.eval()
 
@@ -72,32 +73,39 @@ def initialize():
 # Recommendation Endpoint
 @app.route('/recommend', methods=['POST'])
 def recommend():
-    data = request.json
-    user_id = data.get('user_id')
-    bookings = data.get('bookings', [])
-    top_k = data.get('top_k', 5)
-    logging.debug(f"Received request: user_id={user_id}, bookings={bookings}")
-    # Fixed condition to avoid ValueError
-    if not user_id or hotel_embeddings is None or hotels is None:
-        return jsonify({"error": "Missing user_id or uninitialized hotels"}), 400
+    try:
+        data = request.json
+        user_id = data.get('user_id')
+        bookings = data.get('bookings', [])
+        top_k = data.get('top_k', 5)
+        logging.debug(f"Received request: user_id={user_id}, bookings={bookings}")
+        # Fixed condition to avoid ValueError
+        if not user_id or hotel_embeddings is None or hotels is None:
+            return jsonify({"error": "Missing user_id or uninitialized hotels"}), 400
 
-    for booking in bookings:
-        pref_text = (
-            f"{booking['preferred_hotel_type']} hotel under {booking['max_price']} price "
-            f"with rating ≥ {booking['min_rating']} "
-            f"and amenities {', '.join(booking['preferred_amenities'])}"
-        )
-        curr_emb = embed_text(pref_text)
-        if user_id in user_hist:
-            user_hist[user_id] = (user_hist[user_id] + curr_emb) / 2
-        else:
-            user_hist[user_id] = curr_emb
+        for booking in bookings:
+            pref_text = (
+                f"{booking['preferred_hotel_type']} hotel under {booking['max_price']} price "
+                f"with rating ≥ {booking['min_rating']} "
+                f"and amenities {', '.join(booking['preferred_amenities'])}"
+            )
+            curr_emb = embed_text(pref_text)
+            if user_id in user_hist:
+                user_hist[user_id] = (user_hist[user_id] + curr_emb) / 2
+            else:
+                user_hist[user_id] = curr_emb
 
-    sims = cosine_similarity(user_hist[user_id].reshape(1, -1), hotel_embeddings)[0]
-    idxs = np.argsort(-sims)[:top_k]
-    # recommendations = [(hotels[i]["name"], float(sims[i])) for i in idxs]
-    recommendations = [(hotels[i]["id"], hotels[i]["name"], float(sims[i])) for i in idxs]
-    return jsonify({"user_id": user_id, "recommendations": recommendations}), 200
-
+        sims = cosine_similarity(user_hist[user_id].reshape(1, -1), hotel_embeddings)[0]
+        idxs = np.argsort(-sims)[:top_k]
+        # recommendations = [(hotels[i]["name"], float(sims[i])) for i in idxs]
+        recommendations = [(hotels[i]["id"], hotels[i]["name"], float(sims[i])) for i in idxs]
+        # Clear memory after processing
+        gc.collect()
+        torch.cuda.empty_cache() if torch.cuda.is_available() else None
+        return jsonify({"user_id": user_id, "recommendations": recommendations}), 200
+    except Exception as e:
+        gc.collect()
+        torch.cuda.empty_cache() if torch.cuda.is_available() else None
+        return jsonify({"error": str(e)}), 500
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5001)
