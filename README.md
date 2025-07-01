@@ -3,14 +3,6 @@
 ## Abstract
 StayMate is a comprehensive hotel booking and recommendation platform. It features a robust backend built with NestJS and an AI-powered recommendation service using Python and machine learning. The system allows users to register, book hotels, and receive personalized hotel recommendations based on their preferences and booking history. The modular architecture supports scalability, security, and easy integration with various frontends.
 
-## List of Figures
-- System Architecture Diagram *(to be added)*
-- Database Schema Diagram *(to be added)*
-- Use Case Diagram *(to be added)*
-- Data Flow Diagram *(to be added)*
-
----
-
 ## Chapter 1: **Introduction**
 ### 1.1 Problem Specification/Statement
 Finding the right hotel that matches user preferences and budget is challenging. StayMate aims to simplify this by providing a seamless booking experience and AI-driven recommendations, addressing the gap in personalized hotel search and management.
@@ -334,9 +326,6 @@ python app.py
 - **S3 (optional):** Stores hotel images
 
 ---
-
-## Contribution
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 This project is licensed under the MIT License. 
