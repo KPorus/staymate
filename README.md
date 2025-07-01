@@ -185,6 +185,52 @@ flowchart TD
 - The API handles authentication, data management, and communicates with the database and AI service.
 - The AI service processes recommendation requests and returns results to the API, which then responds to the user.
 
+### System Architecture Design
+
+Below is the System Architecture Diagram for the StayMate platform:
+
+```mermaid
+flowchart TD
+  subgraph UserSide [User Side]
+    U1(User)
+    U2(Admin/Manager)
+  end
+  subgraph Backend [NestJS API]
+    Auth[Auth Module]
+    Hotels[Hotels Module]
+    Bookings[Bookings Module]
+    Recommendations[Recommendations Module]
+    S3[S3 Service]
+    Email[Email Service]
+  end
+  subgraph AIService [AI Recommendation Service]
+    Model[Model Loader]
+    RecEndpoint[Recommendation Endpoint]
+  end
+  subgraph DB [MongoDB]
+    Users[Users Collection]
+    HotelsDB[Hotels Collection]
+    BookingsDB[Bookings Collection]
+  end
+
+  U1 -- REST API --> Backend
+  U2 -- REST API --> Backend
+  Backend -- CRUD/Query --> DB
+  Backend -- File Uploads --> S3
+  Backend -- Email Notifications --> Email
+  Backend -- Recommendation Request --> AIService
+  AIService -- Recommendations --> Backend
+  Backend -- API Response --> U1
+  Backend -- API Response --> U2
+```
+
+**Explanation:**
+- **Users** (including Admins/Managers) interact with the system via REST API endpoints exposed by the NestJS backend.
+- The **NestJS API** is modular, handling authentication, hotel management, bookings, recommendations, file uploads (S3), and email notifications.
+- The backend communicates with **MongoDB** for persistent data storage.
+- For recommendations, the backend sends requests to the **AI Recommendation Service** (Flask/Python), which loads models and returns results.
+- All responses are routed back to the users through the backend API.
+
 ---
 
 ## Chapter 4: **Implementation**
