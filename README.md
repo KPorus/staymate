@@ -140,6 +140,59 @@ erDiagram
 - **USERS** (with manager/admin role) can manage multiple **HOTELS** (one-to-many).
 - Each **BOOKING** references a single **USER** and a single **HOTEL**.
 
+### Use Case Diagram
+
+Below is the Use Case Diagram for the StayMate platform:
+
+```mermaid
+flowchart TD
+  User((User))
+  Manager((Manager))
+  Admin((Admin))
+  AIService((AI Service))
+
+  User -- Register/Login --> RL[Register/Login]
+  User -- Search Hotels --> SH[Search Hotels]
+  User -- Book Hotel --> BH[Book Hotel]
+  User -- View Recommendations --> VR[View Recommendations]
+  User -- View Booking History --> VBH[View Booking History]
+  Manager -- Add/Update/Delete Hotels --> AUDH[Add/Update/Delete Hotels]
+  Manager -- View Managed Bookings --> VMB[View Managed Bookings]
+  Admin -- Manage Users --> MU[Manage Users]
+  Admin -- View All Bookings --> VAB[View All Bookings]
+  Admin -- Manage All Hotels --> MAH[Manage All Hotels]
+  BH -- include --> VR
+  VR -- include --> AIService
+```
+
+**Explanation:**
+- **User** can register/login, search hotels, book hotels, view recommendations, and view booking history.
+- **Manager** can add/update/delete hotels and view bookings they manage.
+- **Admin** can manage users, view all bookings, and manage all hotels.
+- **AI Service** is included in the recommendation process.
+
+### DFD Level 0 (Context Diagram)
+
+Below is the Data Flow Diagram (Level 0) for the StayMate platform:
+
+```mermaid
+flowchart TD
+  A[User] -->|Register/Login| B[NestJS API]
+  A -->|Search Hotels| B
+  A -->|Book Hotel| B
+  A -->|View Recommendations| B
+  B -->|Authenticate/Authorize| C[Database]
+  B -->|Hotel/Booking Data| C
+  B -->|Request Recommendations| D[AI Service]
+  D -->|Return Recommendations| B
+  B -->|Return Data| A
+```
+
+**Explanation:**
+- The user interacts with the NestJS API for all operations.
+- The API handles authentication, data management, and communicates with the database and AI service.
+- The AI service processes recommendation requests and returns results to the API, which then responds to the user.
+
 ---
 
 ## Chapter 4: **Implementation**
